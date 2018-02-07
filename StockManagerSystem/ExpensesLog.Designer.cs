@@ -1,6 +1,6 @@
 ﻿namespace StockManagerSystem
 {
-    partial class Form1
+    partial class ExpensesLog
     {
         /// <summary>
         /// Required designer variable.
@@ -28,12 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // ExpensesLog
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(462, 741);
+            this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Name = "ExpensesLog";
+            this.Text = "ExpensesLog";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
     }
 }
-

@@ -12,6 +12,21 @@
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -46,14 +61,110 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="BankingLog.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="BankingLog.Designer.cs">
+      <DependentUpon>BankingLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateInvoice.Designer.cs">
+      <DependentUpon>CreateInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateNewPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateNewPatient.Designer.cs">
+      <DependentUpon>CreateNewPatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateNewUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateNewUser.Designer.cs">
+      <DependentUpon>CreateNewUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExpensesLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExpensesLog.Designer.cs">
+      <DependentUpon>ExpensesLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PatientBilling.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PatientBilling.Designer.cs">
+      <DependentUpon>PatientBilling.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlaceOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlaceOrder.Designer.cs">
+      <DependentUpon>PlaceOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegisterPatient.Designer.cs">
+      <DependentUpon>RegisterPatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SplashMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashMain.Designer.cs">
+      <DependentUpon>SplashMain.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StockLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StockLog.Designer.cs">
+      <DependentUpon>StockLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewPatients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewPatients.Designer.cs">
+      <DependentUpon>ViewPatients.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BankingLog.resx">
+      <DependentUpon>BankingLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateInvoice.resx">
+      <DependentUpon>CreateInvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateNewPatient.resx">
+      <DependentUpon>CreateNewPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateNewUser.resx">
+      <DependentUpon>CreateNewUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExpensesLog.resx">
+      <DependentUpon>ExpensesLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientBilling.resx">
+      <DependentUpon>PatientBilling.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlaceOrder.resx">
+      <DependentUpon>PlaceOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegisterPatient.resx">
+      <DependentUpon>RegisterPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashMain.resx">
+      <DependentUpon>SplashMain.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -63,6 +174,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="StockLog.resx">
+      <DependentUpon>StockLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewPatients.resx">
+      <DependentUpon>ViewPatients.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -75,6 +192,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
