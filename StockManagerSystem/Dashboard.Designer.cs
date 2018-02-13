@@ -58,9 +58,9 @@
             // 
             this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel});
-            this.statusStrip.Location = new System.Drawing.Point(0, 436);
+            this.statusStrip.Location = new System.Drawing.Point(0, 574);
             this.statusStrip.Name = "statusStrip";
-            this.statusStrip.Size = new System.Drawing.Size(938, 22);
+            this.statusStrip.Size = new System.Drawing.Size(1173, 22);
             this.statusStrip.TabIndex = 2;
             this.statusStrip.Text = "StatusStrip";
             // 
@@ -82,7 +82,7 @@
             this.aToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(938, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1173, 24);
             this.menuStrip1.TabIndex = 4;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -120,8 +120,9 @@
             // createInvoiceToolStripMenuItem
             // 
             this.createInvoiceToolStripMenuItem.Name = "createInvoiceToolStripMenuItem";
-            this.createInvoiceToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.createInvoiceToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
             this.createInvoiceToolStripMenuItem.Text = "Create Invoice";
+            this.createInvoiceToolStripMenuItem.Click += new System.EventHandler(this.createInvoiceToolStripMenuItem_Click);
             // 
             // bankingToolStripMenuItem
             // 
@@ -136,6 +137,7 @@
             this.logBankingDetailsToolStripMenuItem.Name = "logBankingDetailsToolStripMenuItem";
             this.logBankingDetailsToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
             this.logBankingDetailsToolStripMenuItem.Text = "Log Banking details";
+            this.logBankingDetailsToolStripMenuItem.Click += new System.EventHandler(this.logBankingDetailsToolStripMenuItem_Click);
             // 
             // stockToolStripMenuItem
             // 
@@ -149,14 +151,16 @@
             // logStockToolStripMenuItem
             // 
             this.logStockToolStripMenuItem.Name = "logStockToolStripMenuItem";
-            this.logStockToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.logStockToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
             this.logStockToolStripMenuItem.Text = "Log Stock";
+            this.logStockToolStripMenuItem.Click += new System.EventHandler(this.logStockToolStripMenuItem_Click);
             // 
             // stockOrderToolStripMenuItem
             // 
             this.stockOrderToolStripMenuItem.Name = "stockOrderToolStripMenuItem";
-            this.stockOrderToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.stockOrderToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
             this.stockOrderToolStripMenuItem.Text = "Place Order";
+            this.stockOrderToolStripMenuItem.Click += new System.EventHandler(this.stockOrderToolStripMenuItem_Click);
             // 
             // expensesToolStripMenuItem
             // 
@@ -172,6 +176,7 @@
             this.dailyExpensesToolStripMenuItem.Name = "dailyExpensesToolStripMenuItem";
             this.dailyExpensesToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.dailyExpensesToolStripMenuItem.Text = "Daily Expenses";
+            this.dailyExpensesToolStripMenuItem.Click += new System.EventHandler(this.dailyExpensesToolStripMenuItem_Click);
             // 
             // expensesReportToolStripMenuItem
             // 
@@ -190,8 +195,9 @@
             // billPatientToolStripMenuItem
             // 
             this.billPatientToolStripMenuItem.Name = "billPatientToolStripMenuItem";
-            this.billPatientToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.billPatientToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.billPatientToolStripMenuItem.Text = "Bill Patient";
+            this.billPatientToolStripMenuItem.Click += new System.EventHandler(this.billPatientToolStripMenuItem_Click);
             // 
             // aToolStripMenuItem
             // 
@@ -206,18 +212,20 @@
             this.createNewUserToolStripMenuItem.Name = "createNewUserToolStripMenuItem";
             this.createNewUserToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
             this.createNewUserToolStripMenuItem.Text = "Create New User";
+            this.createNewUserToolStripMenuItem.Click += new System.EventHandler(this.createNewUserToolStripMenuItem_Click);
             // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(938, 458);
+            this.ClientSize = new System.Drawing.Size(1173, 596);
             this.Controls.Add(this.statusStrip);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.Name = "Dashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dashboard";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Dashboard_FormClosed);
             this.statusStrip.ResumeLayout(false);
             this.statusStrip.PerformLayout();
             this.menuStrip1.ResumeLayout(false);

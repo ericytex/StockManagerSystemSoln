@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace StockManagerSystem
 {
-    public partial class CreateInvoice : Form
+    public partial class LogbankingDetails : Form
     {
-        public CreateInvoice()
+        public LogbankingDetails()
         {
             InitializeComponent();
         }

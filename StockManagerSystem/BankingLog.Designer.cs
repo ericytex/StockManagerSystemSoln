@@ -29,10 +29,11 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -44,7 +45,8 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.ChecqueDetails = new System.Windows.Forms.GroupBox();
-            this.label7 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.ChecqueDetails.SuspendLayout();
@@ -61,31 +63,15 @@
             this.panel1.Size = new System.Drawing.Size(425, 47);
             this.panel1.TabIndex = 0;
             // 
-            // panel2
+            // label7
             // 
-            this.panel2.Controls.Add(this.textBox1);
-            this.panel2.Controls.Add(this.label1);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 47);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(425, 40);
-            this.panel2.TabIndex = 1;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(120, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(122, 21);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Cheque number";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(245, 5);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(166, 29);
-            this.textBox1.TabIndex = 1;
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(398, 12);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(20, 21);
+            this.label7.TabIndex = 3;
+            this.label7.Text = "X";
             // 
             // label2
             // 
@@ -96,6 +82,32 @@
             this.label2.Size = new System.Drawing.Size(130, 21);
             this.label2.TabIndex = 2;
             this.label2.Text = "Log Bank Details";
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.textBox1);
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 47);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(425, 40);
+            this.panel2.TabIndex = 1;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(245, 5);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(166, 29);
+            this.textBox1.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(120, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(122, 21);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Cheque number";
             // 
             // label3
             // 
@@ -192,7 +204,9 @@
             // 
             // ChecqueDetails
             // 
+            this.ChecqueDetails.Controls.Add(this.button3);
             this.ChecqueDetails.Controls.Add(this.button2);
+            this.ChecqueDetails.Controls.Add(this.button4);
             this.ChecqueDetails.Controls.Add(this.button1);
             this.ChecqueDetails.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ChecqueDetails.Location = new System.Drawing.Point(6, 99);
@@ -202,15 +216,33 @@
             this.ChecqueDetails.TabStop = false;
             this.ChecqueDetails.Text = "Cheque Details";
             // 
-            // label7
+            // button3
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(398, 12);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(20, 21);
-            this.label7.TabIndex = 3;
-            this.label7.Text = "X";
+            this.button3.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Location = new System.Drawing.Point(219, 359);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(154, 38);
+            this.button3.TabIndex = 1;
+            this.button3.Text = "Save Cheque";
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.Silver;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.Location = new System.Drawing.Point(41, 359);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(154, 38);
+            this.button4.TabIndex = 0;
+            this.button4.Text = "Cancel";
+            this.button4.UseVisualStyleBackColor = false;
             // 
             // BankingLog
             // 
@@ -262,5 +294,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.GroupBox ChecqueDetails;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
     }
 }

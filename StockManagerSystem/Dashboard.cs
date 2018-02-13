@@ -106,11 +106,71 @@ namespace StockManagerSystem
 
         private void registerPatientToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            ViewPatients vp = new ViewPatients();
-            vp.MdiParent = this;
-            vp.Dock = DockStyle.Fill;
-            vp.Show();
+            RegisterPatient rp = new RegisterPatient();
+            rp.MdiParent = this;
+            rp.Dock = DockStyle.Fill;
+            rp.Show();
         }
 
+        private void createInvoiceToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CreateInvoice cn = new CreateInvoice();
+            cn.MdiParent = this;
+            cn.Dock = DockStyle.Fill;
+            cn.Show();
+        }
+
+        private void logBankingDetailsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LogbankingDetails lb = new LogbankingDetails();
+            lb.MdiParent = this;
+            lb.Dock = DockStyle.Fill;
+            lb.Show();
+        }
+
+        private void logStockToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            StockLog sl = new StockLog();
+            sl.MdiParent = this;
+            sl.Dock = DockStyle.Fill;
+            sl.Show();
+        }
+
+        private void stockOrderToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PlaceOrder po = new PlaceOrder();
+            po.MdiParent = this;
+            po.Dock = DockStyle.Fill;
+            po.Show();
+        }
+
+        private void dailyExpensesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ExpensesLog el = new ExpensesLog();
+            el.MdiParent = this;
+            el.Dock = DockStyle.Fill;
+            el.Show();
+        }
+
+        private void billPatientToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PatientBilling pb = new PatientBilling();
+            pb.MdiParent = this;
+            pb.Dock = DockStyle.Fill;
+            pb.Show();
+        }
+
+        private void createNewUserToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CreateNewUser cnu = new CreateNewUser();
+            cnu.MdiParent = this;
+            cnu.Dock = DockStyle.Fill;
+            cnu.Show();
+        }
+
+        private void Dashboard_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
