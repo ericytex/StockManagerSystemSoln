@@ -29,64 +29,64 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
-            this.lblRegisterPatient = new System.Windows.Forms.Label();
+            this.labelClosePlaceOrderForm = new System.Windows.Forms.Label();
+            this.labelPlaceOrder = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.txtSupplierID = new System.Windows.Forms.TextBox();
+            this.textboxOrderNumber = new System.Windows.Forms.TextBox();
             this.panel14 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
+            this.labelOrderNumber = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.comboBoxOrderItemName = new System.Windows.Forms.ComboBox();
             this.panel7 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
+            this.labelOrderItemName = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBoxOrderItemQuantity = new System.Windows.Forms.TextBox();
             this.panel11 = new System.Windows.Forms.Panel();
             this.panel12 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
+            this.labelOrderItemQuantity = new System.Windows.Forms.Label();
             this.panel13 = new System.Windows.Forms.Panel();
             this.panel15 = new System.Windows.Forms.Panel();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dateOrderPlacementDate = new System.Windows.Forms.DateTimePicker();
             this.panel16 = new System.Windows.Forms.Panel();
             this.panel17 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
+            this.labelOrderPlacementDate = new System.Windows.Forms.Label();
             this.panel18 = new System.Windows.Forms.Panel();
             this.panel19 = new System.Windows.Forms.Panel();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBoxAmountPerItem = new System.Windows.Forms.TextBox();
             this.panel20 = new System.Windows.Forms.Panel();
             this.panel21 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
+            this.labelAmountPerItem = new System.Windows.Forms.Label();
             this.panel22 = new System.Windows.Forms.Panel();
             this.panel23 = new System.Windows.Forms.Panel();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBoxTotalAmount = new System.Windows.Forms.TextBox();
             this.panel24 = new System.Windows.Forms.Panel();
             this.panel25 = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
+            this.labelTotalAmount = new System.Windows.Forms.Label();
             this.panel26 = new System.Windows.Forms.Panel();
             this.panel27 = new System.Windows.Forms.Panel();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBoxSupplierName = new System.Windows.Forms.ComboBox();
             this.panel28 = new System.Windows.Forms.Panel();
             this.panel29 = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
+            this.labelSupplierName = new System.Windows.Forms.Label();
             this.panel30 = new System.Windows.Forms.Panel();
             this.panel31 = new System.Windows.Forms.Panel();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBoxOrderPlacedBy = new System.Windows.Forms.ComboBox();
             this.panel32 = new System.Windows.Forms.Panel();
             this.panel33 = new System.Windows.Forms.Panel();
-            this.label9 = new System.Windows.Forms.Label();
+            this.labelOrderPlacedBy = new System.Windows.Forms.Label();
             this.panel34 = new System.Windows.Forms.Panel();
             this.panel42 = new System.Windows.Forms.Panel();
             this.panel48 = new System.Windows.Forms.Panel();
             this.panel47 = new System.Windows.Forms.Panel();
-            this.btnSaveItem = new System.Windows.Forms.Button();
+            this.buttonSaveItem = new System.Windows.Forms.Button();
             this.panel46 = new System.Windows.Forms.Panel();
             this.panel44 = new System.Windows.Forms.Panel();
-            this.btnDeleteItem = new System.Windows.Forms.Button();
+            this.buttonDeleteItem = new System.Windows.Forms.Button();
             this.panel43 = new System.Windows.Forms.Panel();
             this.panel35 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
@@ -122,36 +122,36 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Silver;
-            this.panel1.Controls.Add(this.label7);
-            this.panel1.Controls.Add(this.lblRegisterPatient);
+            this.panel1.Controls.Add(this.labelClosePlaceOrderForm);
+            this.panel1.Controls.Add(this.labelPlaceOrder);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(823, 41);
             this.panel1.TabIndex = 6;
             // 
-            // label7
+            // labelClosePlaceOrderForm
             // 
-            this.label7.AutoSize = true;
-            this.label7.Dock = System.Windows.Forms.DockStyle.Right;
-            this.label7.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(803, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(20, 21);
-            this.label7.TabIndex = 3;
-            this.label7.Text = "X";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
+            this.labelClosePlaceOrderForm.AutoSize = true;
+            this.labelClosePlaceOrderForm.Dock = System.Windows.Forms.DockStyle.Right;
+            this.labelClosePlaceOrderForm.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelClosePlaceOrderForm.Location = new System.Drawing.Point(803, 0);
+            this.labelClosePlaceOrderForm.Name = "labelClosePlaceOrderForm";
+            this.labelClosePlaceOrderForm.Size = new System.Drawing.Size(20, 21);
+            this.labelClosePlaceOrderForm.TabIndex = 3;
+            this.labelClosePlaceOrderForm.Text = "X";
+            this.labelClosePlaceOrderForm.Click += new System.EventHandler(this.labelClosePlaceOrderForm_Click);
             // 
-            // lblRegisterPatient
+            // labelPlaceOrder
             // 
-            this.lblRegisterPatient.AutoSize = true;
-            this.lblRegisterPatient.Dock = System.Windows.Forms.DockStyle.Left;
-            this.lblRegisterPatient.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRegisterPatient.Location = new System.Drawing.Point(0, 0);
-            this.lblRegisterPatient.Name = "lblRegisterPatient";
-            this.lblRegisterPatient.Size = new System.Drawing.Size(95, 21);
-            this.lblRegisterPatient.TabIndex = 2;
-            this.lblRegisterPatient.Text = "Place Order";
+            this.labelPlaceOrder.AutoSize = true;
+            this.labelPlaceOrder.Dock = System.Windows.Forms.DockStyle.Left;
+            this.labelPlaceOrder.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelPlaceOrder.Location = new System.Drawing.Point(0, 0);
+            this.labelPlaceOrder.Name = "labelPlaceOrder";
+            this.labelPlaceOrder.Size = new System.Drawing.Size(95, 21);
+            this.labelPlaceOrder.TabIndex = 2;
+            this.labelPlaceOrder.Text = "Place Order";
             // 
             // panel2
             // 
@@ -166,20 +166,20 @@
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.txtSupplierID);
+            this.panel3.Controls.Add(this.textboxOrderNumber);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(126, 0);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(618, 45);
             this.panel3.TabIndex = 3;
             // 
-            // txtSupplierID
+            // textboxOrderNumber
             // 
-            this.txtSupplierID.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.txtSupplierID.Location = new System.Drawing.Point(0, 16);
-            this.txtSupplierID.Name = "txtSupplierID";
-            this.txtSupplierID.Size = new System.Drawing.Size(618, 29);
-            this.txtSupplierID.TabIndex = 2;
+            this.textboxOrderNumber.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.textboxOrderNumber.Location = new System.Drawing.Point(0, 16);
+            this.textboxOrderNumber.Name = "textboxOrderNumber";
+            this.textboxOrderNumber.Size = new System.Drawing.Size(618, 29);
+            this.textboxOrderNumber.TabIndex = 2;
             // 
             // panel14
             // 
@@ -191,22 +191,22 @@
             // 
             // panel4
             // 
-            this.panel4.Controls.Add(this.label1);
+            this.panel4.Controls.Add(this.labelOrderNumber);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel4.Location = new System.Drawing.Point(0, 0);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(126, 45);
             this.panel4.TabIndex = 1;
             // 
-            // label1
+            // labelOrderNumber
             // 
-            this.label1.AutoSize = true;
-            this.label1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label1.Location = new System.Drawing.Point(0, 24);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(120, 21);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Order Number :";
+            this.labelOrderNumber.AutoSize = true;
+            this.labelOrderNumber.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.labelOrderNumber.Location = new System.Drawing.Point(0, 24);
+            this.labelOrderNumber.Name = "labelOrderNumber";
+            this.labelOrderNumber.Size = new System.Drawing.Size(120, 21);
+            this.labelOrderNumber.TabIndex = 0;
+            this.labelOrderNumber.Text = "Order Number :";
             // 
             // panel5
             // 
@@ -221,21 +221,21 @@
             // 
             // panel6
             // 
-            this.panel6.Controls.Add(this.comboBox3);
+            this.panel6.Controls.Add(this.comboBoxOrderItemName);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel6.Location = new System.Drawing.Point(147, 0);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(597, 45);
             this.panel6.TabIndex = 3;
             // 
-            // comboBox3
+            // comboBoxOrderItemName
             // 
-            this.comboBox3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(0, 16);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(597, 29);
-            this.comboBox3.TabIndex = 0;
+            this.comboBoxOrderItemName.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.comboBoxOrderItemName.FormattingEnabled = true;
+            this.comboBoxOrderItemName.Location = new System.Drawing.Point(0, 16);
+            this.comboBoxOrderItemName.Name = "comboBoxOrderItemName";
+            this.comboBoxOrderItemName.Size = new System.Drawing.Size(597, 29);
+            this.comboBoxOrderItemName.TabIndex = 0;
             // 
             // panel7
             // 
@@ -247,22 +247,22 @@
             // 
             // panel8
             // 
-            this.panel8.Controls.Add(this.label2);
+            this.panel8.Controls.Add(this.labelOrderItemName);
             this.panel8.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel8.Location = new System.Drawing.Point(0, 0);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(147, 45);
             this.panel8.TabIndex = 1;
             // 
-            // label2
+            // labelOrderItemName
             // 
-            this.label2.AutoSize = true;
-            this.label2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label2.Location = new System.Drawing.Point(0, 24);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(139, 21);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Order Item Name :";
+            this.labelOrderItemName.AutoSize = true;
+            this.labelOrderItemName.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.labelOrderItemName.Location = new System.Drawing.Point(0, 24);
+            this.labelOrderItemName.Name = "labelOrderItemName";
+            this.labelOrderItemName.Size = new System.Drawing.Size(139, 21);
+            this.labelOrderItemName.TabIndex = 0;
+            this.labelOrderItemName.Text = "Order Item Name :";
             // 
             // panel9
             // 
@@ -277,20 +277,20 @@
             // 
             // panel10
             // 
-            this.panel10.Controls.Add(this.textBox2);
+            this.panel10.Controls.Add(this.textBoxOrderItemQuantity);
             this.panel10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel10.Location = new System.Drawing.Point(163, 0);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(581, 45);
             this.panel10.TabIndex = 3;
             // 
-            // textBox2
+            // textBoxOrderItemQuantity
             // 
-            this.textBox2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.textBox2.Location = new System.Drawing.Point(0, 16);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(581, 29);
-            this.textBox2.TabIndex = 2;
+            this.textBoxOrderItemQuantity.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.textBoxOrderItemQuantity.Location = new System.Drawing.Point(0, 16);
+            this.textBoxOrderItemQuantity.Name = "textBoxOrderItemQuantity";
+            this.textBoxOrderItemQuantity.Size = new System.Drawing.Size(581, 29);
+            this.textBoxOrderItemQuantity.TabIndex = 2;
             // 
             // panel11
             // 
@@ -302,22 +302,22 @@
             // 
             // panel12
             // 
-            this.panel12.Controls.Add(this.label3);
+            this.panel12.Controls.Add(this.labelOrderItemQuantity);
             this.panel12.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel12.Location = new System.Drawing.Point(0, 0);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(163, 45);
             this.panel12.TabIndex = 1;
             // 
-            // label3
+            // labelOrderItemQuantity
             // 
-            this.label3.AutoSize = true;
-            this.label3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label3.Location = new System.Drawing.Point(0, 24);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(153, 21);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Order Item Quantity:";
+            this.labelOrderItemQuantity.AutoSize = true;
+            this.labelOrderItemQuantity.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.labelOrderItemQuantity.Location = new System.Drawing.Point(0, 24);
+            this.labelOrderItemQuantity.Name = "labelOrderItemQuantity";
+            this.labelOrderItemQuantity.Size = new System.Drawing.Size(153, 21);
+            this.labelOrderItemQuantity.TabIndex = 0;
+            this.labelOrderItemQuantity.Text = "Order Item Quantity:";
             // 
             // panel13
             // 
@@ -332,20 +332,20 @@
             // 
             // panel15
             // 
-            this.panel15.Controls.Add(this.dateTimePicker1);
+            this.panel15.Controls.Add(this.dateOrderPlacementDate);
             this.panel15.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel15.Location = new System.Drawing.Point(173, 0);
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(571, 45);
             this.panel15.TabIndex = 3;
             // 
-            // dateTimePicker1
+            // dateOrderPlacementDate
             // 
-            this.dateTimePicker1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dateTimePicker1.Location = new System.Drawing.Point(0, 16);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(571, 29);
-            this.dateTimePicker1.TabIndex = 0;
+            this.dateOrderPlacementDate.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.dateOrderPlacementDate.Location = new System.Drawing.Point(0, 16);
+            this.dateOrderPlacementDate.Name = "dateOrderPlacementDate";
+            this.dateOrderPlacementDate.Size = new System.Drawing.Size(571, 29);
+            this.dateOrderPlacementDate.TabIndex = 0;
             // 
             // panel16
             // 
@@ -357,22 +357,22 @@
             // 
             // panel17
             // 
-            this.panel17.Controls.Add(this.label4);
+            this.panel17.Controls.Add(this.labelOrderPlacementDate);
             this.panel17.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel17.Location = new System.Drawing.Point(0, 0);
             this.panel17.Name = "panel17";
             this.panel17.Size = new System.Drawing.Size(173, 45);
             this.panel17.TabIndex = 1;
             // 
-            // label4
+            // labelOrderPlacementDate
             // 
-            this.label4.AutoSize = true;
-            this.label4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label4.Location = new System.Drawing.Point(0, 24);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(170, 21);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Order Placement Date :";
+            this.labelOrderPlacementDate.AutoSize = true;
+            this.labelOrderPlacementDate.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.labelOrderPlacementDate.Location = new System.Drawing.Point(0, 24);
+            this.labelOrderPlacementDate.Name = "labelOrderPlacementDate";
+            this.labelOrderPlacementDate.Size = new System.Drawing.Size(170, 21);
+            this.labelOrderPlacementDate.TabIndex = 0;
+            this.labelOrderPlacementDate.Text = "Order Placement Date :";
             // 
             // panel18
             // 
@@ -387,20 +387,20 @@
             // 
             // panel19
             // 
-            this.panel19.Controls.Add(this.textBox4);
+            this.panel19.Controls.Add(this.textBoxAmountPerItem);
             this.panel19.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel19.Location = new System.Drawing.Point(130, 0);
             this.panel19.Name = "panel19";
             this.panel19.Size = new System.Drawing.Size(614, 45);
             this.panel19.TabIndex = 3;
             // 
-            // textBox4
+            // textBoxAmountPerItem
             // 
-            this.textBox4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.textBox4.Location = new System.Drawing.Point(0, 16);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(614, 29);
-            this.textBox4.TabIndex = 2;
+            this.textBoxAmountPerItem.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.textBoxAmountPerItem.Location = new System.Drawing.Point(0, 16);
+            this.textBoxAmountPerItem.Name = "textBoxAmountPerItem";
+            this.textBoxAmountPerItem.Size = new System.Drawing.Size(614, 29);
+            this.textBoxAmountPerItem.TabIndex = 2;
             // 
             // panel20
             // 
@@ -412,22 +412,22 @@
             // 
             // panel21
             // 
-            this.panel21.Controls.Add(this.label5);
+            this.panel21.Controls.Add(this.labelAmountPerItem);
             this.panel21.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel21.Location = new System.Drawing.Point(0, 0);
             this.panel21.Name = "panel21";
             this.panel21.Size = new System.Drawing.Size(130, 45);
             this.panel21.TabIndex = 1;
             // 
-            // label5
+            // labelAmountPerItem
             // 
-            this.label5.AutoSize = true;
-            this.label5.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label5.Location = new System.Drawing.Point(0, 24);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(130, 21);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "Amount Per Item:";
+            this.labelAmountPerItem.AutoSize = true;
+            this.labelAmountPerItem.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.labelAmountPerItem.Location = new System.Drawing.Point(0, 24);
+            this.labelAmountPerItem.Name = "labelAmountPerItem";
+            this.labelAmountPerItem.Size = new System.Drawing.Size(130, 21);
+            this.labelAmountPerItem.TabIndex = 0;
+            this.labelAmountPerItem.Text = "Amount Per Item:";
             // 
             // panel22
             // 
@@ -442,20 +442,20 @@
             // 
             // panel23
             // 
-            this.panel23.Controls.Add(this.textBox5);
+            this.panel23.Controls.Add(this.textBoxTotalAmount);
             this.panel23.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel23.Location = new System.Drawing.Point(114, 0);
             this.panel23.Name = "panel23";
             this.panel23.Size = new System.Drawing.Size(630, 45);
             this.panel23.TabIndex = 3;
             // 
-            // textBox5
+            // textBoxTotalAmount
             // 
-            this.textBox5.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.textBox5.Location = new System.Drawing.Point(0, 16);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(630, 29);
-            this.textBox5.TabIndex = 2;
+            this.textBoxTotalAmount.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.textBoxTotalAmount.Location = new System.Drawing.Point(0, 16);
+            this.textBoxTotalAmount.Name = "textBoxTotalAmount";
+            this.textBoxTotalAmount.Size = new System.Drawing.Size(630, 29);
+            this.textBoxTotalAmount.TabIndex = 2;
             // 
             // panel24
             // 
@@ -467,22 +467,22 @@
             // 
             // panel25
             // 
-            this.panel25.Controls.Add(this.label6);
+            this.panel25.Controls.Add(this.labelTotalAmount);
             this.panel25.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel25.Location = new System.Drawing.Point(0, 0);
             this.panel25.Name = "panel25";
             this.panel25.Size = new System.Drawing.Size(114, 45);
             this.panel25.TabIndex = 1;
             // 
-            // label6
+            // labelTotalAmount
             // 
-            this.label6.AutoSize = true;
-            this.label6.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label6.Location = new System.Drawing.Point(0, 24);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(109, 21);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "Total Amount :";
+            this.labelTotalAmount.AutoSize = true;
+            this.labelTotalAmount.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.labelTotalAmount.Location = new System.Drawing.Point(0, 24);
+            this.labelTotalAmount.Name = "labelTotalAmount";
+            this.labelTotalAmount.Size = new System.Drawing.Size(109, 21);
+            this.labelTotalAmount.TabIndex = 0;
+            this.labelTotalAmount.Text = "Total Amount :";
             // 
             // panel26
             // 
@@ -497,21 +497,21 @@
             // 
             // panel27
             // 
-            this.panel27.Controls.Add(this.comboBox2);
+            this.panel27.Controls.Add(this.comboBoxSupplierName);
             this.panel27.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel27.Location = new System.Drawing.Point(120, 0);
             this.panel27.Name = "panel27";
             this.panel27.Size = new System.Drawing.Size(624, 45);
             this.panel27.TabIndex = 3;
             // 
-            // comboBox2
+            // comboBoxSupplierName
             // 
-            this.comboBox2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(0, 16);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(624, 29);
-            this.comboBox2.TabIndex = 0;
+            this.comboBoxSupplierName.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.comboBoxSupplierName.FormattingEnabled = true;
+            this.comboBoxSupplierName.Location = new System.Drawing.Point(0, 16);
+            this.comboBoxSupplierName.Name = "comboBoxSupplierName";
+            this.comboBoxSupplierName.Size = new System.Drawing.Size(624, 29);
+            this.comboBoxSupplierName.TabIndex = 0;
             // 
             // panel28
             // 
@@ -523,22 +523,22 @@
             // 
             // panel29
             // 
-            this.panel29.Controls.Add(this.label8);
+            this.panel29.Controls.Add(this.labelSupplierName);
             this.panel29.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel29.Location = new System.Drawing.Point(0, 0);
             this.panel29.Name = "panel29";
             this.panel29.Size = new System.Drawing.Size(120, 45);
             this.panel29.TabIndex = 1;
             // 
-            // label8
+            // labelSupplierName
             // 
-            this.label8.AutoSize = true;
-            this.label8.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label8.Location = new System.Drawing.Point(0, 24);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(117, 21);
-            this.label8.TabIndex = 0;
-            this.label8.Text = "Supplier Name:";
+            this.labelSupplierName.AutoSize = true;
+            this.labelSupplierName.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.labelSupplierName.Location = new System.Drawing.Point(0, 24);
+            this.labelSupplierName.Name = "labelSupplierName";
+            this.labelSupplierName.Size = new System.Drawing.Size(117, 21);
+            this.labelSupplierName.TabIndex = 0;
+            this.labelSupplierName.Text = "Supplier Name:";
             // 
             // panel30
             // 
@@ -553,21 +553,21 @@
             // 
             // panel31
             // 
-            this.panel31.Controls.Add(this.comboBox1);
+            this.panel31.Controls.Add(this.comboBoxOrderPlacedBy);
             this.panel31.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel31.Location = new System.Drawing.Point(130, 0);
             this.panel31.Name = "panel31";
             this.panel31.Size = new System.Drawing.Size(614, 45);
             this.panel31.TabIndex = 3;
             // 
-            // comboBox1
+            // comboBoxOrderPlacedBy
             // 
-            this.comboBox1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(0, 16);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(614, 29);
-            this.comboBox1.TabIndex = 0;
+            this.comboBoxOrderPlacedBy.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.comboBoxOrderPlacedBy.FormattingEnabled = true;
+            this.comboBoxOrderPlacedBy.Location = new System.Drawing.Point(0, 16);
+            this.comboBoxOrderPlacedBy.Name = "comboBoxOrderPlacedBy";
+            this.comboBoxOrderPlacedBy.Size = new System.Drawing.Size(614, 29);
+            this.comboBoxOrderPlacedBy.TabIndex = 0;
             // 
             // panel32
             // 
@@ -579,22 +579,22 @@
             // 
             // panel33
             // 
-            this.panel33.Controls.Add(this.label9);
+            this.panel33.Controls.Add(this.labelOrderPlacedBy);
             this.panel33.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel33.Location = new System.Drawing.Point(0, 0);
             this.panel33.Name = "panel33";
             this.panel33.Size = new System.Drawing.Size(130, 45);
             this.panel33.TabIndex = 1;
             // 
-            // label9
+            // labelOrderPlacedBy
             // 
-            this.label9.AutoSize = true;
-            this.label9.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label9.Location = new System.Drawing.Point(0, 24);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(124, 21);
-            this.label9.TabIndex = 0;
-            this.label9.Text = "Order Placed by:";
+            this.labelOrderPlacedBy.AutoSize = true;
+            this.labelOrderPlacedBy.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.labelOrderPlacedBy.Location = new System.Drawing.Point(0, 24);
+            this.labelOrderPlacedBy.Name = "labelOrderPlacedBy";
+            this.labelOrderPlacedBy.Size = new System.Drawing.Size(124, 21);
+            this.labelOrderPlacedBy.TabIndex = 0;
+            this.labelOrderPlacedBy.Text = "Order Placed by:";
             // 
             // panel34
             // 
@@ -627,27 +627,27 @@
             // 
             // panel47
             // 
-            this.panel47.Controls.Add(this.btnSaveItem);
+            this.panel47.Controls.Add(this.buttonSaveItem);
             this.panel47.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel47.Location = new System.Drawing.Point(502, 0);
             this.panel47.Name = "panel47";
             this.panel47.Size = new System.Drawing.Size(242, 73);
             this.panel47.TabIndex = 3;
             // 
-            // btnSaveItem
+            // buttonSaveItem
             // 
-            this.btnSaveItem.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.btnSaveItem.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.btnSaveItem.FlatAppearance.BorderSize = 0;
-            this.btnSaveItem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSaveItem.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSaveItem.ForeColor = System.Drawing.Color.White;
-            this.btnSaveItem.Location = new System.Drawing.Point(0, 35);
-            this.btnSaveItem.Name = "btnSaveItem";
-            this.btnSaveItem.Size = new System.Drawing.Size(242, 38);
-            this.btnSaveItem.TabIndex = 18;
-            this.btnSaveItem.Text = "Save Item";
-            this.btnSaveItem.UseVisualStyleBackColor = false;
+            this.buttonSaveItem.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.buttonSaveItem.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.buttonSaveItem.FlatAppearance.BorderSize = 0;
+            this.buttonSaveItem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonSaveItem.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonSaveItem.ForeColor = System.Drawing.Color.White;
+            this.buttonSaveItem.Location = new System.Drawing.Point(0, 35);
+            this.buttonSaveItem.Name = "buttonSaveItem";
+            this.buttonSaveItem.Size = new System.Drawing.Size(242, 38);
+            this.buttonSaveItem.TabIndex = 18;
+            this.buttonSaveItem.Text = "Save Item";
+            this.buttonSaveItem.UseVisualStyleBackColor = false;
             // 
             // panel46
             // 
@@ -659,27 +659,27 @@
             // 
             // panel44
             // 
-            this.panel44.Controls.Add(this.btnDeleteItem);
+            this.panel44.Controls.Add(this.buttonDeleteItem);
             this.panel44.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel44.Location = new System.Drawing.Point(130, 0);
             this.panel44.Name = "panel44";
             this.panel44.Size = new System.Drawing.Size(253, 73);
             this.panel44.TabIndex = 1;
             // 
-            // btnDeleteItem
+            // buttonDeleteItem
             // 
-            this.btnDeleteItem.BackColor = System.Drawing.Color.Silver;
-            this.btnDeleteItem.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.btnDeleteItem.FlatAppearance.BorderSize = 0;
-            this.btnDeleteItem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDeleteItem.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDeleteItem.ForeColor = System.Drawing.Color.White;
-            this.btnDeleteItem.Location = new System.Drawing.Point(0, 35);
-            this.btnDeleteItem.Name = "btnDeleteItem";
-            this.btnDeleteItem.Size = new System.Drawing.Size(253, 38);
-            this.btnDeleteItem.TabIndex = 16;
-            this.btnDeleteItem.Text = "Delete Item";
-            this.btnDeleteItem.UseVisualStyleBackColor = false;
+            this.buttonDeleteItem.BackColor = System.Drawing.Color.Silver;
+            this.buttonDeleteItem.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.buttonDeleteItem.FlatAppearance.BorderSize = 0;
+            this.buttonDeleteItem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonDeleteItem.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonDeleteItem.ForeColor = System.Drawing.Color.White;
+            this.buttonDeleteItem.Location = new System.Drawing.Point(0, 35);
+            this.buttonDeleteItem.Name = "buttonDeleteItem";
+            this.buttonDeleteItem.Size = new System.Drawing.Size(253, 38);
+            this.buttonDeleteItem.TabIndex = 16;
+            this.buttonDeleteItem.Text = "Delete Item";
+            this.buttonDeleteItem.UseVisualStyleBackColor = false;
             // 
             // panel43
             // 
@@ -768,65 +768,65 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label lblRegisterPatient;
+        private System.Windows.Forms.Label labelPlaceOrder;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.TextBox txtSupplierID;
+        private System.Windows.Forms.TextBox textboxOrderNumber;
         private System.Windows.Forms.Panel panel14;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label labelOrderNumber;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label labelOrderItemName;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBoxOrderItemQuantity;
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Panel panel12;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label labelOrderItemQuantity;
         private System.Windows.Forms.Panel panel13;
         private System.Windows.Forms.Panel panel15;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dateOrderPlacementDate;
         private System.Windows.Forms.Panel panel16;
         private System.Windows.Forms.Panel panel17;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label labelOrderPlacementDate;
         private System.Windows.Forms.Panel panel18;
         private System.Windows.Forms.Panel panel19;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBoxAmountPerItem;
         private System.Windows.Forms.Panel panel20;
         private System.Windows.Forms.Panel panel21;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label labelAmountPerItem;
         private System.Windows.Forms.Panel panel22;
         private System.Windows.Forms.Panel panel23;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBoxTotalAmount;
         private System.Windows.Forms.Panel panel24;
         private System.Windows.Forms.Panel panel25;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label labelTotalAmount;
         private System.Windows.Forms.Panel panel26;
         private System.Windows.Forms.Panel panel27;
         private System.Windows.Forms.Panel panel28;
         private System.Windows.Forms.Panel panel29;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label labelSupplierName;
         private System.Windows.Forms.Panel panel30;
         private System.Windows.Forms.Panel panel31;
         private System.Windows.Forms.Panel panel32;
         private System.Windows.Forms.Panel panel33;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label labelOrderPlacedBy;
         private System.Windows.Forms.Panel panel34;
         private System.Windows.Forms.Panel panel42;
         private System.Windows.Forms.Panel panel48;
         private System.Windows.Forms.Panel panel47;
-        private System.Windows.Forms.Button btnSaveItem;
+        private System.Windows.Forms.Button buttonSaveItem;
         private System.Windows.Forms.Panel panel46;
         private System.Windows.Forms.Panel panel44;
-        private System.Windows.Forms.Button btnDeleteItem;
+        private System.Windows.Forms.Button buttonDeleteItem;
         private System.Windows.Forms.Panel panel43;
         private System.Windows.Forms.Panel panel35;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboBoxOrderItemName;
+        private System.Windows.Forms.ComboBox comboBoxSupplierName;
+        private System.Windows.Forms.ComboBox comboBoxOrderPlacedBy;
+        private System.Windows.Forms.Label labelClosePlaceOrderForm;
     }
 }

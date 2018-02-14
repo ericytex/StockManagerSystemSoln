@@ -73,12 +73,6 @@
     <Compile Include="CreateInvoice.Designer.cs">
       <DependentUpon>CreateInvoice.cs</DependentUpon>
     </Compile>
-    <Compile Include="CreateNewPatient.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CreateNewPatient.Designer.cs">
-      <DependentUpon>CreateNewPatient.cs</DependentUpon>
-    </Compile>
     <Compile Include="CreateNewUser.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,12 +90,6 @@
     </Compile>
     <Compile Include="ExpensesLog.Designer.cs">
       <DependentUpon>ExpensesLog.cs</DependentUpon>
-    </Compile>
-    <Compile Include="LogbankingDetails.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="LogbankingDetails.Designer.cs">
-      <DependentUpon>LogbankingDetails.cs</DependentUpon>
     </Compile>
     <Compile Include="PatientBilling.cs">
       <SubType>Form</SubType>
@@ -147,9 +135,6 @@
     <EmbeddedResource Include="CreateInvoice.resx">
       <DependentUpon>CreateInvoice.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CreateNewPatient.resx">
-      <DependentUpon>CreateNewPatient.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="CreateNewUser.resx">
       <DependentUpon>CreateNewUser.cs</DependentUpon>
     </EmbeddedResource>
@@ -158,9 +143,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ExpensesLog.resx">
       <DependentUpon>ExpensesLog.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="LogbankingDetails.resx">
-      <DependentUpon>LogbankingDetails.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PatientBilling.resx">
       <DependentUpon>PatientBilling.cs</DependentUpon>

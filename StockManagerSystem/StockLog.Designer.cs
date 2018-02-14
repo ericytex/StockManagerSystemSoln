@@ -29,75 +29,75 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
-            this.lblRegisterPatient = new System.Windows.Forms.Label();
+            this.labelCloseLogStockForm = new System.Windows.Forms.Label();
+            this.lableRegisterPatient = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.txtSupplierID = new System.Windows.Forms.TextBox();
+            this.textboxSupplierID = new System.Windows.Forms.TextBox();
             this.panel14 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
+            this.labelSUpplierID = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.txtSupplierName = new System.Windows.Forms.TextBox();
+            this.textboxSupplierName = new System.Windows.Forms.TextBox();
             this.panel7 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
+            this.labelSupplierName = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.txtItemIdSerial = new System.Windows.Forms.TextBox();
+            this.textboxItemIdSerial = new System.Windows.Forms.TextBox();
             this.panel11 = new System.Windows.Forms.Panel();
             this.panel12 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
+            this.labelItemIDSerial = new System.Windows.Forms.Label();
             this.panel13 = new System.Windows.Forms.Panel();
             this.panel15 = new System.Windows.Forms.Panel();
-            this.txtQuantityProcured = new System.Windows.Forms.TextBox();
+            this.textboxQuantityProcured = new System.Windows.Forms.TextBox();
             this.panel16 = new System.Windows.Forms.Panel();
             this.panel17 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
+            this.labelQuantityProcured = new System.Windows.Forms.Label();
             this.panel18 = new System.Windows.Forms.Panel();
             this.panel19 = new System.Windows.Forms.Panel();
-            this.txtItemName = new System.Windows.Forms.TextBox();
+            this.textboxItemName = new System.Windows.Forms.TextBox();
             this.panel20 = new System.Windows.Forms.Panel();
             this.panel21 = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
+            this.labelItemName = new System.Windows.Forms.Label();
             this.panel22 = new System.Windows.Forms.Panel();
             this.panel23 = new System.Windows.Forms.Panel();
-            this.txtSubitemName = new System.Windows.Forms.TextBox();
+            this.textboxSubitemName = new System.Windows.Forms.TextBox();
             this.panel24 = new System.Windows.Forms.Panel();
             this.panel25 = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
+            this.labelSubitemName = new System.Windows.Forms.Label();
             this.panel26 = new System.Windows.Forms.Panel();
             this.panel27 = new System.Windows.Forms.Panel();
             this.dateProcuredDate = new System.Windows.Forms.DateTimePicker();
             this.panel28 = new System.Windows.Forms.Panel();
             this.panel29 = new System.Windows.Forms.Panel();
-            this.label9 = new System.Windows.Forms.Label();
+            this.labelProcuredDate = new System.Windows.Forms.Label();
             this.panel30 = new System.Windows.Forms.Panel();
             this.panel31 = new System.Windows.Forms.Panel();
             this.dateLoggedDate = new System.Windows.Forms.DateTimePicker();
             this.panel32 = new System.Windows.Forms.Panel();
             this.panel33 = new System.Windows.Forms.Panel();
-            this.label10 = new System.Windows.Forms.Label();
+            this.labelLoggedDate = new System.Windows.Forms.Label();
             this.panel34 = new System.Windows.Forms.Panel();
             this.panel35 = new System.Windows.Forms.Panel();
             this.dateModifiedDate = new System.Windows.Forms.DateTimePicker();
             this.panel36 = new System.Windows.Forms.Panel();
             this.panel37 = new System.Windows.Forms.Panel();
-            this.label11 = new System.Windows.Forms.Label();
+            this.labelModifiedDate = new System.Windows.Forms.Label();
             this.panel38 = new System.Windows.Forms.Panel();
             this.panel39 = new System.Windows.Forms.Panel();
-            this.txtItemSize = new System.Windows.Forms.TextBox();
+            this.textboxItemSize = new System.Windows.Forms.TextBox();
             this.panel40 = new System.Windows.Forms.Panel();
             this.panel41 = new System.Windows.Forms.Panel();
-            this.label12 = new System.Windows.Forms.Label();
+            this.labelItemSize = new System.Windows.Forms.Label();
             this.panel42 = new System.Windows.Forms.Panel();
             this.panel48 = new System.Windows.Forms.Panel();
             this.panel47 = new System.Windows.Forms.Panel();
-            this.btnSaveItem = new System.Windows.Forms.Button();
+            this.buttonSaveStock = new System.Windows.Forms.Button();
             this.panel46 = new System.Windows.Forms.Panel();
             this.panel44 = new System.Windows.Forms.Panel();
-            this.btnDeleteItem = new System.Windows.Forms.Button();
+            this.buttonCancel = new System.Windows.Forms.Button();
             this.panel43 = new System.Windows.Forms.Panel();
             this.panel45 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
@@ -139,36 +139,36 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Silver;
-            this.panel1.Controls.Add(this.label7);
-            this.panel1.Controls.Add(this.lblRegisterPatient);
+            this.panel1.Controls.Add(this.labelCloseLogStockForm);
+            this.panel1.Controls.Add(this.lableRegisterPatient);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(657, 41);
             this.panel1.TabIndex = 5;
             // 
-            // label7
+            // labelCloseLogStockForm
             // 
-            this.label7.AutoSize = true;
-            this.label7.Dock = System.Windows.Forms.DockStyle.Right;
-            this.label7.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(637, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(20, 21);
-            this.label7.TabIndex = 3;
-            this.label7.Text = "X";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
+            this.labelCloseLogStockForm.AutoSize = true;
+            this.labelCloseLogStockForm.Dock = System.Windows.Forms.DockStyle.Right;
+            this.labelCloseLogStockForm.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelCloseLogStockForm.Location = new System.Drawing.Point(637, 0);
+            this.labelCloseLogStockForm.Name = "labelCloseLogStockForm";
+            this.labelCloseLogStockForm.Size = new System.Drawing.Size(20, 21);
+            this.labelCloseLogStockForm.TabIndex = 4;
+            this.labelCloseLogStockForm.Text = "X";
+            this.labelCloseLogStockForm.Click += new System.EventHandler(this.labelCloseLogStockForm_Click);
             // 
-            // lblRegisterPatient
+            // lableRegisterPatient
             // 
-            this.lblRegisterPatient.AutoSize = true;
-            this.lblRegisterPatient.Dock = System.Windows.Forms.DockStyle.Left;
-            this.lblRegisterPatient.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRegisterPatient.Location = new System.Drawing.Point(0, 0);
-            this.lblRegisterPatient.Name = "lblRegisterPatient";
-            this.lblRegisterPatient.Size = new System.Drawing.Size(83, 21);
-            this.lblRegisterPatient.TabIndex = 2;
-            this.lblRegisterPatient.Text = "Log Stock";
+            this.lableRegisterPatient.AutoSize = true;
+            this.lableRegisterPatient.Dock = System.Windows.Forms.DockStyle.Left;
+            this.lableRegisterPatient.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lableRegisterPatient.Location = new System.Drawing.Point(0, 0);
+            this.lableRegisterPatient.Name = "lableRegisterPatient";
+            this.lableRegisterPatient.Size = new System.Drawing.Size(83, 21);
+            this.lableRegisterPatient.TabIndex = 2;
+            this.lableRegisterPatient.Text = "Log Stock";
             // 
             // panel2
             // 
@@ -183,20 +183,20 @@
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.txtSupplierID);
+            this.panel3.Controls.Add(this.textboxSupplierID);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(107, 0);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(367, 45);
             this.panel3.TabIndex = 3;
             // 
-            // txtSupplierID
+            // textboxSupplierID
             // 
-            this.txtSupplierID.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.txtSupplierID.Location = new System.Drawing.Point(0, 16);
-            this.txtSupplierID.Name = "txtSupplierID";
-            this.txtSupplierID.Size = new System.Drawing.Size(367, 29);
-            this.txtSupplierID.TabIndex = 2;
+            this.textboxSupplierID.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.textboxSupplierID.Location = new System.Drawing.Point(0, 16);
+            this.textboxSupplierID.Name = "textboxSupplierID";
+            this.textboxSupplierID.Size = new System.Drawing.Size(367, 29);
+            this.textboxSupplierID.TabIndex = 2;
             // 
             // panel14
             // 
@@ -208,22 +208,22 @@
             // 
             // panel4
             // 
-            this.panel4.Controls.Add(this.label1);
+            this.panel4.Controls.Add(this.labelSUpplierID);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel4.Location = new System.Drawing.Point(0, 0);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(107, 45);
             this.panel4.TabIndex = 1;
             // 
-            // label1
+            // labelSUpplierID
             // 
-            this.label1.AutoSize = true;
-            this.label1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label1.Location = new System.Drawing.Point(0, 24);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(94, 21);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Supplier ID :";
+            this.labelSUpplierID.AutoSize = true;
+            this.labelSUpplierID.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.labelSUpplierID.Location = new System.Drawing.Point(0, 24);
+            this.labelSUpplierID.Name = "labelSUpplierID";
+            this.labelSUpplierID.Size = new System.Drawing.Size(94, 21);
+            this.labelSUpplierID.TabIndex = 0;
+            this.labelSUpplierID.Text = "Supplier ID :";
             // 
             // panel5
             // 
@@ -238,20 +238,20 @@
             // 
             // panel6
             // 
-            this.panel6.Controls.Add(this.txtSupplierName);
+            this.panel6.Controls.Add(this.textboxSupplierName);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel6.Location = new System.Drawing.Point(126, 0);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(499, 45);
             this.panel6.TabIndex = 3;
             // 
-            // txtSupplierName
+            // textboxSupplierName
             // 
-            this.txtSupplierName.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.txtSupplierName.Location = new System.Drawing.Point(0, 16);
-            this.txtSupplierName.Name = "txtSupplierName";
-            this.txtSupplierName.Size = new System.Drawing.Size(499, 29);
-            this.txtSupplierName.TabIndex = 2;
+            this.textboxSupplierName.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.textboxSupplierName.Location = new System.Drawing.Point(0, 16);
+            this.textboxSupplierName.Name = "textboxSupplierName";
+            this.textboxSupplierName.Size = new System.Drawing.Size(499, 29);
+            this.textboxSupplierName.TabIndex = 2;
             // 
             // panel7
             // 
@@ -263,22 +263,22 @@
             // 
             // panel8
             // 
-            this.panel8.Controls.Add(this.label3);
+            this.panel8.Controls.Add(this.labelSupplierName);
             this.panel8.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel8.Location = new System.Drawing.Point(0, 0);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(126, 45);
             this.panel8.TabIndex = 1;
             // 
-            // label3
+            // labelSupplierName
             // 
-            this.label3.AutoSize = true;
-            this.label3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label3.Location = new System.Drawing.Point(0, 24);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(121, 21);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Supplier Name :";
+            this.labelSupplierName.AutoSize = true;
+            this.labelSupplierName.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.labelSupplierName.Location = new System.Drawing.Point(0, 24);
+            this.labelSupplierName.Name = "labelSupplierName";
+            this.labelSupplierName.Size = new System.Drawing.Size(121, 21);
+            this.labelSupplierName.TabIndex = 0;
+            this.labelSupplierName.Text = "Supplier Name :";
             // 
             // panel9
             // 
@@ -293,20 +293,20 @@
             // 
             // panel10
             // 
-            this.panel10.Controls.Add(this.txtItemIdSerial);
+            this.panel10.Controls.Add(this.textboxItemIdSerial);
             this.panel10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel10.Location = new System.Drawing.Point(120, 0);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(505, 45);
             this.panel10.TabIndex = 3;
             // 
-            // txtItemIdSerial
+            // textboxItemIdSerial
             // 
-            this.txtItemIdSerial.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.txtItemIdSerial.Location = new System.Drawing.Point(0, 16);
-            this.txtItemIdSerial.Name = "txtItemIdSerial";
-            this.txtItemIdSerial.Size = new System.Drawing.Size(505, 29);
-            this.txtItemIdSerial.TabIndex = 2;
+            this.textboxItemIdSerial.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.textboxItemIdSerial.Location = new System.Drawing.Point(0, 16);
+            this.textboxItemIdSerial.Name = "textboxItemIdSerial";
+            this.textboxItemIdSerial.Size = new System.Drawing.Size(505, 29);
+            this.textboxItemIdSerial.TabIndex = 2;
             // 
             // panel11
             // 
@@ -318,22 +318,22 @@
             // 
             // panel12
             // 
-            this.panel12.Controls.Add(this.label4);
+            this.panel12.Controls.Add(this.labelItemIDSerial);
             this.panel12.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel12.Location = new System.Drawing.Point(0, 0);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(120, 45);
             this.panel12.TabIndex = 1;
             // 
-            // label4
+            // labelItemIDSerial
             // 
-            this.label4.AutoSize = true;
-            this.label4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label4.Location = new System.Drawing.Point(0, 24);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(116, 21);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Item ID/ Serial :";
+            this.labelItemIDSerial.AutoSize = true;
+            this.labelItemIDSerial.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.labelItemIDSerial.Location = new System.Drawing.Point(0, 24);
+            this.labelItemIDSerial.Name = "labelItemIDSerial";
+            this.labelItemIDSerial.Size = new System.Drawing.Size(116, 21);
+            this.labelItemIDSerial.TabIndex = 0;
+            this.labelItemIDSerial.Text = "Item ID/ Serial :";
             // 
             // panel13
             // 
@@ -348,20 +348,20 @@
             // 
             // panel15
             // 
-            this.panel15.Controls.Add(this.txtQuantityProcured);
+            this.panel15.Controls.Add(this.textboxQuantityProcured);
             this.panel15.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel15.Location = new System.Drawing.Point(146, 0);
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(479, 45);
             this.panel15.TabIndex = 3;
             // 
-            // txtQuantityProcured
+            // textboxQuantityProcured
             // 
-            this.txtQuantityProcured.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.txtQuantityProcured.Location = new System.Drawing.Point(0, 16);
-            this.txtQuantityProcured.Name = "txtQuantityProcured";
-            this.txtQuantityProcured.Size = new System.Drawing.Size(479, 29);
-            this.txtQuantityProcured.TabIndex = 2;
+            this.textboxQuantityProcured.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.textboxQuantityProcured.Location = new System.Drawing.Point(0, 16);
+            this.textboxQuantityProcured.Name = "textboxQuantityProcured";
+            this.textboxQuantityProcured.Size = new System.Drawing.Size(479, 29);
+            this.textboxQuantityProcured.TabIndex = 2;
             // 
             // panel16
             // 
@@ -373,22 +373,22 @@
             // 
             // panel17
             // 
-            this.panel17.Controls.Add(this.label5);
+            this.panel17.Controls.Add(this.labelQuantityProcured);
             this.panel17.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel17.Location = new System.Drawing.Point(0, 0);
             this.panel17.Name = "panel17";
             this.panel17.Size = new System.Drawing.Size(146, 45);
             this.panel17.TabIndex = 1;
             // 
-            // label5
+            // labelQuantityProcured
             // 
-            this.label5.AutoSize = true;
-            this.label5.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label5.Location = new System.Drawing.Point(0, 24);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(144, 21);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "Quantity Procured :";
+            this.labelQuantityProcured.AutoSize = true;
+            this.labelQuantityProcured.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.labelQuantityProcured.Location = new System.Drawing.Point(0, 24);
+            this.labelQuantityProcured.Name = "labelQuantityProcured";
+            this.labelQuantityProcured.Size = new System.Drawing.Size(144, 21);
+            this.labelQuantityProcured.TabIndex = 0;
+            this.labelQuantityProcured.Text = "Quantity Procured :";
             // 
             // panel18
             // 
@@ -403,20 +403,20 @@
             // 
             // panel19
             // 
-            this.panel19.Controls.Add(this.txtItemName);
+            this.panel19.Controls.Add(this.textboxItemName);
             this.panel19.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel19.Location = new System.Drawing.Point(94, 0);
             this.panel19.Name = "panel19";
             this.panel19.Size = new System.Drawing.Size(531, 45);
             this.panel19.TabIndex = 3;
             // 
-            // txtItemName
+            // textboxItemName
             // 
-            this.txtItemName.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.txtItemName.Location = new System.Drawing.Point(0, 16);
-            this.txtItemName.Name = "txtItemName";
-            this.txtItemName.Size = new System.Drawing.Size(531, 29);
-            this.txtItemName.TabIndex = 2;
+            this.textboxItemName.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.textboxItemName.Location = new System.Drawing.Point(0, 16);
+            this.textboxItemName.Name = "textboxItemName";
+            this.textboxItemName.Size = new System.Drawing.Size(531, 29);
+            this.textboxItemName.TabIndex = 2;
             // 
             // panel20
             // 
@@ -428,22 +428,22 @@
             // 
             // panel21
             // 
-            this.panel21.Controls.Add(this.label6);
+            this.panel21.Controls.Add(this.labelItemName);
             this.panel21.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel21.Location = new System.Drawing.Point(0, 0);
             this.panel21.Name = "panel21";
             this.panel21.Size = new System.Drawing.Size(94, 45);
             this.panel21.TabIndex = 1;
             // 
-            // label6
+            // labelItemName
             // 
-            this.label6.AutoSize = true;
-            this.label6.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label6.Location = new System.Drawing.Point(0, 24);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(94, 21);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "Item Name :";
+            this.labelItemName.AutoSize = true;
+            this.labelItemName.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.labelItemName.Location = new System.Drawing.Point(0, 24);
+            this.labelItemName.Name = "labelItemName";
+            this.labelItemName.Size = new System.Drawing.Size(94, 21);
+            this.labelItemName.TabIndex = 0;
+            this.labelItemName.Text = "Item Name :";
             // 
             // panel22
             // 
@@ -458,20 +458,20 @@
             // 
             // panel23
             // 
-            this.panel23.Controls.Add(this.txtSubitemName);
+            this.panel23.Controls.Add(this.textboxSubitemName);
             this.panel23.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel23.Location = new System.Drawing.Point(126, 0);
             this.panel23.Name = "panel23";
             this.panel23.Size = new System.Drawing.Size(499, 45);
             this.panel23.TabIndex = 3;
             // 
-            // txtSubitemName
+            // textboxSubitemName
             // 
-            this.txtSubitemName.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.txtSubitemName.Location = new System.Drawing.Point(0, 16);
-            this.txtSubitemName.Name = "txtSubitemName";
-            this.txtSubitemName.Size = new System.Drawing.Size(499, 29);
-            this.txtSubitemName.TabIndex = 2;
+            this.textboxSubitemName.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.textboxSubitemName.Location = new System.Drawing.Point(0, 16);
+            this.textboxSubitemName.Name = "textboxSubitemName";
+            this.textboxSubitemName.Size = new System.Drawing.Size(499, 29);
+            this.textboxSubitemName.TabIndex = 2;
             // 
             // panel24
             // 
@@ -483,22 +483,22 @@
             // 
             // panel25
             // 
-            this.panel25.Controls.Add(this.label8);
+            this.panel25.Controls.Add(this.labelSubitemName);
             this.panel25.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel25.Location = new System.Drawing.Point(0, 0);
             this.panel25.Name = "panel25";
             this.panel25.Size = new System.Drawing.Size(126, 45);
             this.panel25.TabIndex = 1;
             // 
-            // label8
+            // labelSubitemName
             // 
-            this.label8.AutoSize = true;
-            this.label8.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label8.Location = new System.Drawing.Point(0, 24);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(121, 21);
-            this.label8.TabIndex = 0;
-            this.label8.Text = "SubItem Name :";
+            this.labelSubitemName.AutoSize = true;
+            this.labelSubitemName.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.labelSubitemName.Location = new System.Drawing.Point(0, 24);
+            this.labelSubitemName.Name = "labelSubitemName";
+            this.labelSubitemName.Size = new System.Drawing.Size(121, 21);
+            this.labelSubitemName.TabIndex = 0;
+            this.labelSubitemName.Text = "SubItem Name :";
             // 
             // panel26
             // 
@@ -539,22 +539,22 @@
             // 
             // panel29
             // 
-            this.panel29.Controls.Add(this.label9);
+            this.panel29.Controls.Add(this.labelProcuredDate);
             this.panel29.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel29.Location = new System.Drawing.Point(0, 0);
             this.panel29.Name = "panel29";
             this.panel29.Size = new System.Drawing.Size(126, 45);
             this.panel29.TabIndex = 1;
             // 
-            // label9
+            // labelProcuredDate
             // 
-            this.label9.AutoSize = true;
-            this.label9.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label9.Location = new System.Drawing.Point(0, 24);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(116, 21);
-            this.label9.TabIndex = 0;
-            this.label9.Text = "Procured Date :";
+            this.labelProcuredDate.AutoSize = true;
+            this.labelProcuredDate.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.labelProcuredDate.Location = new System.Drawing.Point(0, 24);
+            this.labelProcuredDate.Name = "labelProcuredDate";
+            this.labelProcuredDate.Size = new System.Drawing.Size(116, 21);
+            this.labelProcuredDate.TabIndex = 0;
+            this.labelProcuredDate.Text = "Procured Date :";
             // 
             // panel30
             // 
@@ -595,22 +595,22 @@
             // 
             // panel33
             // 
-            this.panel33.Controls.Add(this.label10);
+            this.panel33.Controls.Add(this.labelLoggedDate);
             this.panel33.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel33.Location = new System.Drawing.Point(0, 0);
             this.panel33.Name = "panel33";
             this.panel33.Size = new System.Drawing.Size(107, 45);
             this.panel33.TabIndex = 1;
             // 
-            // label10
+            // labelLoggedDate
             // 
-            this.label10.AutoSize = true;
-            this.label10.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label10.Location = new System.Drawing.Point(0, 24);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(105, 21);
-            this.label10.TabIndex = 0;
-            this.label10.Text = "Logged Date :";
+            this.labelLoggedDate.AutoSize = true;
+            this.labelLoggedDate.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.labelLoggedDate.Location = new System.Drawing.Point(0, 24);
+            this.labelLoggedDate.Name = "labelLoggedDate";
+            this.labelLoggedDate.Size = new System.Drawing.Size(105, 21);
+            this.labelLoggedDate.TabIndex = 0;
+            this.labelLoggedDate.Text = "Logged Date :";
             // 
             // panel34
             // 
@@ -651,22 +651,22 @@
             // 
             // panel37
             // 
-            this.panel37.Controls.Add(this.label11);
+            this.panel37.Controls.Add(this.labelModifiedDate);
             this.panel37.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel37.Location = new System.Drawing.Point(0, 0);
             this.panel37.Name = "panel37";
             this.panel37.Size = new System.Drawing.Size(116, 45);
             this.panel37.TabIndex = 1;
             // 
-            // label11
+            // labelModifiedDate
             // 
-            this.label11.AutoSize = true;
-            this.label11.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label11.Location = new System.Drawing.Point(0, 24);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(115, 21);
-            this.label11.TabIndex = 0;
-            this.label11.Text = "Modified Date :";
+            this.labelModifiedDate.AutoSize = true;
+            this.labelModifiedDate.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.labelModifiedDate.Location = new System.Drawing.Point(0, 24);
+            this.labelModifiedDate.Name = "labelModifiedDate";
+            this.labelModifiedDate.Size = new System.Drawing.Size(115, 21);
+            this.labelModifiedDate.TabIndex = 0;
+            this.labelModifiedDate.Text = "Modified Date :";
             // 
             // panel38
             // 
@@ -681,20 +681,20 @@
             // 
             // panel39
             // 
-            this.panel39.Controls.Add(this.txtItemSize);
+            this.panel39.Controls.Add(this.textboxItemSize);
             this.panel39.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel39.Location = new System.Drawing.Point(94, 0);
             this.panel39.Name = "panel39";
             this.panel39.Size = new System.Drawing.Size(531, 45);
             this.panel39.TabIndex = 3;
             // 
-            // txtItemSize
+            // textboxItemSize
             // 
-            this.txtItemSize.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.txtItemSize.Location = new System.Drawing.Point(0, 16);
-            this.txtItemSize.Name = "txtItemSize";
-            this.txtItemSize.Size = new System.Drawing.Size(531, 29);
-            this.txtItemSize.TabIndex = 2;
+            this.textboxItemSize.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.textboxItemSize.Location = new System.Drawing.Point(0, 16);
+            this.textboxItemSize.Name = "textboxItemSize";
+            this.textboxItemSize.Size = new System.Drawing.Size(531, 29);
+            this.textboxItemSize.TabIndex = 2;
             // 
             // panel40
             // 
@@ -706,22 +706,22 @@
             // 
             // panel41
             // 
-            this.panel41.Controls.Add(this.label12);
+            this.panel41.Controls.Add(this.labelItemSize);
             this.panel41.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel41.Location = new System.Drawing.Point(0, 0);
             this.panel41.Name = "panel41";
             this.panel41.Size = new System.Drawing.Size(94, 45);
             this.panel41.TabIndex = 1;
             // 
-            // label12
+            // labelItemSize
             // 
-            this.label12.AutoSize = true;
-            this.label12.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label12.Location = new System.Drawing.Point(0, 24);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(80, 21);
-            this.label12.TabIndex = 0;
-            this.label12.Text = "Item Size :";
+            this.labelItemSize.AutoSize = true;
+            this.labelItemSize.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.labelItemSize.Location = new System.Drawing.Point(0, 24);
+            this.labelItemSize.Name = "labelItemSize";
+            this.labelItemSize.Size = new System.Drawing.Size(80, 21);
+            this.labelItemSize.TabIndex = 0;
+            this.labelItemSize.Text = "Item Size :";
             // 
             // panel42
             // 
@@ -746,27 +746,27 @@
             // 
             // panel47
             // 
-            this.panel47.Controls.Add(this.btnSaveItem);
+            this.panel47.Controls.Add(this.buttonSaveStock);
             this.panel47.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel47.Location = new System.Drawing.Point(393, 0);
             this.panel47.Name = "panel47";
             this.panel47.Size = new System.Drawing.Size(232, 62);
             this.panel47.TabIndex = 3;
             // 
-            // btnSaveItem
+            // buttonSaveStock
             // 
-            this.btnSaveItem.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.btnSaveItem.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.btnSaveItem.FlatAppearance.BorderSize = 0;
-            this.btnSaveItem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSaveItem.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSaveItem.ForeColor = System.Drawing.Color.White;
-            this.btnSaveItem.Location = new System.Drawing.Point(0, 24);
-            this.btnSaveItem.Name = "btnSaveItem";
-            this.btnSaveItem.Size = new System.Drawing.Size(232, 38);
-            this.btnSaveItem.TabIndex = 18;
-            this.btnSaveItem.Text = "Save Item";
-            this.btnSaveItem.UseVisualStyleBackColor = false;
+            this.buttonSaveStock.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.buttonSaveStock.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.buttonSaveStock.FlatAppearance.BorderSize = 0;
+            this.buttonSaveStock.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonSaveStock.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonSaveStock.ForeColor = System.Drawing.Color.White;
+            this.buttonSaveStock.Location = new System.Drawing.Point(0, 24);
+            this.buttonSaveStock.Name = "buttonSaveStock";
+            this.buttonSaveStock.Size = new System.Drawing.Size(232, 38);
+            this.buttonSaveStock.TabIndex = 18;
+            this.buttonSaveStock.Text = "Save Stock";
+            this.buttonSaveStock.UseVisualStyleBackColor = false;
             // 
             // panel46
             // 
@@ -778,27 +778,27 @@
             // 
             // panel44
             // 
-            this.panel44.Controls.Add(this.btnDeleteItem);
+            this.panel44.Controls.Add(this.buttonCancel);
             this.panel44.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel44.Location = new System.Drawing.Point(71, 0);
             this.panel44.Name = "panel44";
             this.panel44.Size = new System.Drawing.Size(233, 62);
             this.panel44.TabIndex = 1;
             // 
-            // btnDeleteItem
+            // buttonCancel
             // 
-            this.btnDeleteItem.BackColor = System.Drawing.Color.Silver;
-            this.btnDeleteItem.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.btnDeleteItem.FlatAppearance.BorderSize = 0;
-            this.btnDeleteItem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDeleteItem.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDeleteItem.ForeColor = System.Drawing.Color.White;
-            this.btnDeleteItem.Location = new System.Drawing.Point(0, 24);
-            this.btnDeleteItem.Name = "btnDeleteItem";
-            this.btnDeleteItem.Size = new System.Drawing.Size(233, 38);
-            this.btnDeleteItem.TabIndex = 16;
-            this.btnDeleteItem.Text = "Delete Item";
-            this.btnDeleteItem.UseVisualStyleBackColor = false;
+            this.buttonCancel.BackColor = System.Drawing.Color.Silver;
+            this.buttonCancel.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.buttonCancel.FlatAppearance.BorderSize = 0;
+            this.buttonCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonCancel.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonCancel.ForeColor = System.Drawing.Color.White;
+            this.buttonCancel.Location = new System.Drawing.Point(0, 24);
+            this.buttonCancel.Name = "buttonCancel";
+            this.buttonCancel.Size = new System.Drawing.Size(233, 38);
+            this.buttonCancel.TabIndex = 16;
+            this.buttonCancel.Text = "Cancel";
+            this.buttonCancel.UseVisualStyleBackColor = false;
             // 
             // panel43
             // 
@@ -899,76 +899,76 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label lblRegisterPatient;
+        private System.Windows.Forms.Label lableRegisterPatient;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.TextBox txtSupplierID;
+        private System.Windows.Forms.TextBox textboxSupplierID;
         private System.Windows.Forms.Panel panel14;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label labelSUpplierID;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.TextBox txtSupplierName;
+        private System.Windows.Forms.TextBox textboxSupplierName;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label labelSupplierName;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.TextBox txtItemIdSerial;
+        private System.Windows.Forms.TextBox textboxItemIdSerial;
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Panel panel12;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label labelItemIDSerial;
         private System.Windows.Forms.Panel panel13;
         private System.Windows.Forms.Panel panel15;
-        private System.Windows.Forms.TextBox txtQuantityProcured;
+        private System.Windows.Forms.TextBox textboxQuantityProcured;
         private System.Windows.Forms.Panel panel16;
         private System.Windows.Forms.Panel panel17;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label labelQuantityProcured;
         private System.Windows.Forms.Panel panel18;
         private System.Windows.Forms.Panel panel19;
-        private System.Windows.Forms.TextBox txtItemName;
+        private System.Windows.Forms.TextBox textboxItemName;
         private System.Windows.Forms.Panel panel20;
         private System.Windows.Forms.Panel panel21;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label labelItemName;
         private System.Windows.Forms.Panel panel22;
         private System.Windows.Forms.Panel panel23;
-        private System.Windows.Forms.TextBox txtSubitemName;
+        private System.Windows.Forms.TextBox textboxSubitemName;
         private System.Windows.Forms.Panel panel24;
         private System.Windows.Forms.Panel panel25;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label labelSubitemName;
         private System.Windows.Forms.Panel panel26;
         private System.Windows.Forms.Panel panel27;
         private System.Windows.Forms.Panel panel28;
         private System.Windows.Forms.Panel panel29;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label labelProcuredDate;
         private System.Windows.Forms.Panel panel30;
         private System.Windows.Forms.Panel panel31;
         private System.Windows.Forms.Panel panel32;
         private System.Windows.Forms.Panel panel33;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label labelLoggedDate;
         private System.Windows.Forms.Panel panel34;
         private System.Windows.Forms.Panel panel35;
         private System.Windows.Forms.Panel panel36;
         private System.Windows.Forms.Panel panel37;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label labelModifiedDate;
         private System.Windows.Forms.Panel panel38;
         private System.Windows.Forms.Panel panel39;
-        private System.Windows.Forms.TextBox txtItemSize;
+        private System.Windows.Forms.TextBox textboxItemSize;
         private System.Windows.Forms.Panel panel40;
         private System.Windows.Forms.Panel panel41;
-        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label labelItemSize;
         private System.Windows.Forms.Panel panel42;
         private System.Windows.Forms.Panel panel48;
         private System.Windows.Forms.Panel panel47;
         private System.Windows.Forms.Panel panel46;
         private System.Windows.Forms.Panel panel44;
         private System.Windows.Forms.Panel panel43;
-        private System.Windows.Forms.Button btnDeleteItem;
-        private System.Windows.Forms.Button btnSaveItem;
+        private System.Windows.Forms.Button buttonCancel;
+        private System.Windows.Forms.Button buttonSaveStock;
         private System.Windows.Forms.Panel panel45;
         private System.Windows.Forms.DateTimePicker dateProcuredDate;
         private System.Windows.Forms.DateTimePicker dateLoggedDate;
         private System.Windows.Forms.DateTimePicker dateModifiedDate;
+        private System.Windows.Forms.Label labelCloseLogStockForm;
     }
 }

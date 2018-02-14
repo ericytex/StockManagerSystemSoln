@@ -29,38 +29,38 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.labelCreateNewUser = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBoxUserName = new System.Windows.Forms.TextBox();
             this.panel14 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
+            this.labelUserName = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBoxPassword = new System.Windows.Forms.TextBox();
             this.panel15 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
+            this.labelPassword = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBoxEmail = new System.Windows.Forms.TextBox();
             this.panel16 = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
+            this.labelEmail = new System.Windows.Forms.Label();
             this.panel11 = new System.Windows.Forms.Panel();
+            this.checkBoxNormalUser = new System.Windows.Forms.CheckBox();
+            this.checkBoxAdministrator = new System.Windows.Forms.CheckBox();
             this.panel47 = new System.Windows.Forms.Panel();
             this.panel48 = new System.Windows.Forms.Panel();
             this.panel49 = new System.Windows.Forms.Panel();
-            this.btnSaveItem = new System.Windows.Forms.Button();
+            this.buttonSaveUser = new System.Windows.Forms.Button();
             this.panel50 = new System.Windows.Forms.Panel();
             this.panel51 = new System.Windows.Forms.Panel();
-            this.btnDeleteItem = new System.Windows.Forms.Button();
+            this.buttonClear = new System.Windows.Forms.Button();
             this.panel52 = new System.Windows.Forms.Panel();
             this.panel12 = new System.Windows.Forms.Panel();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.labelCloseCreateNewUserForm = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -80,36 +80,24 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Silver;
-            this.panel1.Controls.Add(this.label7);
-            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.labelCloseCreateNewUserForm);
+            this.panel1.Controls.Add(this.labelCreateNewUser);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(657, 41);
             this.panel1.TabIndex = 4;
             // 
-            // label7
+            // labelCreateNewUser
             // 
-            this.label7.AutoSize = true;
-            this.label7.Dock = System.Windows.Forms.DockStyle.Right;
-            this.label7.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(637, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(20, 21);
-            this.label7.TabIndex = 3;
-            this.label7.Text = "X";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(0, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(140, 21);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Create New User :";
+            this.labelCreateNewUser.AutoSize = true;
+            this.labelCreateNewUser.Dock = System.Windows.Forms.DockStyle.Left;
+            this.labelCreateNewUser.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelCreateNewUser.Location = new System.Drawing.Point(0, 0);
+            this.labelCreateNewUser.Name = "labelCreateNewUser";
+            this.labelCreateNewUser.Size = new System.Drawing.Size(140, 21);
+            this.labelCreateNewUser.TabIndex = 2;
+            this.labelCreateNewUser.Text = "Create New User :";
             // 
             // panel2
             // 
@@ -124,20 +112,20 @@
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.textBox2);
+            this.panel3.Controls.Add(this.textBoxUserName);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(93, 0);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(495, 68);
             this.panel3.TabIndex = 3;
             // 
-            // textBox2
+            // textBoxUserName
             // 
-            this.textBox2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.textBox2.Location = new System.Drawing.Point(0, 39);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(495, 29);
-            this.textBox2.TabIndex = 2;
+            this.textBoxUserName.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.textBoxUserName.Location = new System.Drawing.Point(0, 39);
+            this.textBoxUserName.Name = "textBoxUserName";
+            this.textBoxUserName.Size = new System.Drawing.Size(495, 29);
+            this.textBoxUserName.TabIndex = 2;
             // 
             // panel14
             // 
@@ -149,22 +137,22 @@
             // 
             // panel4
             // 
-            this.panel4.Controls.Add(this.label1);
+            this.panel4.Controls.Add(this.labelUserName);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel4.Location = new System.Drawing.Point(0, 0);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(93, 68);
             this.panel4.TabIndex = 1;
             // 
-            // label1
+            // labelUserName
             // 
-            this.label1.AutoSize = true;
-            this.label1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label1.Location = new System.Drawing.Point(0, 47);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(88, 21);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Username :";
+            this.labelUserName.AutoSize = true;
+            this.labelUserName.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.labelUserName.Location = new System.Drawing.Point(0, 47);
+            this.labelUserName.Name = "labelUserName";
+            this.labelUserName.Size = new System.Drawing.Size(88, 21);
+            this.labelUserName.TabIndex = 0;
+            this.labelUserName.Text = "Username :";
             // 
             // panel5
             // 
@@ -179,20 +167,20 @@
             // 
             // panel6
             // 
-            this.panel6.Controls.Add(this.textBox1);
+            this.panel6.Controls.Add(this.textBoxPassword);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel6.Location = new System.Drawing.Point(93, 0);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(495, 65);
             this.panel6.TabIndex = 4;
             // 
-            // textBox1
+            // textBoxPassword
             // 
-            this.textBox1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.textBox1.Location = new System.Drawing.Point(0, 36);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(495, 29);
-            this.textBox1.TabIndex = 2;
+            this.textBoxPassword.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.textBoxPassword.Location = new System.Drawing.Point(0, 36);
+            this.textBoxPassword.Name = "textBoxPassword";
+            this.textBoxPassword.Size = new System.Drawing.Size(495, 29);
+            this.textBoxPassword.TabIndex = 2;
             // 
             // panel15
             // 
@@ -204,22 +192,22 @@
             // 
             // panel7
             // 
-            this.panel7.Controls.Add(this.label3);
+            this.panel7.Controls.Add(this.labelPassword);
             this.panel7.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel7.Location = new System.Drawing.Point(0, 0);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(93, 65);
             this.panel7.TabIndex = 1;
             // 
-            // label3
+            // labelPassword
             // 
-            this.label3.AutoSize = true;
-            this.label3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label3.Location = new System.Drawing.Point(0, 44);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(83, 21);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Password :";
+            this.labelPassword.AutoSize = true;
+            this.labelPassword.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.labelPassword.Location = new System.Drawing.Point(0, 44);
+            this.labelPassword.Name = "labelPassword";
+            this.labelPassword.Size = new System.Drawing.Size(83, 21);
+            this.labelPassword.TabIndex = 0;
+            this.labelPassword.Text = "Password :";
             // 
             // panel8
             // 
@@ -234,20 +222,20 @@
             // 
             // panel9
             // 
-            this.panel9.Controls.Add(this.textBox3);
+            this.panel9.Controls.Add(this.textBoxEmail);
             this.panel9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel9.Location = new System.Drawing.Point(93, 0);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(495, 66);
             this.panel9.TabIndex = 5;
             // 
-            // textBox3
+            // textBoxEmail
             // 
-            this.textBox3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.textBox3.Location = new System.Drawing.Point(0, 37);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(495, 29);
-            this.textBox3.TabIndex = 2;
+            this.textBoxEmail.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.textBoxEmail.Location = new System.Drawing.Point(0, 37);
+            this.textBoxEmail.Name = "textBoxEmail";
+            this.textBoxEmail.Size = new System.Drawing.Size(495, 29);
+            this.textBoxEmail.TabIndex = 2;
             // 
             // panel16
             // 
@@ -259,32 +247,52 @@
             // 
             // panel10
             // 
-            this.panel10.Controls.Add(this.label4);
+            this.panel10.Controls.Add(this.labelEmail);
             this.panel10.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel10.Location = new System.Drawing.Point(0, 0);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(93, 66);
             this.panel10.TabIndex = 1;
             // 
-            // label4
+            // labelEmail
             // 
-            this.label4.AutoSize = true;
-            this.label4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label4.Location = new System.Drawing.Point(0, 45);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(55, 21);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Email :";
+            this.labelEmail.AutoSize = true;
+            this.labelEmail.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.labelEmail.Location = new System.Drawing.Point(0, 45);
+            this.labelEmail.Name = "labelEmail";
+            this.labelEmail.Size = new System.Drawing.Size(55, 21);
+            this.labelEmail.TabIndex = 0;
+            this.labelEmail.Text = "Email :";
             // 
             // panel11
             // 
-            this.panel11.Controls.Add(this.checkBox2);
-            this.panel11.Controls.Add(this.checkBox1);
+            this.panel11.Controls.Add(this.checkBoxNormalUser);
+            this.panel11.Controls.Add(this.checkBoxAdministrator);
             this.panel11.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel11.Location = new System.Drawing.Point(0, 240);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(657, 44);
             this.panel11.TabIndex = 8;
+            // 
+            // checkBoxNormalUser
+            // 
+            this.checkBoxNormalUser.AutoSize = true;
+            this.checkBoxNormalUser.Location = new System.Drawing.Point(356, 18);
+            this.checkBoxNormalUser.Name = "checkBoxNormalUser";
+            this.checkBoxNormalUser.Size = new System.Drawing.Size(118, 25);
+            this.checkBoxNormalUser.TabIndex = 3;
+            this.checkBoxNormalUser.Text = "Normal User";
+            this.checkBoxNormalUser.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxAdministrator
+            // 
+            this.checkBoxAdministrator.AutoSize = true;
+            this.checkBoxAdministrator.Location = new System.Drawing.Point(175, 18);
+            this.checkBoxAdministrator.Name = "checkBoxAdministrator";
+            this.checkBoxAdministrator.Size = new System.Drawing.Size(125, 25);
+            this.checkBoxAdministrator.TabIndex = 2;
+            this.checkBoxAdministrator.Text = "Administrator";
+            this.checkBoxAdministrator.UseVisualStyleBackColor = true;
             // 
             // panel47
             // 
@@ -309,27 +317,27 @@
             // 
             // panel49
             // 
-            this.panel49.Controls.Add(this.btnSaveItem);
+            this.panel49.Controls.Add(this.buttonSaveUser);
             this.panel49.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel49.Location = new System.Drawing.Point(390, 0);
             this.panel49.Name = "panel49";
             this.panel49.Size = new System.Drawing.Size(162, 39);
             this.panel49.TabIndex = 3;
             // 
-            // btnSaveItem
+            // buttonSaveUser
             // 
-            this.btnSaveItem.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.btnSaveItem.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.btnSaveItem.FlatAppearance.BorderSize = 0;
-            this.btnSaveItem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSaveItem.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSaveItem.ForeColor = System.Drawing.Color.White;
-            this.btnSaveItem.Location = new System.Drawing.Point(0, 1);
-            this.btnSaveItem.Name = "btnSaveItem";
-            this.btnSaveItem.Size = new System.Drawing.Size(162, 38);
-            this.btnSaveItem.TabIndex = 18;
-            this.btnSaveItem.Text = "Save User";
-            this.btnSaveItem.UseVisualStyleBackColor = false;
+            this.buttonSaveUser.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.buttonSaveUser.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.buttonSaveUser.FlatAppearance.BorderSize = 0;
+            this.buttonSaveUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonSaveUser.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonSaveUser.ForeColor = System.Drawing.Color.White;
+            this.buttonSaveUser.Location = new System.Drawing.Point(0, 1);
+            this.buttonSaveUser.Name = "buttonSaveUser";
+            this.buttonSaveUser.Size = new System.Drawing.Size(162, 38);
+            this.buttonSaveUser.TabIndex = 18;
+            this.buttonSaveUser.Text = "Save User";
+            this.buttonSaveUser.UseVisualStyleBackColor = false;
             // 
             // panel50
             // 
@@ -341,27 +349,27 @@
             // 
             // panel51
             // 
-            this.panel51.Controls.Add(this.btnDeleteItem);
+            this.panel51.Controls.Add(this.buttonClear);
             this.panel51.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel51.Location = new System.Drawing.Point(109, 0);
             this.panel51.Name = "panel51";
             this.panel51.Size = new System.Drawing.Size(159, 39);
             this.panel51.TabIndex = 1;
             // 
-            // btnDeleteItem
+            // buttonClear
             // 
-            this.btnDeleteItem.BackColor = System.Drawing.Color.Silver;
-            this.btnDeleteItem.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.btnDeleteItem.FlatAppearance.BorderSize = 0;
-            this.btnDeleteItem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDeleteItem.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDeleteItem.ForeColor = System.Drawing.Color.White;
-            this.btnDeleteItem.Location = new System.Drawing.Point(0, 1);
-            this.btnDeleteItem.Name = "btnDeleteItem";
-            this.btnDeleteItem.Size = new System.Drawing.Size(159, 38);
-            this.btnDeleteItem.TabIndex = 16;
-            this.btnDeleteItem.Text = "Clear";
-            this.btnDeleteItem.UseVisualStyleBackColor = false;
+            this.buttonClear.BackColor = System.Drawing.Color.Silver;
+            this.buttonClear.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.buttonClear.FlatAppearance.BorderSize = 0;
+            this.buttonClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonClear.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonClear.ForeColor = System.Drawing.Color.White;
+            this.buttonClear.Location = new System.Drawing.Point(0, 1);
+            this.buttonClear.Name = "buttonClear";
+            this.buttonClear.Size = new System.Drawing.Size(159, 38);
+            this.buttonClear.TabIndex = 16;
+            this.buttonClear.Text = "Clear";
+            this.buttonClear.UseVisualStyleBackColor = false;
             // 
             // panel52
             // 
@@ -379,25 +387,16 @@
             this.panel12.Size = new System.Drawing.Size(657, 26);
             this.panel12.TabIndex = 23;
             // 
-            // checkBox2
+            // labelCloseCreateNewUserForm
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(356, 18);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(118, 25);
-            this.checkBox2.TabIndex = 3;
-            this.checkBox2.Text = "Normal User";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(175, 18);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(125, 25);
-            this.checkBox1.TabIndex = 2;
-            this.checkBox1.Text = "Administrator";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.labelCloseCreateNewUserForm.AutoSize = true;
+            this.labelCloseCreateNewUserForm.Dock = System.Windows.Forms.DockStyle.Right;
+            this.labelCloseCreateNewUserForm.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelCloseCreateNewUserForm.Location = new System.Drawing.Point(637, 0);
+            this.labelCloseCreateNewUserForm.Name = "labelCloseCreateNewUserForm";
+            this.labelCloseCreateNewUserForm.Size = new System.Drawing.Size(20, 21);
+            this.labelCloseCreateNewUserForm.TabIndex = 3;
+            this.labelCloseCreateNewUserForm.Text = "X";
             // 
             // CreateNewUser
             // 
@@ -446,37 +445,37 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label labelCreateNewUser;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBoxUserName;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label labelUserName;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label labelPassword;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label labelEmail;
         private System.Windows.Forms.Panel panel14;
         private System.Windows.Forms.Panel panel15;
         private System.Windows.Forms.Panel panel16;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBoxPassword;
         private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBoxEmail;
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Panel panel47;
         private System.Windows.Forms.Panel panel48;
         private System.Windows.Forms.Panel panel49;
-        private System.Windows.Forms.Button btnSaveItem;
+        private System.Windows.Forms.Button buttonSaveUser;
         private System.Windows.Forms.Panel panel50;
         private System.Windows.Forms.Panel panel51;
-        private System.Windows.Forms.Button btnDeleteItem;
+        private System.Windows.Forms.Button buttonClear;
         private System.Windows.Forms.Panel panel52;
         private System.Windows.Forms.Panel panel12;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox checkBoxNormalUser;
+        private System.Windows.Forms.CheckBox checkBoxAdministrator;
+        private System.Windows.Forms.Label labelCloseCreateNewUserForm;
     }
 }

@@ -29,53 +29,42 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.labelViewPatient = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.buttonSearchForPatient = new System.Windows.Forms.Button();
+            this.textBoxSearchForPatient = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dataGridViewViewPatient = new System.Windows.Forms.DataGridView();
+            this.labelCloseViewPatientsForm = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewViewPatient)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Silver;
-            this.panel1.Controls.Add(this.label7);
-            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.labelCloseViewPatientsForm);
+            this.panel1.Controls.Add(this.labelViewPatient);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(893, 41);
             this.panel1.TabIndex = 2;
             // 
-            // label7
+            // labelViewPatient
             // 
-            this.label7.AutoSize = true;
-            this.label7.Dock = System.Windows.Forms.DockStyle.Right;
-            this.label7.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(873, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(20, 21);
-            this.label7.TabIndex = 3;
-            this.label7.Text = "X";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(10, 12);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(100, 21);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "View Patient";
+            this.labelViewPatient.AutoSize = true;
+            this.labelViewPatient.Dock = System.Windows.Forms.DockStyle.Left;
+            this.labelViewPatient.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelViewPatient.Location = new System.Drawing.Point(0, 0);
+            this.labelViewPatient.Name = "labelViewPatient";
+            this.labelViewPatient.Size = new System.Drawing.Size(100, 21);
+            this.labelViewPatient.TabIndex = 2;
+            this.labelViewPatient.Text = "View Patient";
             // 
             // panel2
             // 
@@ -88,53 +77,65 @@
             // 
             // panel4
             // 
-            this.panel4.Controls.Add(this.button2);
-            this.panel4.Controls.Add(this.textBox1);
+            this.panel4.Controls.Add(this.buttonSearchForPatient);
+            this.panel4.Controls.Add(this.textBoxSearchForPatient);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel4.Location = new System.Drawing.Point(0, 0);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(582, 45);
             this.panel4.TabIndex = 0;
             // 
-            // button2
+            // buttonSearchForPatient
             // 
-            this.button2.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(374, 6);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(127, 29);
-            this.button2.TabIndex = 12;
-            this.button2.Text = "Save Item";
-            this.button2.UseVisualStyleBackColor = false;
+            this.buttonSearchForPatient.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.buttonSearchForPatient.FlatAppearance.BorderSize = 0;
+            this.buttonSearchForPatient.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonSearchForPatient.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonSearchForPatient.ForeColor = System.Drawing.Color.White;
+            this.buttonSearchForPatient.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonSearchForPatient.Location = new System.Drawing.Point(374, 6);
+            this.buttonSearchForPatient.Name = "buttonSearchForPatient";
+            this.buttonSearchForPatient.Size = new System.Drawing.Size(173, 29);
+            this.buttonSearchForPatient.TabIndex = 12;
+            this.buttonSearchForPatient.Text = "Patient Search";
+            this.buttonSearchForPatient.UseVisualStyleBackColor = false;
             // 
-            // textBox1
+            // textBoxSearchForPatient
             // 
-            this.textBox1.Location = new System.Drawing.Point(3, 6);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(349, 29);
-            this.textBox1.TabIndex = 2;
+            this.textBoxSearchForPatient.Location = new System.Drawing.Point(3, 6);
+            this.textBoxSearchForPatient.Name = "textBoxSearchForPatient";
+            this.textBoxSearchForPatient.Size = new System.Drawing.Size(349, 29);
+            this.textBoxSearchForPatient.TabIndex = 2;
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.dataGridView1);
+            this.panel3.Controls.Add(this.dataGridViewViewPatient);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(0, 86);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(893, 373);
             this.panel3.TabIndex = 4;
             // 
-            // dataGridView1
+            // dataGridViewViewPatient
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(893, 373);
-            this.dataGridView1.TabIndex = 0;
+            this.dataGridViewViewPatient.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewViewPatient.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridViewViewPatient.Location = new System.Drawing.Point(0, 0);
+            this.dataGridViewViewPatient.Name = "dataGridViewViewPatient";
+            this.dataGridViewViewPatient.Size = new System.Drawing.Size(893, 373);
+            this.dataGridViewViewPatient.TabIndex = 0;
+            // 
+            // labelCloseViewPatientsForm
+            // 
+            this.labelCloseViewPatientsForm.AutoSize = true;
+            this.labelCloseViewPatientsForm.Dock = System.Windows.Forms.DockStyle.Right;
+            this.labelCloseViewPatientsForm.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelCloseViewPatientsForm.Location = new System.Drawing.Point(873, 0);
+            this.labelCloseViewPatientsForm.Name = "labelCloseViewPatientsForm";
+            this.labelCloseViewPatientsForm.Size = new System.Drawing.Size(20, 21);
+            this.labelCloseViewPatientsForm.TabIndex = 4;
+            this.labelCloseViewPatientsForm.Text = "X";
+            this.labelCloseViewPatientsForm.Click += new System.EventHandler(this.labelCloseViewPatientsForm_Click);
             // 
             // ViewPatients
             // 
@@ -155,7 +156,7 @@
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewViewPatient)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -163,13 +164,13 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label labelViewPatient;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dataGridViewViewPatient;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox textBoxSearchForPatient;
+        private System.Windows.Forms.Button buttonSearchForPatient;
+        private System.Windows.Forms.Label labelCloseViewPatientsForm;
     }
 }
