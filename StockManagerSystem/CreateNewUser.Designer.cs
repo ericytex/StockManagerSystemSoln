@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.labelCloseCreateNewUserForm = new System.Windows.Forms.Label();
             this.labelCreateNewUser = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -60,7 +61,6 @@
             this.buttonClear = new System.Windows.Forms.Button();
             this.panel52 = new System.Windows.Forms.Panel();
             this.panel12 = new System.Windows.Forms.Panel();
-            this.labelCloseCreateNewUserForm = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -87,6 +87,17 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(657, 41);
             this.panel1.TabIndex = 4;
+            // 
+            // labelCloseCreateNewUserForm
+            // 
+            this.labelCloseCreateNewUserForm.AutoSize = true;
+            this.labelCloseCreateNewUserForm.Dock = System.Windows.Forms.DockStyle.Right;
+            this.labelCloseCreateNewUserForm.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelCloseCreateNewUserForm.Location = new System.Drawing.Point(637, 0);
+            this.labelCloseCreateNewUserForm.Name = "labelCloseCreateNewUserForm";
+            this.labelCloseCreateNewUserForm.Size = new System.Drawing.Size(20, 21);
+            this.labelCloseCreateNewUserForm.TabIndex = 3;
+            this.labelCloseCreateNewUserForm.Text = "X";
             // 
             // labelCreateNewUser
             // 
@@ -386,17 +397,6 @@
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(657, 26);
             this.panel12.TabIndex = 23;
-            // 
-            // labelCloseCreateNewUserForm
-            // 
-            this.labelCloseCreateNewUserForm.AutoSize = true;
-            this.labelCloseCreateNewUserForm.Dock = System.Windows.Forms.DockStyle.Right;
-            this.labelCloseCreateNewUserForm.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelCloseCreateNewUserForm.Location = new System.Drawing.Point(637, 0);
-            this.labelCloseCreateNewUserForm.Name = "labelCloseCreateNewUserForm";
-            this.labelCloseCreateNewUserForm.Size = new System.Drawing.Size(20, 21);
-            this.labelCloseCreateNewUserForm.TabIndex = 3;
-            this.labelCloseCreateNewUserForm.Text = "X";
             // 
             // CreateNewUser
             // 

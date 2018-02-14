@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.labelCloseRegisterPatientForm = new System.Windows.Forms.Label();
             this.labelRegisterPatient = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
@@ -106,7 +107,6 @@
             this.buttonCancel = new System.Windows.Forms.Button();
             this.panel52 = new System.Windows.Forms.Panel();
             this.panel53 = new System.Windows.Forms.Panel();
-            this.labelCloseRegisterPatientForm = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel6.SuspendLayout();
@@ -156,6 +156,18 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(641, 41);
             this.panel1.TabIndex = 3;
+            // 
+            // labelCloseRegisterPatientForm
+            // 
+            this.labelCloseRegisterPatientForm.AutoSize = true;
+            this.labelCloseRegisterPatientForm.Dock = System.Windows.Forms.DockStyle.Right;
+            this.labelCloseRegisterPatientForm.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelCloseRegisterPatientForm.Location = new System.Drawing.Point(621, 0);
+            this.labelCloseRegisterPatientForm.Name = "labelCloseRegisterPatientForm";
+            this.labelCloseRegisterPatientForm.Size = new System.Drawing.Size(20, 21);
+            this.labelCloseRegisterPatientForm.TabIndex = 5;
+            this.labelCloseRegisterPatientForm.Text = "X";
+            this.labelCloseRegisterPatientForm.Click += new System.EventHandler(this.labelCloseRegisterPatientForm_Click);
             // 
             // labelRegisterPatient
             // 
@@ -874,18 +886,6 @@
             this.panel53.Name = "panel53";
             this.panel53.Size = new System.Drawing.Size(641, 13);
             this.panel53.TabIndex = 22;
-            // 
-            // labelCloseRegisterPatientForm
-            // 
-            this.labelCloseRegisterPatientForm.AutoSize = true;
-            this.labelCloseRegisterPatientForm.Dock = System.Windows.Forms.DockStyle.Right;
-            this.labelCloseRegisterPatientForm.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelCloseRegisterPatientForm.Location = new System.Drawing.Point(621, 0);
-            this.labelCloseRegisterPatientForm.Name = "labelCloseRegisterPatientForm";
-            this.labelCloseRegisterPatientForm.Size = new System.Drawing.Size(20, 21);
-            this.labelCloseRegisterPatientForm.TabIndex = 5;
-            this.labelCloseRegisterPatientForm.Text = "X";
-            this.labelCloseRegisterPatientForm.Click += new System.EventHandler(this.labelCloseRegisterPatientForm_Click);
             // 
             // RegisterPatient
             // 

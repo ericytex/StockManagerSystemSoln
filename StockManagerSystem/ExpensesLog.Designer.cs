@@ -55,7 +55,6 @@
             this.panel16 = new System.Windows.Forms.Panel();
             this.panel17 = new System.Windows.Forms.Panel();
             this.labelAmountSpent = new System.Windows.Forms.Label();
-            this.panel18 = new System.Windows.Forms.Panel();
             this.panel42 = new System.Windows.Forms.Panel();
             this.panel48 = new System.Windows.Forms.Panel();
             this.panel47 = new System.Windows.Forms.Panel();
@@ -64,6 +63,12 @@
             this.panel44 = new System.Windows.Forms.Panel();
             this.buttonCancelExpense = new System.Windows.Forms.Button();
             this.panel43 = new System.Windows.Forms.Panel();
+            this.panel18 = new System.Windows.Forms.Panel();
+            this.panel20 = new System.Windows.Forms.Panel();
+            this.panel21 = new System.Windows.Forms.Panel();
+            this.panel22 = new System.Windows.Forms.Panel();
+            this.labelPersonnel = new System.Windows.Forms.Label();
+            this.comboBoxPersonnel = new System.Windows.Forms.ComboBox();
             this.panel19 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -81,6 +86,9 @@
             this.panel42.SuspendLayout();
             this.panel47.SuspendLayout();
             this.panel44.SuspendLayout();
+            this.panel18.SuspendLayout();
+            this.panel20.SuspendLayout();
+            this.panel22.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -337,14 +345,6 @@
             this.labelAmountSpent.TabIndex = 0;
             this.labelAmountSpent.Text = "Amount Spent:";
             // 
-            // panel18
-            // 
-            this.panel18.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel18.Location = new System.Drawing.Point(0, 221);
-            this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(641, 17);
-            this.panel18.TabIndex = 11;
-            // 
             // panel42
             // 
             this.panel42.Controls.Add(this.panel48);
@@ -353,7 +353,7 @@
             this.panel42.Controls.Add(this.panel44);
             this.panel42.Controls.Add(this.panel43);
             this.panel42.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel42.Location = new System.Drawing.Point(0, 238);
+            this.panel42.Location = new System.Drawing.Point(0, 266);
             this.panel42.Name = "panel42";
             this.panel42.Size = new System.Drawing.Size(641, 62);
             this.panel42.TabIndex = 17;
@@ -430,13 +430,69 @@
             this.panel43.Size = new System.Drawing.Size(109, 62);
             this.panel43.TabIndex = 0;
             // 
+            // panel18
+            // 
+            this.panel18.Controls.Add(this.panel20);
+            this.panel18.Controls.Add(this.panel21);
+            this.panel18.Controls.Add(this.panel22);
+            this.panel18.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel18.Location = new System.Drawing.Point(0, 221);
+            this.panel18.Name = "panel18";
+            this.panel18.Size = new System.Drawing.Size(641, 45);
+            this.panel18.TabIndex = 19;
+            // 
+            // panel20
+            // 
+            this.panel20.Controls.Add(this.comboBoxPersonnel);
+            this.panel20.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel20.Location = new System.Drawing.Point(94, 0);
+            this.panel20.Name = "panel20";
+            this.panel20.Size = new System.Drawing.Size(477, 45);
+            this.panel20.TabIndex = 3;
+            // 
+            // panel21
+            // 
+            this.panel21.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel21.Location = new System.Drawing.Point(571, 0);
+            this.panel21.Name = "panel21";
+            this.panel21.Size = new System.Drawing.Size(70, 45);
+            this.panel21.TabIndex = 2;
+            // 
+            // panel22
+            // 
+            this.panel22.Controls.Add(this.labelPersonnel);
+            this.panel22.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel22.Location = new System.Drawing.Point(0, 0);
+            this.panel22.Name = "panel22";
+            this.panel22.Size = new System.Drawing.Size(94, 45);
+            this.panel22.TabIndex = 1;
+            // 
+            // labelPersonnel
+            // 
+            this.labelPersonnel.AutoSize = true;
+            this.labelPersonnel.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.labelPersonnel.Location = new System.Drawing.Point(0, 24);
+            this.labelPersonnel.Name = "labelPersonnel";
+            this.labelPersonnel.Size = new System.Drawing.Size(81, 21);
+            this.labelPersonnel.TabIndex = 0;
+            this.labelPersonnel.Text = "Personnel:";
+            // 
+            // comboBoxPersonnel
+            // 
+            this.comboBoxPersonnel.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.comboBoxPersonnel.FormattingEnabled = true;
+            this.comboBoxPersonnel.Location = new System.Drawing.Point(0, 16);
+            this.comboBoxPersonnel.Name = "comboBoxPersonnel";
+            this.comboBoxPersonnel.Size = new System.Drawing.Size(477, 29);
+            this.comboBoxPersonnel.TabIndex = 0;
+            // 
             // panel19
             // 
             this.panel19.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel19.Location = new System.Drawing.Point(0, 300);
+            this.panel19.Location = new System.Drawing.Point(0, 328);
             this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(641, 58);
-            this.panel19.TabIndex = 18;
+            this.panel19.Size = new System.Drawing.Size(641, 30);
+            this.panel19.TabIndex = 20;
             // 
             // ExpensesLog
             // 
@@ -481,6 +537,10 @@
             this.panel42.ResumeLayout(false);
             this.panel47.ResumeLayout(false);
             this.panel44.ResumeLayout(false);
+            this.panel18.ResumeLayout(false);
+            this.panel20.ResumeLayout(false);
+            this.panel22.ResumeLayout(false);
+            this.panel22.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -513,7 +573,6 @@
         private System.Windows.Forms.Panel panel16;
         private System.Windows.Forms.Panel panel17;
         private System.Windows.Forms.Label labelAmountSpent;
-        private System.Windows.Forms.Panel panel18;
         private System.Windows.Forms.Panel panel42;
         private System.Windows.Forms.Panel panel48;
         private System.Windows.Forms.Panel panel47;
@@ -522,7 +581,13 @@
         private System.Windows.Forms.Panel panel44;
         private System.Windows.Forms.Button buttonCancelExpense;
         private System.Windows.Forms.Panel panel43;
-        private System.Windows.Forms.Panel panel19;
         private System.Windows.Forms.Label closeExpensesLogForm;
+        private System.Windows.Forms.Panel panel18;
+        private System.Windows.Forms.Panel panel20;
+        private System.Windows.Forms.ComboBox comboBoxPersonnel;
+        private System.Windows.Forms.Panel panel21;
+        private System.Windows.Forms.Panel panel22;
+        private System.Windows.Forms.Label labelPersonnel;
+        private System.Windows.Forms.Panel panel19;
     }
 }
