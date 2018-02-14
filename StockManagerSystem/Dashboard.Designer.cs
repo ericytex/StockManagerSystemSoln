@@ -58,7 +58,7 @@
             // 
             this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel});
-            this.statusStrip.Location = new System.Drawing.Point(0, 574);
+            this.statusStrip.Location = new System.Drawing.Point(0, 627);
             this.statusStrip.Name = "statusStrip";
             this.statusStrip.Size = new System.Drawing.Size(1173, 22);
             this.statusStrip.TabIndex = 2;
@@ -151,14 +151,14 @@
             // logStockToolStripMenuItem
             // 
             this.logStockToolStripMenuItem.Name = "logStockToolStripMenuItem";
-            this.logStockToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
+            this.logStockToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.logStockToolStripMenuItem.Text = "Log Stock";
             this.logStockToolStripMenuItem.Click += new System.EventHandler(this.logStockToolStripMenuItem_Click);
             // 
             // stockOrderToolStripMenuItem
             // 
             this.stockOrderToolStripMenuItem.Name = "stockOrderToolStripMenuItem";
-            this.stockOrderToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
+            this.stockOrderToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.stockOrderToolStripMenuItem.Text = "Place Order";
             this.stockOrderToolStripMenuItem.Click += new System.EventHandler(this.stockOrderToolStripMenuItem_Click);
             // 
@@ -218,7 +218,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1173, 596);
+            this.ClientSize = new System.Drawing.Size(1173, 649);
             this.Controls.Add(this.statusStrip);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;

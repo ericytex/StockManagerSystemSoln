@@ -21,5 +21,6 @@ namespace StockManagerSystem
         {
             this.Close();
         }
+
     }
 }

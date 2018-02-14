@@ -16,5 +16,10 @@ namespace StockManagerSystem
         {
             InitializeComponent();
         }
+
+        private void closeExpensesLogForm_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

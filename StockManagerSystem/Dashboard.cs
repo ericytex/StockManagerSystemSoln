@@ -108,7 +108,7 @@ namespace StockManagerSystem
         {
             RegisterPatient rp = new RegisterPatient();
             rp.MdiParent = this;
-            rp.Dock = DockStyle.Fill;
+            //rp.Dock = DockStyle.Fill;
             rp.Show();
         }
 
@@ -122,9 +122,9 @@ namespace StockManagerSystem
 
         private void logBankingDetailsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            LogbankingDetails lb = new LogbankingDetails();
+            BankingLog lb = new BankingLog();
             lb.MdiParent = this;
-            lb.Dock = DockStyle.Fill;
+            //lb.Dock = DockStyle.Fill;
             lb.Show();
         }
 
@@ -132,7 +132,7 @@ namespace StockManagerSystem
         {
             StockLog sl = new StockLog();
             sl.MdiParent = this;
-            sl.Dock = DockStyle.Fill;
+           // sl.Dock = DockStyle.Fill;
             sl.Show();
         }
 
@@ -140,7 +140,7 @@ namespace StockManagerSystem
         {
             PlaceOrder po = new PlaceOrder();
             po.MdiParent = this;
-            po.Dock = DockStyle.Fill;
+            //po.Dock = DockStyle.Fill;
             po.Show();
         }
 
@@ -148,7 +148,7 @@ namespace StockManagerSystem
         {
             ExpensesLog el = new ExpensesLog();
             el.MdiParent = this;
-            el.Dock = DockStyle.Fill;
+           // el.Dock = DockStyle.Fill;
             el.Show();
         }
 
@@ -164,7 +164,7 @@ namespace StockManagerSystem
         {
             CreateNewUser cnu = new CreateNewUser();
             cnu.MdiParent = this;
-            cnu.Dock = DockStyle.Fill;
+           // cnu.Dock = DockStyle.Fill;
             cnu.Show();
         }
 
