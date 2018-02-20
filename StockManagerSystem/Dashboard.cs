@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MetroFramework.Components;
 
 namespace StockManagerSystem
 {
@@ -15,11 +16,18 @@ namespace StockManagerSystem
     {
         private int childFormNumber = 0;
         bool _logOut;
+        private MetroStyleManager metroStyelManager1;
 
         public Dashboard(string loginstate)
         {
             InitializeComponent();
             LoginStatus.Text = loginstate;
+            ///Initialize theme, style
+            ///
+            this.StyleManager = metroStyelManager1;
+            metroStyelManager1.Theme = MetroFramework.MetroThemeStyle.Light;
+            metroStyelManager1.Style = MetroFramework.MetroColorStyle.Green;
+
         }
 
         private void ShowNewForm(object sender, EventArgs e)

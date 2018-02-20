@@ -33,6 +33,8 @@ namespace StockManagerSystem
             metroTextUsername.Focus();
         }
 
+        
+
         private void buttonLogin_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(metroTextUsername.Text))
@@ -56,6 +58,8 @@ namespace StockManagerSystem
                     }
                     else
                         MetroFramework.MetroMessageBox.Show(this, "Your Username or Password is Incorrect", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    metroTextPassword.Clear();
+                    metroTextUsername.Clear();
                 }
             }
             catch(Exception exe)
@@ -63,6 +67,11 @@ namespace StockManagerSystem
                 MetroFramework.MetroMessageBox.Show(this, exe.Message, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             return;
+        }
+
+        private void LoginMain_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

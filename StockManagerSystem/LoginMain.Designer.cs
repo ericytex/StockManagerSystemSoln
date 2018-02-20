@@ -75,7 +75,7 @@
             this.metroTextUsername.MaxLength = 32767;
             this.metroTextUsername.Name = "metroTextUsername";
             this.metroTextUsername.PasswordChar = '\0';
-            //this.metroTextUsername.PromptText = "Username";
+            this.metroTextUsername.PromptText = "Username";
             this.metroTextUsername.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.metroTextUsername.SelectedText = "";
             this.metroTextUsername.SelectionLength = 0;
@@ -197,7 +197,7 @@
             this.metroTextPassword.MaxLength = 32767;
             this.metroTextPassword.Name = "metroTextPassword";
             this.metroTextPassword.PasswordChar = '*';
-            //this.metroTextPassword.PromptText = "Password";
+            this.metroTextPassword.PromptText = "Password";
             this.metroTextPassword.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.metroTextPassword.SelectedText = "";
             this.metroTextPassword.SelectionLength = 0;
@@ -270,6 +270,7 @@
             this.Padding = new System.Windows.Forms.Padding(30, 97, 30, 32);
             this.Resizable = false;
             this.Text = "Please Login Below :";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.LoginMain_FormClosed);
             this.Load += new System.EventHandler(this.LoginMain_Load);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);

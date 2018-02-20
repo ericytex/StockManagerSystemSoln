@@ -67,7 +67,7 @@
             this.aToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(20, 60);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1133, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1133, 25);
             this.menuStrip1.TabIndex = 4;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -76,21 +76,22 @@
             this.patientsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.viewAllToolStripMenuItem,
             this.registerPatientToolStripMenuItem});
+            this.patientsToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.patientsToolStripMenuItem.Name = "patientsToolStripMenuItem";
-            this.patientsToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
+            this.patientsToolStripMenuItem.Size = new System.Drawing.Size(65, 21);
             this.patientsToolStripMenuItem.Text = "Patients";
             // 
             // viewAllToolStripMenuItem
             // 
             this.viewAllToolStripMenuItem.Name = "viewAllToolStripMenuItem";
-            this.viewAllToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
+            this.viewAllToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.viewAllToolStripMenuItem.Text = "View All";
             this.viewAllToolStripMenuItem.Click += new System.EventHandler(this.viewAllToolStripMenuItem_Click);
             // 
             // registerPatientToolStripMenuItem
             // 
             this.registerPatientToolStripMenuItem.Name = "registerPatientToolStripMenuItem";
-            this.registerPatientToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
+            this.registerPatientToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.registerPatientToolStripMenuItem.Text = "Register Patient";
             this.registerPatientToolStripMenuItem.Click += new System.EventHandler(this.registerPatientToolStripMenuItem_Click);
             // 
@@ -98,14 +99,15 @@
             // 
             this.invoiceToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.createInvoiceToolStripMenuItem});
+            this.invoiceToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.invoiceToolStripMenuItem.Name = "invoiceToolStripMenuItem";
-            this.invoiceToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
+            this.invoiceToolStripMenuItem.Size = new System.Drawing.Size(60, 21);
             this.invoiceToolStripMenuItem.Text = "Invoice";
             // 
             // createInvoiceToolStripMenuItem
             // 
             this.createInvoiceToolStripMenuItem.Name = "createInvoiceToolStripMenuItem";
-            this.createInvoiceToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
+            this.createInvoiceToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
             this.createInvoiceToolStripMenuItem.Text = "Create Invoice";
             this.createInvoiceToolStripMenuItem.Click += new System.EventHandler(this.createInvoiceToolStripMenuItem_Click);
             // 
@@ -113,14 +115,15 @@
             // 
             this.bankingToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.logBankingDetailsToolStripMenuItem});
+            this.bankingToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bankingToolStripMenuItem.Name = "bankingToolStripMenuItem";
-            this.bankingToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
+            this.bankingToolStripMenuItem.Size = new System.Drawing.Size(65, 21);
             this.bankingToolStripMenuItem.Text = "Banking";
             // 
             // logBankingDetailsToolStripMenuItem
             // 
             this.logBankingDetailsToolStripMenuItem.Name = "logBankingDetailsToolStripMenuItem";
-            this.logBankingDetailsToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
+            this.logBankingDetailsToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
             this.logBankingDetailsToolStripMenuItem.Text = "Log Banking details";
             this.logBankingDetailsToolStripMenuItem.Click += new System.EventHandler(this.logBankingDetailsToolStripMenuItem_Click);
             // 
@@ -129,21 +132,22 @@
             this.stockToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.logStockToolStripMenuItem,
             this.stockOrderToolStripMenuItem});
+            this.stockToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.stockToolStripMenuItem.Name = "stockToolStripMenuItem";
-            this.stockToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
+            this.stockToolStripMenuItem.Size = new System.Drawing.Size(51, 21);
             this.stockToolStripMenuItem.Text = "Stock";
             // 
             // logStockToolStripMenuItem
             // 
             this.logStockToolStripMenuItem.Name = "logStockToolStripMenuItem";
-            this.logStockToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
+            this.logStockToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
             this.logStockToolStripMenuItem.Text = "Log Stock";
             this.logStockToolStripMenuItem.Click += new System.EventHandler(this.logStockToolStripMenuItem_Click);
             // 
             // stockOrderToolStripMenuItem
             // 
             this.stockOrderToolStripMenuItem.Name = "stockOrderToolStripMenuItem";
-            this.stockOrderToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
+            this.stockOrderToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
             this.stockOrderToolStripMenuItem.Text = "Place Order";
             this.stockOrderToolStripMenuItem.Click += new System.EventHandler(this.stockOrderToolStripMenuItem_Click);
             // 
@@ -152,35 +156,37 @@
             this.expensesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.dailyExpensesToolStripMenuItem,
             this.expensesReportToolStripMenuItem});
+            this.expensesToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.expensesToolStripMenuItem.Name = "expensesToolStripMenuItem";
-            this.expensesToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
+            this.expensesToolStripMenuItem.Size = new System.Drawing.Size(74, 21);
             this.expensesToolStripMenuItem.Text = "Expenses";
             // 
             // dailyExpensesToolStripMenuItem
             // 
             this.dailyExpensesToolStripMenuItem.Name = "dailyExpensesToolStripMenuItem";
-            this.dailyExpensesToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.dailyExpensesToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.dailyExpensesToolStripMenuItem.Text = "Daily Expenses";
             this.dailyExpensesToolStripMenuItem.Click += new System.EventHandler(this.dailyExpensesToolStripMenuItem_Click);
             // 
             // expensesReportToolStripMenuItem
             // 
             this.expensesReportToolStripMenuItem.Name = "expensesReportToolStripMenuItem";
-            this.expensesReportToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.expensesReportToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.expensesReportToolStripMenuItem.Text = "Expenses Report";
             // 
             // billingToolStripMenuItem
             // 
             this.billingToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.billPatientToolStripMenuItem});
+            this.billingToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.billingToolStripMenuItem.Name = "billingToolStripMenuItem";
-            this.billingToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
+            this.billingToolStripMenuItem.Size = new System.Drawing.Size(54, 21);
             this.billingToolStripMenuItem.Text = "Billing";
             // 
             // billPatientToolStripMenuItem
             // 
             this.billPatientToolStripMenuItem.Name = "billPatientToolStripMenuItem";
-            this.billPatientToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
+            this.billPatientToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
             this.billPatientToolStripMenuItem.Text = "Bill Patient";
             this.billPatientToolStripMenuItem.Click += new System.EventHandler(this.billPatientToolStripMenuItem_Click);
             // 
@@ -188,14 +194,15 @@
             // 
             this.aToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.createNewUserToolStripMenuItem});
+            this.aToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.aToolStripMenuItem.Name = "aToolStripMenuItem";
-            this.aToolStripMenuItem.Size = new System.Drawing.Size(92, 20);
+            this.aToolStripMenuItem.Size = new System.Drawing.Size(99, 21);
             this.aToolStripMenuItem.Text = "Administrator";
             // 
             // createNewUserToolStripMenuItem
             // 
             this.createNewUserToolStripMenuItem.Name = "createNewUserToolStripMenuItem";
-            this.createNewUserToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
+            this.createNewUserToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
             this.createNewUserToolStripMenuItem.Text = "Create New User";
             this.createNewUserToolStripMenuItem.Click += new System.EventHandler(this.createNewUserToolStripMenuItem_Click);
             // 
@@ -218,7 +225,7 @@
             this.panel1.Controls.Add(this.LoginStatus);
             this.panel1.Controls.Add(this.logout);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(20, 84);
+            this.panel1.Location = new System.Drawing.Point(20, 85);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1133, 20);
             this.panel1.TabIndex = 7;
@@ -226,6 +233,7 @@
             // LoginStatus
             // 
             this.LoginStatus.AutoSize = true;
+            this.LoginStatus.FontSize = MetroFramework.MetroLabelSize.Small;
             this.LoginStatus.Location = new System.Drawing.Point(4, 0);
             this.LoginStatus.Name = "LoginStatus";
             this.LoginStatus.Size = new System.Drawing.Size(87, 19);

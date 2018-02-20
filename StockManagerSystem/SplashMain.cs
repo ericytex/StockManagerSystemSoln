@@ -12,16 +12,17 @@ namespace StockManagerSystem
 {
     public partial class SplashMain : MetroFramework.Forms.MetroForm
     {
+
         public SplashMain()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void stkpatientMngtlabel_Click(object sender, EventArgs e)
         {
-            
-           
-           
+            LoginMain lgmain = new LoginMain();
+            lgmain.Show();
+            this.Hide();
         }
     }
 }
