@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace StockManagerSystem
 {
-    public partial class CreateInvoice : Form
+    public partial class CreateInvoice :MetroFramework.Forms.MetroForm
     {
         public CreateInvoice()
         {

@@ -28,9 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.labelCloseCreateInvoiceForm = new System.Windows.Forms.Label();
-            this.labelCreateInvoice = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
             this.labelChequeNumber = new System.Windows.Forms.Label();
@@ -70,7 +67,6 @@
             this.dateInvoiceDate = new System.Windows.Forms.DateTimePicker();
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel9.SuspendLayout();
             this.panel10.SuspendLayout();
@@ -90,56 +86,22 @@
             this.panel7.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.Silver;
-            this.panel1.Controls.Add(this.labelCloseCreateInvoiceForm);
-            this.panel1.Controls.Add(this.labelCreateInvoice);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(965, 47);
-            this.panel1.TabIndex = 1;
-            // 
-            // labelCloseCreateInvoiceForm
-            // 
-            this.labelCloseCreateInvoiceForm.AutoSize = true;
-            this.labelCloseCreateInvoiceForm.Dock = System.Windows.Forms.DockStyle.Right;
-            this.labelCloseCreateInvoiceForm.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelCloseCreateInvoiceForm.Location = new System.Drawing.Point(945, 0);
-            this.labelCloseCreateInvoiceForm.Name = "labelCloseCreateInvoiceForm";
-            this.labelCloseCreateInvoiceForm.Size = new System.Drawing.Size(20, 21);
-            this.labelCloseCreateInvoiceForm.TabIndex = 3;
-            this.labelCloseCreateInvoiceForm.Text = "X";
-            this.labelCloseCreateInvoiceForm.Click += new System.EventHandler(this.labelCloseCreateInvoiceForm_Click);
-            // 
-            // labelCreateInvoice
-            // 
-            this.labelCreateInvoice.AutoSize = true;
-            this.labelCreateInvoice.Dock = System.Windows.Forms.DockStyle.Left;
-            this.labelCreateInvoice.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelCreateInvoice.Location = new System.Drawing.Point(0, 0);
-            this.labelCreateInvoice.Name = "labelCreateInvoice";
-            this.labelCreateInvoice.Size = new System.Drawing.Size(115, 21);
-            this.labelCreateInvoice.TabIndex = 2;
-            this.labelCreateInvoice.Text = "Create Invoice";
-            // 
             // panel2
             // 
             this.panel2.Controls.Add(this.panel9);
             this.panel2.Controls.Add(this.panel10);
             this.panel2.Controls.Add(this.panel8);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 47);
+            this.panel2.Location = new System.Drawing.Point(20, 60);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(965, 34);
+            this.panel2.Size = new System.Drawing.Size(925, 34);
             this.panel2.TabIndex = 2;
             // 
             // panel9
             // 
             this.panel9.Controls.Add(this.labelChequeNumber);
             this.panel9.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel9.Location = new System.Drawing.Point(335, 0);
+            this.panel9.Location = new System.Drawing.Point(295, 0);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(241, 34);
             this.panel9.TabIndex = 1;
@@ -176,7 +138,7 @@
             // 
             this.panel8.Controls.Add(this.textBoxChequeNumber);
             this.panel8.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel8.Location = new System.Drawing.Point(576, 0);
+            this.panel8.Location = new System.Drawing.Point(536, 0);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(389, 34);
             this.panel8.TabIndex = 0;
@@ -193,9 +155,9 @@
             // 
             this.panel3.Controls.Add(this.panel11);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(0, 81);
+            this.panel3.Location = new System.Drawing.Point(20, 94);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(965, 31);
+            this.panel3.Size = new System.Drawing.Size(925, 31);
             this.panel3.TabIndex = 3;
             // 
             // panel11
@@ -230,7 +192,7 @@
             this.groupBoxItemQuotations.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBoxItemQuotations.Location = new System.Drawing.Point(0, 0);
             this.groupBoxItemQuotations.Name = "groupBoxItemQuotations";
-            this.groupBoxItemQuotations.Size = new System.Drawing.Size(436, 319);
+            this.groupBoxItemQuotations.Size = new System.Drawing.Size(436, 286);
             this.groupBoxItemQuotations.TabIndex = 4;
             this.groupBoxItemQuotations.TabStop = false;
             this.groupBoxItemQuotations.Text = "Item Quotations";
@@ -358,7 +320,7 @@
             this.dataGridViewCreatedInvoices.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridViewCreatedInvoices.Location = new System.Drawing.Point(0, 0);
             this.dataGridViewCreatedInvoices.Name = "dataGridViewCreatedInvoices";
-            this.dataGridViewCreatedInvoices.Size = new System.Drawing.Size(529, 319);
+            this.dataGridViewCreatedInvoices.Size = new System.Drawing.Size(489, 286);
             this.dataGridViewCreatedInvoices.TabIndex = 6;
             // 
             // panel5
@@ -366,9 +328,9 @@
             this.panel5.Controls.Add(this.panel13);
             this.panel5.Controls.Add(this.panel12);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel5.Location = new System.Drawing.Point(0, 431);
+            this.panel5.Location = new System.Drawing.Point(20, 411);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(965, 100);
+            this.panel5.Size = new System.Drawing.Size(925, 100);
             this.panel5.TabIndex = 7;
             // 
             // panel13
@@ -378,7 +340,7 @@
             this.panel13.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel13.Location = new System.Drawing.Point(436, 0);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(529, 100);
+            this.panel13.Size = new System.Drawing.Size(489, 100);
             this.panel13.TabIndex = 1;
             // 
             // panel14
@@ -389,7 +351,7 @@
             this.panel14.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel14.Location = new System.Drawing.Point(0, 0);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(156, 100);
+            this.panel14.Size = new System.Drawing.Size(116, 100);
             this.panel14.TabIndex = 23;
             // 
             // panel17
@@ -398,7 +360,7 @@
             this.panel17.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel17.Location = new System.Drawing.Point(0, 0);
             this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(48, 41);
+            this.panel17.Size = new System.Drawing.Size(8, 41);
             this.panel17.TabIndex = 23;
             // 
             // buttonDeleteInvoice
@@ -409,7 +371,7 @@
             this.buttonDeleteInvoice.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonDeleteInvoice.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonDeleteInvoice.ForeColor = System.Drawing.Color.White;
-            this.buttonDeleteInvoice.Location = new System.Drawing.Point(-106, 0);
+            this.buttonDeleteInvoice.Location = new System.Drawing.Point(-146, 0);
             this.buttonDeleteInvoice.Name = "buttonDeleteInvoice";
             this.buttonDeleteInvoice.Size = new System.Drawing.Size(154, 41);
             this.buttonDeleteInvoice.TabIndex = 19;
@@ -429,7 +391,7 @@
             // panel15
             // 
             this.panel15.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel15.Location = new System.Drawing.Point(48, 0);
+            this.panel15.Location = new System.Drawing.Point(8, 0);
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(108, 100);
             this.panel15.TabIndex = 22;
@@ -438,7 +400,7 @@
             // 
             this.panel4.Controls.Add(this.panel16);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel4.Location = new System.Drawing.Point(156, 0);
+            this.panel4.Location = new System.Drawing.Point(116, 0);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(373, 100);
             this.panel4.TabIndex = 22;
@@ -497,39 +459,34 @@
             // 
             this.panel6.Controls.Add(this.groupBoxItemQuotations);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel6.Location = new System.Drawing.Point(0, 112);
+            this.panel6.Location = new System.Drawing.Point(20, 125);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(436, 319);
+            this.panel6.Size = new System.Drawing.Size(436, 286);
             this.panel6.TabIndex = 8;
             // 
             // panel7
             // 
             this.panel7.Controls.Add(this.dataGridViewCreatedInvoices);
             this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel7.Location = new System.Drawing.Point(436, 112);
+            this.panel7.Location = new System.Drawing.Point(456, 125);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(529, 319);
+            this.panel7.Size = new System.Drawing.Size(489, 286);
             this.panel7.TabIndex = 9;
             // 
             // CreateInvoice
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(965, 531);
             this.Controls.Add(this.panel7);
             this.Controls.Add(this.panel6);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "CreateInvoice";
-            this.Text = "CreateInvoice";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.Text = "Create Invoice";
             this.panel2.ResumeLayout(false);
             this.panel9.ResumeLayout(false);
             this.panel9.PerformLayout();
@@ -559,9 +516,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label labelCreateInvoice;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.TextBox textBoxChequeNumber;
         private System.Windows.Forms.Label labelChequeNumber;
@@ -601,6 +555,5 @@
         private System.Windows.Forms.Panel panel17;
         private System.Windows.Forms.DateTimePicker dateInvoiceDate;
         private System.Windows.Forms.ComboBox comboBoxInvoiceAuthor;
-        private System.Windows.Forms.Label labelCloseCreateInvoiceForm;
     }
 }
