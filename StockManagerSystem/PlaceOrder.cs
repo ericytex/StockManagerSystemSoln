@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace StockManagerSystem
 {
-    public partial class PlaceOrder : Form
+    public partial class PlaceOrder :MetroFramework.Forms.MetroForm
     {
         public PlaceOrder()
         {
