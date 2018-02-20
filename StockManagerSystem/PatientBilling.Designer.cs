@@ -28,9 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.labelClosePatientBilling = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.labelDiagnosis = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
@@ -111,7 +108,6 @@
             this.panel11 = new System.Windows.Forms.Panel();
             this.comboBoxPrescription = new System.Windows.Forms.ComboBox();
             this.panel24 = new System.Windows.Forms.Panel();
-            this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel9.SuspendLayout();
             this.panel7.SuspendLayout();
@@ -151,40 +147,6 @@
             this.panel11.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.Silver;
-            this.panel1.Controls.Add(this.labelClosePatientBilling);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1123, 41);
-            this.panel1.TabIndex = 1;
-            // 
-            // labelClosePatientBilling
-            // 
-            this.labelClosePatientBilling.AutoSize = true;
-            this.labelClosePatientBilling.Dock = System.Windows.Forms.DockStyle.Right;
-            this.labelClosePatientBilling.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelClosePatientBilling.Location = new System.Drawing.Point(1103, 0);
-            this.labelClosePatientBilling.Name = "labelClosePatientBilling";
-            this.labelClosePatientBilling.Size = new System.Drawing.Size(20, 21);
-            this.labelClosePatientBilling.TabIndex = 1;
-            this.labelClosePatientBilling.Text = "X";
-            this.labelClosePatientBilling.Click += new System.EventHandler(this.labelClosePatientBilling_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(110, 21);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Patient Billing";
-            // 
             // labelDiagnosis
             // 
             this.labelDiagnosis.AutoSize = true;
@@ -198,9 +160,9 @@
             // panel3
             // 
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(0, 41);
+            this.panel3.Location = new System.Drawing.Point(20, 60);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1123, 536);
+            this.panel3.Size = new System.Drawing.Size(1083, 497);
             this.panel3.TabIndex = 3;
             // 
             // panel4
@@ -212,9 +174,9 @@
             this.panel4.Controls.Add(this.panel15);
             this.panel4.Controls.Add(this.panel12);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel4.Location = new System.Drawing.Point(0, 41);
+            this.panel4.Location = new System.Drawing.Point(20, 60);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(588, 536);
+            this.panel4.Size = new System.Drawing.Size(645, 497);
             this.panel4.TabIndex = 4;
             // 
             // panel9
@@ -224,7 +186,7 @@
             this.panel9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel9.Location = new System.Drawing.Point(0, 248);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(588, 288);
+            this.panel9.Size = new System.Drawing.Size(645, 249);
             this.panel9.TabIndex = 26;
             // 
             // panel7
@@ -235,7 +197,7 @@
             this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel7.Location = new System.Drawing.Point(0, 0);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(588, 244);
+            this.panel7.Size = new System.Drawing.Size(645, 205);
             this.panel7.TabIndex = 20;
             // 
             // textBoxDiagnosisNotes
@@ -244,7 +206,7 @@
             this.textBoxDiagnosisNotes.Location = new System.Drawing.Point(0, 66);
             this.textBoxDiagnosisNotes.Multiline = true;
             this.textBoxDiagnosisNotes.Name = "textBoxDiagnosisNotes";
-            this.textBoxDiagnosisNotes.Size = new System.Drawing.Size(588, 178);
+            this.textBoxDiagnosisNotes.Size = new System.Drawing.Size(645, 139);
             this.textBoxDiagnosisNotes.TabIndex = 2;
             // 
             // panel51
@@ -253,7 +215,7 @@
             this.panel51.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel51.Location = new System.Drawing.Point(0, 29);
             this.panel51.Name = "panel51";
-            this.panel51.Size = new System.Drawing.Size(588, 37);
+            this.panel51.Size = new System.Drawing.Size(645, 37);
             this.panel51.TabIndex = 1;
             // 
             // DiagnosisNotes
@@ -272,15 +234,15 @@
             this.comboBoxDiagnosis.FormattingEnabled = true;
             this.comboBoxDiagnosis.Location = new System.Drawing.Point(0, 0);
             this.comboBoxDiagnosis.Name = "comboBoxDiagnosis";
-            this.comboBoxDiagnosis.Size = new System.Drawing.Size(588, 29);
+            this.comboBoxDiagnosis.Size = new System.Drawing.Size(645, 29);
             this.comboBoxDiagnosis.TabIndex = 0;
             // 
             // panel2
             // 
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 244);
+            this.panel2.Location = new System.Drawing.Point(0, 205);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(588, 44);
+            this.panel2.Size = new System.Drawing.Size(645, 44);
             this.panel2.TabIndex = 19;
             // 
             // panel8
@@ -289,7 +251,7 @@
             this.panel8.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel8.Location = new System.Drawing.Point(0, 220);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(588, 28);
+            this.panel8.Size = new System.Drawing.Size(645, 28);
             this.panel8.TabIndex = 25;
             // 
             // panel21
@@ -300,7 +262,7 @@
             this.panel21.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel21.Location = new System.Drawing.Point(0, 171);
             this.panel21.Name = "panel21";
-            this.panel21.Size = new System.Drawing.Size(588, 49);
+            this.panel21.Size = new System.Drawing.Size(645, 49);
             this.panel21.TabIndex = 24;
             // 
             // labelDate
@@ -317,25 +279,25 @@
             // 
             this.panel23.Controls.Add(this.dateDate);
             this.panel23.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel23.Location = new System.Drawing.Point(128, 0);
+            this.panel23.Location = new System.Drawing.Point(117, 0);
             this.panel23.Name = "panel23";
-            this.panel23.Size = new System.Drawing.Size(417, 49);
+            this.panel23.Size = new System.Drawing.Size(518, 49);
             this.panel23.TabIndex = 21;
             // 
             // dateDate
             // 
-            this.dateDate.Dock = System.Windows.Forms.DockStyle.Right;
-            this.dateDate.Location = new System.Drawing.Point(7, 0);
+            this.dateDate.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dateDate.Location = new System.Drawing.Point(0, 0);
             this.dateDate.Name = "dateDate";
-            this.dateDate.Size = new System.Drawing.Size(410, 29);
+            this.dateDate.Size = new System.Drawing.Size(518, 29);
             this.dateDate.TabIndex = 16;
             // 
             // panel22
             // 
             this.panel22.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel22.Location = new System.Drawing.Point(545, 0);
+            this.panel22.Location = new System.Drawing.Point(635, 0);
             this.panel22.Name = "panel22";
-            this.panel22.Size = new System.Drawing.Size(43, 49);
+            this.panel22.Size = new System.Drawing.Size(10, 49);
             this.panel22.TabIndex = 20;
             // 
             // panel18
@@ -346,7 +308,7 @@
             this.panel18.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel18.Location = new System.Drawing.Point(0, 117);
             this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(588, 54);
+            this.panel18.Size = new System.Drawing.Size(645, 54);
             this.panel18.TabIndex = 23;
             // 
             // labelLastName
@@ -363,25 +325,25 @@
             // 
             this.panel19.Controls.Add(this.textBoxLastName);
             this.panel19.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel19.Location = new System.Drawing.Point(128, 0);
+            this.panel19.Location = new System.Drawing.Point(117, 0);
             this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(417, 54);
+            this.panel19.Size = new System.Drawing.Size(518, 54);
             this.panel19.TabIndex = 21;
             // 
             // textBoxLastName
             // 
-            this.textBoxLastName.Dock = System.Windows.Forms.DockStyle.Right;
-            this.textBoxLastName.Location = new System.Drawing.Point(7, 0);
+            this.textBoxLastName.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxLastName.Location = new System.Drawing.Point(0, 0);
             this.textBoxLastName.Name = "textBoxLastName";
-            this.textBoxLastName.Size = new System.Drawing.Size(410, 29);
+            this.textBoxLastName.Size = new System.Drawing.Size(518, 29);
             this.textBoxLastName.TabIndex = 10;
             // 
             // panel20
             // 
             this.panel20.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel20.Location = new System.Drawing.Point(545, 0);
+            this.panel20.Location = new System.Drawing.Point(635, 0);
             this.panel20.Name = "panel20";
-            this.panel20.Size = new System.Drawing.Size(43, 54);
+            this.panel20.Size = new System.Drawing.Size(10, 54);
             this.panel20.TabIndex = 20;
             // 
             // panel15
@@ -392,7 +354,7 @@
             this.panel15.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel15.Location = new System.Drawing.Point(0, 57);
             this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(588, 60);
+            this.panel15.Size = new System.Drawing.Size(645, 60);
             this.panel15.TabIndex = 22;
             // 
             // labelMiddleName
@@ -409,25 +371,25 @@
             // 
             this.panel16.Controls.Add(this.textBoxMiddleName);
             this.panel16.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel16.Location = new System.Drawing.Point(128, 0);
+            this.panel16.Location = new System.Drawing.Point(117, 0);
             this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(417, 60);
+            this.panel16.Size = new System.Drawing.Size(518, 60);
             this.panel16.TabIndex = 21;
             // 
             // textBoxMiddleName
             // 
-            this.textBoxMiddleName.Dock = System.Windows.Forms.DockStyle.Right;
-            this.textBoxMiddleName.Location = new System.Drawing.Point(7, 0);
+            this.textBoxMiddleName.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxMiddleName.Location = new System.Drawing.Point(0, 0);
             this.textBoxMiddleName.Name = "textBoxMiddleName";
-            this.textBoxMiddleName.Size = new System.Drawing.Size(410, 29);
+            this.textBoxMiddleName.Size = new System.Drawing.Size(518, 29);
             this.textBoxMiddleName.TabIndex = 12;
             // 
             // panel17
             // 
             this.panel17.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel17.Location = new System.Drawing.Point(545, 0);
+            this.panel17.Location = new System.Drawing.Point(635, 0);
             this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(43, 60);
+            this.panel17.Size = new System.Drawing.Size(10, 60);
             this.panel17.TabIndex = 20;
             // 
             // panel12
@@ -438,7 +400,7 @@
             this.panel12.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel12.Location = new System.Drawing.Point(0, 0);
             this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(588, 57);
+            this.panel12.Size = new System.Drawing.Size(645, 57);
             this.panel12.TabIndex = 21;
             // 
             // labelFirstName
@@ -455,25 +417,25 @@
             // 
             this.panel14.Controls.Add(this.textBoxFirstName);
             this.panel14.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel14.Location = new System.Drawing.Point(128, 0);
+            this.panel14.Location = new System.Drawing.Point(117, 0);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(417, 57);
+            this.panel14.Size = new System.Drawing.Size(518, 57);
             this.panel14.TabIndex = 21;
             // 
             // textBoxFirstName
             // 
-            this.textBoxFirstName.Dock = System.Windows.Forms.DockStyle.Right;
-            this.textBoxFirstName.Location = new System.Drawing.Point(7, 0);
+            this.textBoxFirstName.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxFirstName.Location = new System.Drawing.Point(0, 0);
             this.textBoxFirstName.Name = "textBoxFirstName";
-            this.textBoxFirstName.Size = new System.Drawing.Size(410, 29);
+            this.textBoxFirstName.Size = new System.Drawing.Size(518, 29);
             this.textBoxFirstName.TabIndex = 14;
             // 
             // panel13
             // 
             this.panel13.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel13.Location = new System.Drawing.Point(545, 0);
+            this.panel13.Location = new System.Drawing.Point(635, 0);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(43, 57);
+            this.panel13.Size = new System.Drawing.Size(10, 57);
             this.panel13.TabIndex = 20;
             // 
             // panel5
@@ -487,9 +449,9 @@
             this.panel5.Controls.Add(this.panel25);
             this.panel5.Controls.Add(this.panel10);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel5.Location = new System.Drawing.Point(588, 41);
+            this.panel5.Location = new System.Drawing.Point(665, 60);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(535, 536);
+            this.panel5.Size = new System.Drawing.Size(438, 497);
             this.panel5.TabIndex = 5;
             // 
             // panel50
@@ -499,15 +461,15 @@
             this.panel50.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel50.Location = new System.Drawing.Point(0, 399);
             this.panel50.Name = "panel50";
-            this.panel50.Size = new System.Drawing.Size(535, 137);
+            this.panel50.Size = new System.Drawing.Size(438, 98);
             this.panel50.TabIndex = 36;
             // 
             // panel53
             // 
             this.panel53.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel53.Location = new System.Drawing.Point(492, 0);
+            this.panel53.Location = new System.Drawing.Point(395, 0);
             this.panel53.Name = "panel53";
-            this.panel53.Size = new System.Drawing.Size(43, 137);
+            this.panel53.Size = new System.Drawing.Size(43, 98);
             this.panel53.TabIndex = 20;
             // 
             // panel6
@@ -518,7 +480,7 @@
             this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel6.Location = new System.Drawing.Point(0, 0);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(535, 137);
+            this.panel6.Size = new System.Drawing.Size(438, 98);
             this.panel6.TabIndex = 28;
             // 
             // buttonDeleteItem
@@ -567,7 +529,7 @@
             this.panel40.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel40.Location = new System.Drawing.Point(0, 342);
             this.panel40.Name = "panel40";
-            this.panel40.Size = new System.Drawing.Size(535, 57);
+            this.panel40.Size = new System.Drawing.Size(438, 57);
             this.panel40.TabIndex = 35;
             // 
             // panel49
@@ -576,14 +538,14 @@
             this.panel49.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel49.Location = new System.Drawing.Point(0, 0);
             this.panel49.Name = "panel49";
-            this.panel49.Size = new System.Drawing.Size(91, 57);
+            this.panel49.Size = new System.Drawing.Size(0, 57);
             this.panel49.TabIndex = 23;
             // 
             // labelItemPrice
             // 
             this.labelItemPrice.AutoSize = true;
             this.labelItemPrice.Dock = System.Windows.Forms.DockStyle.Right;
-            this.labelItemPrice.Location = new System.Drawing.Point(5, 0);
+            this.labelItemPrice.Location = new System.Drawing.Point(-86, 0);
             this.labelItemPrice.Name = "labelItemPrice";
             this.labelItemPrice.Size = new System.Drawing.Size(86, 21);
             this.labelItemPrice.TabIndex = 25;
@@ -593,23 +555,23 @@
             // 
             this.panel41.Controls.Add(this.textBoxItemPrice);
             this.panel41.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel41.Location = new System.Drawing.Point(91, 0);
+            this.panel41.Location = new System.Drawing.Point(-79, 0);
             this.panel41.Name = "panel41";
-            this.panel41.Size = new System.Drawing.Size(401, 57);
+            this.panel41.Size = new System.Drawing.Size(474, 57);
             this.panel41.TabIndex = 21;
             // 
             // textBoxItemPrice
             // 
-            this.textBoxItemPrice.Dock = System.Windows.Forms.DockStyle.Right;
-            this.textBoxItemPrice.Location = new System.Drawing.Point(12, 0);
+            this.textBoxItemPrice.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxItemPrice.Location = new System.Drawing.Point(0, 0);
             this.textBoxItemPrice.Name = "textBoxItemPrice";
-            this.textBoxItemPrice.Size = new System.Drawing.Size(389, 29);
+            this.textBoxItemPrice.Size = new System.Drawing.Size(474, 29);
             this.textBoxItemPrice.TabIndex = 26;
             // 
             // panel42
             // 
             this.panel42.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel42.Location = new System.Drawing.Point(492, 0);
+            this.panel42.Location = new System.Drawing.Point(395, 0);
             this.panel42.Name = "panel42";
             this.panel42.Size = new System.Drawing.Size(43, 57);
             this.panel42.TabIndex = 20;
@@ -622,7 +584,7 @@
             this.panel37.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel37.Location = new System.Drawing.Point(0, 285);
             this.panel37.Name = "panel37";
-            this.panel37.Size = new System.Drawing.Size(535, 57);
+            this.panel37.Size = new System.Drawing.Size(438, 57);
             this.panel37.TabIndex = 34;
             // 
             // panel48
@@ -631,14 +593,14 @@
             this.panel48.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel48.Location = new System.Drawing.Point(0, 0);
             this.panel48.Name = "panel48";
-            this.panel48.Size = new System.Drawing.Size(78, 57);
+            this.panel48.Size = new System.Drawing.Size(0, 57);
             this.panel48.TabIndex = 23;
             // 
             // labelBalance
             // 
             this.labelBalance.AutoSize = true;
             this.labelBalance.Dock = System.Windows.Forms.DockStyle.Right;
-            this.labelBalance.Location = new System.Drawing.Point(8, 0);
+            this.labelBalance.Location = new System.Drawing.Point(-70, 0);
             this.labelBalance.Name = "labelBalance";
             this.labelBalance.Size = new System.Drawing.Size(70, 21);
             this.labelBalance.TabIndex = 23;
@@ -648,23 +610,23 @@
             // 
             this.panel38.Controls.Add(this.textBoxBalance);
             this.panel38.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel38.Location = new System.Drawing.Point(78, 0);
+            this.panel38.Location = new System.Drawing.Point(-96, 0);
             this.panel38.Name = "panel38";
-            this.panel38.Size = new System.Drawing.Size(414, 57);
+            this.panel38.Size = new System.Drawing.Size(491, 57);
             this.panel38.TabIndex = 21;
             // 
             // textBoxBalance
             // 
-            this.textBoxBalance.Dock = System.Windows.Forms.DockStyle.Right;
-            this.textBoxBalance.Location = new System.Drawing.Point(6, 0);
+            this.textBoxBalance.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxBalance.Location = new System.Drawing.Point(0, 0);
             this.textBoxBalance.Name = "textBoxBalance";
-            this.textBoxBalance.Size = new System.Drawing.Size(408, 29);
+            this.textBoxBalance.Size = new System.Drawing.Size(491, 29);
             this.textBoxBalance.TabIndex = 24;
             // 
             // panel39
             // 
             this.panel39.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel39.Location = new System.Drawing.Point(492, 0);
+            this.panel39.Location = new System.Drawing.Point(395, 0);
             this.panel39.Name = "panel39";
             this.panel39.Size = new System.Drawing.Size(43, 57);
             this.panel39.TabIndex = 20;
@@ -677,7 +639,7 @@
             this.panel34.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel34.Location = new System.Drawing.Point(0, 228);
             this.panel34.Name = "panel34";
-            this.panel34.Size = new System.Drawing.Size(535, 57);
+            this.panel34.Size = new System.Drawing.Size(438, 57);
             this.panel34.TabIndex = 33;
             // 
             // panel47
@@ -686,14 +648,14 @@
             this.panel47.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel47.Location = new System.Drawing.Point(0, 0);
             this.panel47.Name = "panel47";
-            this.panel47.Size = new System.Drawing.Size(148, 57);
+            this.panel47.Size = new System.Drawing.Size(0, 57);
             this.panel47.TabIndex = 23;
             // 
             // labelModeOfPayment
             // 
             this.labelModeOfPayment.AutoSize = true;
             this.labelModeOfPayment.Dock = System.Windows.Forms.DockStyle.Right;
-            this.labelModeOfPayment.Location = new System.Drawing.Point(9, 0);
+            this.labelModeOfPayment.Location = new System.Drawing.Point(-139, 0);
             this.labelModeOfPayment.Name = "labelModeOfPayment";
             this.labelModeOfPayment.Size = new System.Drawing.Size(139, 21);
             this.labelModeOfPayment.TabIndex = 21;
@@ -703,24 +665,24 @@
             // 
             this.panel35.Controls.Add(this.comboBoxModeOfPayment);
             this.panel35.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel35.Location = new System.Drawing.Point(148, 0);
+            this.panel35.Location = new System.Drawing.Point(-25, 0);
             this.panel35.Name = "panel35";
-            this.panel35.Size = new System.Drawing.Size(344, 57);
+            this.panel35.Size = new System.Drawing.Size(420, 57);
             this.panel35.TabIndex = 21;
             // 
             // comboBoxModeOfPayment
             // 
-            this.comboBoxModeOfPayment.Dock = System.Windows.Forms.DockStyle.Right;
+            this.comboBoxModeOfPayment.Dock = System.Windows.Forms.DockStyle.Fill;
             this.comboBoxModeOfPayment.FormattingEnabled = true;
-            this.comboBoxModeOfPayment.Location = new System.Drawing.Point(8, 0);
+            this.comboBoxModeOfPayment.Location = new System.Drawing.Point(0, 0);
             this.comboBoxModeOfPayment.Name = "comboBoxModeOfPayment";
-            this.comboBoxModeOfPayment.Size = new System.Drawing.Size(336, 29);
+            this.comboBoxModeOfPayment.Size = new System.Drawing.Size(420, 29);
             this.comboBoxModeOfPayment.TabIndex = 22;
             // 
             // panel36
             // 
             this.panel36.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel36.Location = new System.Drawing.Point(492, 0);
+            this.panel36.Location = new System.Drawing.Point(395, 0);
             this.panel36.Name = "panel36";
             this.panel36.Size = new System.Drawing.Size(43, 57);
             this.panel36.TabIndex = 20;
@@ -733,7 +695,7 @@
             this.panel31.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel31.Location = new System.Drawing.Point(0, 171);
             this.panel31.Name = "panel31";
-            this.panel31.Size = new System.Drawing.Size(535, 57);
+            this.panel31.Size = new System.Drawing.Size(438, 57);
             this.panel31.TabIndex = 32;
             // 
             // panel46
@@ -742,14 +704,14 @@
             this.panel46.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel46.Location = new System.Drawing.Point(0, 0);
             this.panel46.Name = "panel46";
-            this.panel46.Size = new System.Drawing.Size(85, 57);
+            this.panel46.Size = new System.Drawing.Size(0, 57);
             this.panel46.TabIndex = 23;
             // 
             // labelAmount
             // 
             this.labelAmount.AutoSize = true;
             this.labelAmount.Dock = System.Windows.Forms.DockStyle.Right;
-            this.labelAmount.Location = new System.Drawing.Point(12, 0);
+            this.labelAmount.Location = new System.Drawing.Point(-73, 0);
             this.labelAmount.Name = "labelAmount";
             this.labelAmount.Size = new System.Drawing.Size(73, 21);
             this.labelAmount.TabIndex = 19;
@@ -759,23 +721,23 @@
             // 
             this.panel32.Controls.Add(this.textBoxAmount);
             this.panel32.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel32.Location = new System.Drawing.Point(85, 0);
+            this.panel32.Location = new System.Drawing.Point(-88, 0);
             this.panel32.Name = "panel32";
-            this.panel32.Size = new System.Drawing.Size(407, 57);
+            this.panel32.Size = new System.Drawing.Size(483, 57);
             this.panel32.TabIndex = 21;
             // 
             // textBoxAmount
             // 
-            this.textBoxAmount.Dock = System.Windows.Forms.DockStyle.Right;
-            this.textBoxAmount.Location = new System.Drawing.Point(14, 0);
+            this.textBoxAmount.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxAmount.Location = new System.Drawing.Point(0, 0);
             this.textBoxAmount.Name = "textBoxAmount";
-            this.textBoxAmount.Size = new System.Drawing.Size(393, 29);
+            this.textBoxAmount.Size = new System.Drawing.Size(483, 29);
             this.textBoxAmount.TabIndex = 20;
             // 
             // panel33
             // 
             this.panel33.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel33.Location = new System.Drawing.Point(492, 0);
+            this.panel33.Location = new System.Drawing.Point(395, 0);
             this.panel33.Name = "panel33";
             this.panel33.Size = new System.Drawing.Size(43, 57);
             this.panel33.TabIndex = 20;
@@ -788,7 +750,7 @@
             this.panel28.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel28.Location = new System.Drawing.Point(0, 114);
             this.panel28.Name = "panel28";
-            this.panel28.Size = new System.Drawing.Size(535, 57);
+            this.panel28.Size = new System.Drawing.Size(438, 57);
             this.panel28.TabIndex = 31;
             // 
             // panel45
@@ -797,14 +759,14 @@
             this.panel45.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel45.Location = new System.Drawing.Point(0, 0);
             this.panel45.Name = "panel45";
-            this.panel45.Size = new System.Drawing.Size(202, 57);
+            this.panel45.Size = new System.Drawing.Size(30, 57);
             this.panel45.TabIndex = 23;
             // 
             // label1ReferenceDoctorName
             // 
             this.label1ReferenceDoctorName.AutoSize = true;
             this.label1ReferenceDoctorName.Dock = System.Windows.Forms.DockStyle.Right;
-            this.label1ReferenceDoctorName.Location = new System.Drawing.Point(12, 0);
+            this.label1ReferenceDoctorName.Location = new System.Drawing.Point(-160, 0);
             this.label1ReferenceDoctorName.Name = "label1ReferenceDoctorName";
             this.label1ReferenceDoctorName.Size = new System.Drawing.Size(190, 21);
             this.label1ReferenceDoctorName.TabIndex = 17;
@@ -814,24 +776,24 @@
             // 
             this.panel29.Controls.Add(this.comboBoxReferenceDoctorName);
             this.panel29.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel29.Location = new System.Drawing.Point(202, 0);
+            this.panel29.Location = new System.Drawing.Point(30, 0);
             this.panel29.Name = "panel29";
-            this.panel29.Size = new System.Drawing.Size(290, 57);
+            this.panel29.Size = new System.Drawing.Size(365, 57);
             this.panel29.TabIndex = 21;
             // 
             // comboBoxReferenceDoctorName
             // 
-            this.comboBoxReferenceDoctorName.Dock = System.Windows.Forms.DockStyle.Right;
+            this.comboBoxReferenceDoctorName.Dock = System.Windows.Forms.DockStyle.Fill;
             this.comboBoxReferenceDoctorName.FormattingEnabled = true;
-            this.comboBoxReferenceDoctorName.Location = new System.Drawing.Point(3, 0);
+            this.comboBoxReferenceDoctorName.Location = new System.Drawing.Point(0, 0);
             this.comboBoxReferenceDoctorName.Name = "comboBoxReferenceDoctorName";
-            this.comboBoxReferenceDoctorName.Size = new System.Drawing.Size(287, 29);
+            this.comboBoxReferenceDoctorName.Size = new System.Drawing.Size(365, 29);
             this.comboBoxReferenceDoctorName.TabIndex = 18;
             // 
             // panel30
             // 
             this.panel30.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel30.Location = new System.Drawing.Point(492, 0);
+            this.panel30.Location = new System.Drawing.Point(395, 0);
             this.panel30.Name = "panel30";
             this.panel30.Size = new System.Drawing.Size(43, 57);
             this.panel30.TabIndex = 20;
@@ -844,7 +806,7 @@
             this.panel25.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel25.Location = new System.Drawing.Point(0, 57);
             this.panel25.Name = "panel25";
-            this.panel25.Size = new System.Drawing.Size(535, 57);
+            this.panel25.Size = new System.Drawing.Size(438, 57);
             this.panel25.TabIndex = 30;
             // 
             // panel44
@@ -853,14 +815,14 @@
             this.panel44.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel44.Location = new System.Drawing.Point(0, 0);
             this.panel44.Name = "panel44";
-            this.panel44.Size = new System.Drawing.Size(202, 57);
+            this.panel44.Size = new System.Drawing.Size(30, 57);
             this.panel44.TabIndex = 23;
             // 
             // labelWorkingDoctorName
             // 
             this.labelWorkingDoctorName.AutoSize = true;
             this.labelWorkingDoctorName.Dock = System.Windows.Forms.DockStyle.Right;
-            this.labelWorkingDoctorName.Location = new System.Drawing.Point(14, 0);
+            this.labelWorkingDoctorName.Location = new System.Drawing.Point(-158, 0);
             this.labelWorkingDoctorName.Name = "labelWorkingDoctorName";
             this.labelWorkingDoctorName.Size = new System.Drawing.Size(188, 21);
             this.labelWorkingDoctorName.TabIndex = 13;
@@ -870,24 +832,24 @@
             // 
             this.panel26.Controls.Add(this.comboBoxWorkingDoctorName);
             this.panel26.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel26.Location = new System.Drawing.Point(202, 0);
+            this.panel26.Location = new System.Drawing.Point(30, 0);
             this.panel26.Name = "panel26";
-            this.panel26.Size = new System.Drawing.Size(290, 57);
+            this.panel26.Size = new System.Drawing.Size(365, 57);
             this.panel26.TabIndex = 21;
             // 
             // comboBoxWorkingDoctorName
             // 
-            this.comboBoxWorkingDoctorName.Dock = System.Windows.Forms.DockStyle.Right;
+            this.comboBoxWorkingDoctorName.Dock = System.Windows.Forms.DockStyle.Fill;
             this.comboBoxWorkingDoctorName.FormattingEnabled = true;
-            this.comboBoxWorkingDoctorName.Location = new System.Drawing.Point(3, 0);
+            this.comboBoxWorkingDoctorName.Location = new System.Drawing.Point(0, 0);
             this.comboBoxWorkingDoctorName.Name = "comboBoxWorkingDoctorName";
-            this.comboBoxWorkingDoctorName.Size = new System.Drawing.Size(287, 29);
+            this.comboBoxWorkingDoctorName.Size = new System.Drawing.Size(365, 29);
             this.comboBoxWorkingDoctorName.TabIndex = 16;
             // 
             // panel27
             // 
             this.panel27.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel27.Location = new System.Drawing.Point(492, 0);
+            this.panel27.Location = new System.Drawing.Point(395, 0);
             this.panel27.Name = "panel27";
             this.panel27.Size = new System.Drawing.Size(43, 57);
             this.panel27.TabIndex = 20;
@@ -900,7 +862,7 @@
             this.panel10.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel10.Location = new System.Drawing.Point(0, 0);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(535, 57);
+            this.panel10.Size = new System.Drawing.Size(438, 57);
             this.panel10.TabIndex = 29;
             // 
             // panel43
@@ -909,14 +871,14 @@
             this.panel43.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel43.Location = new System.Drawing.Point(0, 0);
             this.panel43.Name = "panel43";
-            this.panel43.Size = new System.Drawing.Size(114, 57);
+            this.panel43.Size = new System.Drawing.Size(0, 57);
             this.panel43.TabIndex = 22;
             // 
             // labelPrescription
             // 
             this.labelPrescription.AutoSize = true;
             this.labelPrescription.Dock = System.Windows.Forms.DockStyle.Right;
-            this.labelPrescription.Location = new System.Drawing.Point(14, 0);
+            this.labelPrescription.Location = new System.Drawing.Point(-100, 0);
             this.labelPrescription.Name = "labelPrescription";
             this.labelPrescription.Size = new System.Drawing.Size(100, 21);
             this.labelPrescription.TabIndex = 11;
@@ -926,24 +888,24 @@
             // 
             this.panel11.Controls.Add(this.comboBoxPrescription);
             this.panel11.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel11.Location = new System.Drawing.Point(114, 0);
+            this.panel11.Location = new System.Drawing.Point(-56, 0);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(378, 57);
+            this.panel11.Size = new System.Drawing.Size(451, 57);
             this.panel11.TabIndex = 21;
             // 
             // comboBoxPrescription
             // 
-            this.comboBoxPrescription.Dock = System.Windows.Forms.DockStyle.Right;
+            this.comboBoxPrescription.Dock = System.Windows.Forms.DockStyle.Fill;
             this.comboBoxPrescription.FormattingEnabled = true;
-            this.comboBoxPrescription.Location = new System.Drawing.Point(3, 0);
+            this.comboBoxPrescription.Location = new System.Drawing.Point(0, 0);
             this.comboBoxPrescription.Name = "comboBoxPrescription";
-            this.comboBoxPrescription.Size = new System.Drawing.Size(375, 29);
+            this.comboBoxPrescription.Size = new System.Drawing.Size(451, 29);
             this.comboBoxPrescription.TabIndex = 15;
             // 
             // panel24
             // 
             this.panel24.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel24.Location = new System.Drawing.Point(492, 0);
+            this.panel24.Location = new System.Drawing.Point(395, 0);
             this.panel24.Name = "panel24";
             this.panel24.Size = new System.Drawing.Size(43, 57);
             this.panel24.TabIndex = 20;
@@ -956,14 +918,10 @@
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
-            this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "PatientBilling";
             this.Text = "PatientBilling";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel9.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
@@ -1027,9 +985,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel5;
@@ -1110,6 +1065,5 @@
         private System.Windows.Forms.Panel panel51;
         private System.Windows.Forms.Label DiagnosisNotes;
         private System.Windows.Forms.ComboBox comboBoxDiagnosis;
-        private System.Windows.Forms.Label labelClosePatientBilling;
     }
 }
