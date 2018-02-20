@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace StockManagerSystem
 {
-    public partial class Dashboard : Form
+    public partial class Dashboard :MetroFramework.Forms.MetroForm
     {
         private int childFormNumber = 0;
 

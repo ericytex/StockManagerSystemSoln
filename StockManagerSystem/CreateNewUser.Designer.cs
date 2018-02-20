@@ -28,9 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.labelCloseCreateNewUserForm = new System.Windows.Forms.Label();
-            this.labelCreateNewUser = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.textBoxUserName = new System.Windows.Forms.TextBox();
@@ -61,7 +58,6 @@
             this.buttonClear = new System.Windows.Forms.Button();
             this.panel52 = new System.Windows.Forms.Panel();
             this.panel12 = new System.Windows.Forms.Panel();
-            this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -77,48 +73,15 @@
             this.panel51.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.Silver;
-            this.panel1.Controls.Add(this.labelCloseCreateNewUserForm);
-            this.panel1.Controls.Add(this.labelCreateNewUser);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(657, 41);
-            this.panel1.TabIndex = 4;
-            // 
-            // labelCloseCreateNewUserForm
-            // 
-            this.labelCloseCreateNewUserForm.AutoSize = true;
-            this.labelCloseCreateNewUserForm.Dock = System.Windows.Forms.DockStyle.Right;
-            this.labelCloseCreateNewUserForm.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelCloseCreateNewUserForm.Location = new System.Drawing.Point(637, 0);
-            this.labelCloseCreateNewUserForm.Name = "labelCloseCreateNewUserForm";
-            this.labelCloseCreateNewUserForm.Size = new System.Drawing.Size(20, 21);
-            this.labelCloseCreateNewUserForm.TabIndex = 3;
-            this.labelCloseCreateNewUserForm.Text = "X";
-            // 
-            // labelCreateNewUser
-            // 
-            this.labelCreateNewUser.AutoSize = true;
-            this.labelCreateNewUser.Dock = System.Windows.Forms.DockStyle.Left;
-            this.labelCreateNewUser.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelCreateNewUser.Location = new System.Drawing.Point(0, 0);
-            this.labelCreateNewUser.Name = "labelCreateNewUser";
-            this.labelCreateNewUser.Size = new System.Drawing.Size(140, 21);
-            this.labelCreateNewUser.TabIndex = 2;
-            this.labelCreateNewUser.Text = "Create New User :";
-            // 
             // panel2
             // 
             this.panel2.Controls.Add(this.panel3);
             this.panel2.Controls.Add(this.panel14);
             this.panel2.Controls.Add(this.panel4);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 41);
+            this.panel2.Location = new System.Drawing.Point(20, 60);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(657, 68);
+            this.panel2.Size = new System.Drawing.Size(617, 68);
             this.panel2.TabIndex = 5;
             // 
             // panel3
@@ -127,7 +90,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(93, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(495, 68);
+            this.panel3.Size = new System.Drawing.Size(455, 68);
             this.panel3.TabIndex = 3;
             // 
             // textBoxUserName
@@ -135,13 +98,13 @@
             this.textBoxUserName.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.textBoxUserName.Location = new System.Drawing.Point(0, 39);
             this.textBoxUserName.Name = "textBoxUserName";
-            this.textBoxUserName.Size = new System.Drawing.Size(495, 29);
+            this.textBoxUserName.Size = new System.Drawing.Size(455, 29);
             this.textBoxUserName.TabIndex = 2;
             // 
             // panel14
             // 
             this.panel14.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel14.Location = new System.Drawing.Point(588, 0);
+            this.panel14.Location = new System.Drawing.Point(548, 0);
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(69, 68);
             this.panel14.TabIndex = 2;
@@ -171,9 +134,9 @@
             this.panel5.Controls.Add(this.panel15);
             this.panel5.Controls.Add(this.panel7);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel5.Location = new System.Drawing.Point(0, 109);
+            this.panel5.Location = new System.Drawing.Point(20, 128);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(657, 65);
+            this.panel5.Size = new System.Drawing.Size(617, 65);
             this.panel5.TabIndex = 6;
             // 
             // panel6
@@ -182,7 +145,7 @@
             this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel6.Location = new System.Drawing.Point(93, 0);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(495, 65);
+            this.panel6.Size = new System.Drawing.Size(455, 65);
             this.panel6.TabIndex = 4;
             // 
             // textBoxPassword
@@ -190,13 +153,13 @@
             this.textBoxPassword.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.textBoxPassword.Location = new System.Drawing.Point(0, 36);
             this.textBoxPassword.Name = "textBoxPassword";
-            this.textBoxPassword.Size = new System.Drawing.Size(495, 29);
+            this.textBoxPassword.Size = new System.Drawing.Size(455, 29);
             this.textBoxPassword.TabIndex = 2;
             // 
             // panel15
             // 
             this.panel15.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel15.Location = new System.Drawing.Point(588, 0);
+            this.panel15.Location = new System.Drawing.Point(548, 0);
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(69, 65);
             this.panel15.TabIndex = 3;
@@ -226,9 +189,9 @@
             this.panel8.Controls.Add(this.panel16);
             this.panel8.Controls.Add(this.panel10);
             this.panel8.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel8.Location = new System.Drawing.Point(0, 174);
+            this.panel8.Location = new System.Drawing.Point(20, 193);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(657, 66);
+            this.panel8.Size = new System.Drawing.Size(617, 66);
             this.panel8.TabIndex = 7;
             // 
             // panel9
@@ -237,7 +200,7 @@
             this.panel9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel9.Location = new System.Drawing.Point(93, 0);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(495, 66);
+            this.panel9.Size = new System.Drawing.Size(455, 66);
             this.panel9.TabIndex = 5;
             // 
             // textBoxEmail
@@ -245,13 +208,13 @@
             this.textBoxEmail.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.textBoxEmail.Location = new System.Drawing.Point(0, 37);
             this.textBoxEmail.Name = "textBoxEmail";
-            this.textBoxEmail.Size = new System.Drawing.Size(495, 29);
+            this.textBoxEmail.Size = new System.Drawing.Size(455, 29);
             this.textBoxEmail.TabIndex = 2;
             // 
             // panel16
             // 
             this.panel16.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel16.Location = new System.Drawing.Point(588, 0);
+            this.panel16.Location = new System.Drawing.Point(548, 0);
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(69, 66);
             this.panel16.TabIndex = 3;
@@ -280,9 +243,9 @@
             this.panel11.Controls.Add(this.checkBoxNormalUser);
             this.panel11.Controls.Add(this.checkBoxAdministrator);
             this.panel11.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel11.Location = new System.Drawing.Point(0, 240);
+            this.panel11.Location = new System.Drawing.Point(20, 259);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(657, 44);
+            this.panel11.Size = new System.Drawing.Size(617, 44);
             this.panel11.TabIndex = 8;
             // 
             // checkBoxNormalUser
@@ -313,9 +276,9 @@
             this.panel47.Controls.Add(this.panel51);
             this.panel47.Controls.Add(this.panel52);
             this.panel47.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel47.Location = new System.Drawing.Point(0, 284);
+            this.panel47.Location = new System.Drawing.Point(20, 303);
             this.panel47.Name = "panel47";
-            this.panel47.Size = new System.Drawing.Size(657, 39);
+            this.panel47.Size = new System.Drawing.Size(617, 39);
             this.panel47.TabIndex = 22;
             // 
             // panel48
@@ -323,7 +286,7 @@
             this.panel48.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel48.Location = new System.Drawing.Point(552, 0);
             this.panel48.Name = "panel48";
-            this.panel48.Size = new System.Drawing.Size(105, 39);
+            this.panel48.Size = new System.Drawing.Size(65, 39);
             this.panel48.TabIndex = 4;
             // 
             // panel49
@@ -393,31 +356,26 @@
             // panel12
             // 
             this.panel12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel12.Location = new System.Drawing.Point(0, 323);
+            this.panel12.Location = new System.Drawing.Point(20, 342);
             this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(657, 26);
+            this.panel12.Size = new System.Drawing.Size(617, 29);
             this.panel12.TabIndex = 23;
             // 
             // CreateNewUser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(657, 349);
+            this.ClientSize = new System.Drawing.Size(657, 391);
             this.Controls.Add(this.panel12);
             this.Controls.Add(this.panel47);
             this.Controls.Add(this.panel11);
             this.Controls.Add(this.panel8);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "CreateNewUser";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "CreateNewUser";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.Text = "Create New System User";
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
@@ -443,9 +401,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label labelCreateNewUser;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.TextBox textBoxUserName;
         private System.Windows.Forms.Panel panel4;
@@ -476,6 +431,5 @@
         private System.Windows.Forms.Panel panel12;
         private System.Windows.Forms.CheckBox checkBoxNormalUser;
         private System.Windows.Forms.CheckBox checkBoxAdministrator;
-        private System.Windows.Forms.Label labelCloseCreateNewUserForm;
     }
 }

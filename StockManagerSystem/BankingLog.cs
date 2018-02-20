@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace StockManagerSystem
 {
-    public partial class BankingLog : Form
+    public partial class BankingLog :MetroFramework.Forms.MetroForm
     {
         public BankingLog()
         {

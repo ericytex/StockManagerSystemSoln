@@ -10,14 +10,16 @@ using System.Windows.Forms;
 
 namespace StockManagerSystem
 {
-    public partial class CreateNewUser : Form
+    public partial class CreateNewUser :MetroFramework.Forms.MetroForm
     {
         public CreateNewUser()
         {
             InitializeComponent();
         }
 
-        private void label7_Click(object sender, EventArgs e)
+
+
+        private void labelCloseCreateNewUserForm_Click(object sender, EventArgs e)
         {
             this.Close();
         }

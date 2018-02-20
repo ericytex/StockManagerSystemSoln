@@ -65,10 +65,10 @@
             this.panel43 = new System.Windows.Forms.Panel();
             this.panel18 = new System.Windows.Forms.Panel();
             this.panel20 = new System.Windows.Forms.Panel();
+            this.comboBoxPersonnel = new System.Windows.Forms.ComboBox();
             this.panel21 = new System.Windows.Forms.Panel();
             this.panel22 = new System.Windows.Forms.Panel();
             this.labelPersonnel = new System.Windows.Forms.Label();
-            this.comboBoxPersonnel = new System.Windows.Forms.ComboBox();
             this.panel19 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -450,6 +450,15 @@
             this.panel20.Size = new System.Drawing.Size(477, 45);
             this.panel20.TabIndex = 3;
             // 
+            // comboBoxPersonnel
+            // 
+            this.comboBoxPersonnel.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.comboBoxPersonnel.FormattingEnabled = true;
+            this.comboBoxPersonnel.Location = new System.Drawing.Point(0, 16);
+            this.comboBoxPersonnel.Name = "comboBoxPersonnel";
+            this.comboBoxPersonnel.Size = new System.Drawing.Size(477, 29);
+            this.comboBoxPersonnel.TabIndex = 0;
+            // 
             // panel21
             // 
             this.panel21.Dock = System.Windows.Forms.DockStyle.Right;
@@ -476,15 +485,6 @@
             this.labelPersonnel.Size = new System.Drawing.Size(81, 21);
             this.labelPersonnel.TabIndex = 0;
             this.labelPersonnel.Text = "Personnel:";
-            // 
-            // comboBoxPersonnel
-            // 
-            this.comboBoxPersonnel.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.comboBoxPersonnel.FormattingEnabled = true;
-            this.comboBoxPersonnel.Location = new System.Drawing.Point(0, 16);
-            this.comboBoxPersonnel.Name = "comboBoxPersonnel";
-            this.comboBoxPersonnel.Size = new System.Drawing.Size(477, 29);
-            this.comboBoxPersonnel.TabIndex = 0;
             // 
             // panel19
             // 
