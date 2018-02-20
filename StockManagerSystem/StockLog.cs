@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace StockManagerSystem
 {
-    public partial class StockLog : Form
+    public partial class StockLog : MetroFramework.Forms.MetroForm
     {
         public StockLog()
         {
