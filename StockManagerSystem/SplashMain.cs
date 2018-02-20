@@ -20,9 +20,7 @@ namespace StockManagerSystem
         private void label1_Click(object sender, EventArgs e)
         {
             
-            Dashboard dash = new Dashboard();
-            dash.Show();
-            this.Hide();
+           
            
         }
     }

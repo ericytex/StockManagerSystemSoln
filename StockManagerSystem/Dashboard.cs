@@ -10,13 +10,16 @@ using System.Windows.Forms;
 
 namespace StockManagerSystem
 {
+
     public partial class Dashboard :MetroFramework.Forms.MetroForm
     {
         private int childFormNumber = 0;
+        bool _logOut;
 
-        public Dashboard()
+        public Dashboard(string loginstate)
         {
             InitializeComponent();
+            LoginStatus.Text = loginstate;
         }
 
         private void ShowNewForm(object sender, EventArgs e)
@@ -170,7 +173,20 @@ namespace StockManagerSystem
 
         private void Dashboard_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Application.Exit();
+            //Dashboard closure
+            if (!_logOut)
+                Application.Exit();
+        }
+
+        private void logout_Click(object sender, EventArgs e)
+        {
+
+            if(MetroFramework.MetroMessageBox.Show(this, "Are you sue you want to log out of Stock System Manager ? ", "Message", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            { 
+            _logOut = true;
+            this.Close();
+            LoginMain.Instance.Show();
+            }
         }
     }
 }

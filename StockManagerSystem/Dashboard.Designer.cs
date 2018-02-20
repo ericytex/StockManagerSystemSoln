@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.statusStrip = new System.Windows.Forms.StatusStrip();
-            this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.patientsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -50,25 +48,12 @@
             this.billPatientToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.createNewUserToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.statusStrip.SuspendLayout();
+            this.logout = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.LoginStatus = new MetroFramework.Controls.MetroLabel();
             this.menuStrip1.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // statusStrip
-            // 
-            this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripStatusLabel});
-            this.statusStrip.Location = new System.Drawing.Point(20, 658);
-            this.statusStrip.Name = "statusStrip";
-            this.statusStrip.Size = new System.Drawing.Size(1133, 22);
-            this.statusStrip.TabIndex = 2;
-            this.statusStrip.Text = "StatusStrip";
-            // 
-            // toolStripStatusLabel
-            // 
-            this.toolStripStatusLabel.Name = "toolStripStatusLabel";
-            this.toolStripStatusLabel.Size = new System.Drawing.Size(39, 17);
-            this.toolStripStatusLabel.Text = "Status";
             // 
             // menuStrip1
             // 
@@ -214,30 +199,60 @@
             this.createNewUserToolStripMenuItem.Text = "Create New User";
             this.createNewUserToolStripMenuItem.Click += new System.EventHandler(this.createNewUserToolStripMenuItem_Click);
             // 
+            // logout
+            // 
+            this.logout.AutoSize = true;
+            this.logout.Dock = System.Windows.Forms.DockStyle.Right;
+            this.logout.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.logout.ForeColor = System.Drawing.Color.Red;
+            this.logout.Location = new System.Drawing.Point(1062, 0);
+            this.logout.Name = "logout";
+            this.logout.Size = new System.Drawing.Size(71, 20);
+            this.logout.TabIndex = 6;
+            this.logout.Text = "< Logout";
+            this.logout.Click += new System.EventHandler(this.logout_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.panel1.Controls.Add(this.LoginStatus);
+            this.panel1.Controls.Add(this.logout);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(20, 84);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1133, 20);
+            this.panel1.TabIndex = 7;
+            // 
+            // LoginStatus
+            // 
+            this.LoginStatus.AutoSize = true;
+            this.LoginStatus.Location = new System.Drawing.Point(4, 0);
+            this.LoginStatus.Name = "LoginStatus";
+            this.LoginStatus.Size = new System.Drawing.Size(87, 19);
+            this.LoginStatus.TabIndex = 7;
+            this.LoginStatus.Text = "Logged in as:";
+            // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1173, 700);
-            this.Controls.Add(this.statusStrip);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.Name = "Dashboard";
             this.Text = "Dashboard";
             this.TransparencyKey = System.Drawing.Color.Empty;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Dashboard_FormClosed);
-            this.statusStrip.ResumeLayout(false);
-            this.statusStrip.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
         #endregion
-
-        private System.Windows.Forms.StatusStrip statusStrip;
-        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel;
         private System.Windows.Forms.ToolTip toolTip;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem patientsToolStripMenuItem;
@@ -257,6 +272,9 @@
         private System.Windows.Forms.ToolStripMenuItem billPatientToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem createNewUserToolStripMenuItem;
+        private System.Windows.Forms.Label logout;
+        private System.Windows.Forms.Panel panel1;
+        private MetroFramework.Controls.MetroLabel LoginStatus;
     }
 }
 

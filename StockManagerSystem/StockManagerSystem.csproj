@@ -48,6 +48,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
       <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
       <Private>True</Private>
@@ -61,7 +69,10 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -73,6 +84,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ADOModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ADOModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ADOModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ADOModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ADOModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ADOModel.edmx</DependentUpon>
+    </Compile>
     <Compile Include="BankingLog.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -142,6 +168,9 @@
     <Compile Include="StockLog.Designer.cs">
       <DependentUpon>StockLog.cs</DependentUpon>
     </Compile>
+    <Compile Include="user.cs">
+      <DependentUpon>ADOModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="ViewPatients.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -194,6 +223,13 @@
     <EmbeddedResource Include="ViewPatients.resx">
       <DependentUpon>ViewPatients.cs</DependentUpon>
     </EmbeddedResource>
+    <EntityDeploy Include="ADOModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ADOModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="ADOModel.edmx.diagram">
+      <DependentUpon>ADOModel.edmx</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -234,6 +270,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\okrobot.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ADOModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>ADOModel.Context.cs</LastGenOutput>
+      <DependentUpon>ADOModel.edmx</DependentUpon>
+    </Content>
+    <Content Include="ADOModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ADOModel.edmx</DependentUpon>
+      <LastGenOutput>ADOModel.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
