@@ -28,9 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.closeExpensesLogForm = new System.Windows.Forms.Label();
-            this.lblRegisterPatient = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.dateDateOfExpense = new System.Windows.Forms.DateTimePicker();
@@ -70,7 +67,6 @@
             this.panel22 = new System.Windows.Forms.Panel();
             this.labelPersonnel = new System.Windows.Forms.Label();
             this.panel19 = new System.Windows.Forms.Panel();
-            this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -91,49 +87,15 @@
             this.panel22.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.Silver;
-            this.panel1.Controls.Add(this.closeExpensesLogForm);
-            this.panel1.Controls.Add(this.lblRegisterPatient);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(641, 41);
-            this.panel1.TabIndex = 6;
-            // 
-            // closeExpensesLogForm
-            // 
-            this.closeExpensesLogForm.AutoSize = true;
-            this.closeExpensesLogForm.Dock = System.Windows.Forms.DockStyle.Right;
-            this.closeExpensesLogForm.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.closeExpensesLogForm.Location = new System.Drawing.Point(621, 0);
-            this.closeExpensesLogForm.Name = "closeExpensesLogForm";
-            this.closeExpensesLogForm.Size = new System.Drawing.Size(20, 21);
-            this.closeExpensesLogForm.TabIndex = 3;
-            this.closeExpensesLogForm.Text = "X";
-            this.closeExpensesLogForm.Click += new System.EventHandler(this.closeExpensesLogForm_Click);
-            // 
-            // lblRegisterPatient
-            // 
-            this.lblRegisterPatient.AutoSize = true;
-            this.lblRegisterPatient.Dock = System.Windows.Forms.DockStyle.Left;
-            this.lblRegisterPatient.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRegisterPatient.Location = new System.Drawing.Point(0, 0);
-            this.lblRegisterPatient.Name = "lblRegisterPatient";
-            this.lblRegisterPatient.Size = new System.Drawing.Size(109, 21);
-            this.lblRegisterPatient.TabIndex = 2;
-            this.lblRegisterPatient.Text = "Expenses Log";
-            // 
             // panel2
             // 
             this.panel2.Controls.Add(this.panel3);
             this.panel2.Controls.Add(this.panel14);
             this.panel2.Controls.Add(this.panel4);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 41);
+            this.panel2.Location = new System.Drawing.Point(20, 60);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(641, 45);
+            this.panel2.Size = new System.Drawing.Size(601, 45);
             this.panel2.TabIndex = 7;
             // 
             // panel3
@@ -142,7 +104,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(129, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(442, 45);
+            this.panel3.Size = new System.Drawing.Size(402, 45);
             this.panel3.TabIndex = 3;
             // 
             // dateDateOfExpense
@@ -150,13 +112,13 @@
             this.dateDateOfExpense.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.dateDateOfExpense.Location = new System.Drawing.Point(0, 16);
             this.dateDateOfExpense.Name = "dateDateOfExpense";
-            this.dateDateOfExpense.Size = new System.Drawing.Size(442, 29);
+            this.dateDateOfExpense.Size = new System.Drawing.Size(402, 29);
             this.dateDateOfExpense.TabIndex = 0;
             // 
             // panel14
             // 
             this.panel14.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel14.Location = new System.Drawing.Point(571, 0);
+            this.panel14.Location = new System.Drawing.Point(531, 0);
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(70, 45);
             this.panel14.TabIndex = 2;
@@ -186,9 +148,9 @@
             this.panel5.Controls.Add(this.panel7);
             this.panel5.Controls.Add(this.panel8);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel5.Location = new System.Drawing.Point(0, 86);
+            this.panel5.Location = new System.Drawing.Point(20, 105);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(641, 45);
+            this.panel5.Size = new System.Drawing.Size(601, 45);
             this.panel5.TabIndex = 8;
             // 
             // panel6
@@ -197,7 +159,7 @@
             this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel6.Location = new System.Drawing.Point(140, 0);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(431, 45);
+            this.panel6.Size = new System.Drawing.Size(391, 45);
             this.panel6.TabIndex = 3;
             // 
             // textboxItemResponsible
@@ -205,13 +167,13 @@
             this.textboxItemResponsible.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.textboxItemResponsible.Location = new System.Drawing.Point(0, 16);
             this.textboxItemResponsible.Name = "textboxItemResponsible";
-            this.textboxItemResponsible.Size = new System.Drawing.Size(431, 29);
+            this.textboxItemResponsible.Size = new System.Drawing.Size(391, 29);
             this.textboxItemResponsible.TabIndex = 2;
             // 
             // panel7
             // 
             this.panel7.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel7.Location = new System.Drawing.Point(571, 0);
+            this.panel7.Location = new System.Drawing.Point(531, 0);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(70, 45);
             this.panel7.TabIndex = 2;
@@ -241,9 +203,9 @@
             this.panel9.Controls.Add(this.panel11);
             this.panel9.Controls.Add(this.panel12);
             this.panel9.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel9.Location = new System.Drawing.Point(0, 131);
+            this.panel9.Location = new System.Drawing.Point(20, 150);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(641, 45);
+            this.panel9.Size = new System.Drawing.Size(601, 45);
             this.panel9.TabIndex = 9;
             // 
             // panel10
@@ -252,7 +214,7 @@
             this.panel10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel10.Location = new System.Drawing.Point(101, 0);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(470, 45);
+            this.panel10.Size = new System.Drawing.Size(430, 45);
             this.panel10.TabIndex = 3;
             // 
             // textBoxItemCount
@@ -260,13 +222,13 @@
             this.textBoxItemCount.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.textBoxItemCount.Location = new System.Drawing.Point(0, 16);
             this.textBoxItemCount.Name = "textBoxItemCount";
-            this.textBoxItemCount.Size = new System.Drawing.Size(470, 29);
+            this.textBoxItemCount.Size = new System.Drawing.Size(430, 29);
             this.textBoxItemCount.TabIndex = 2;
             // 
             // panel11
             // 
             this.panel11.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel11.Location = new System.Drawing.Point(571, 0);
+            this.panel11.Location = new System.Drawing.Point(531, 0);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(70, 45);
             this.panel11.TabIndex = 2;
@@ -296,9 +258,9 @@
             this.panel13.Controls.Add(this.panel16);
             this.panel13.Controls.Add(this.panel17);
             this.panel13.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel13.Location = new System.Drawing.Point(0, 176);
+            this.panel13.Location = new System.Drawing.Point(20, 195);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(641, 45);
+            this.panel13.Size = new System.Drawing.Size(601, 45);
             this.panel13.TabIndex = 10;
             // 
             // panel15
@@ -307,7 +269,7 @@
             this.panel15.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel15.Location = new System.Drawing.Point(118, 0);
             this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(453, 45);
+            this.panel15.Size = new System.Drawing.Size(413, 45);
             this.panel15.TabIndex = 3;
             // 
             // textBoxAmountSpent
@@ -315,13 +277,13 @@
             this.textBoxAmountSpent.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.textBoxAmountSpent.Location = new System.Drawing.Point(0, 16);
             this.textBoxAmountSpent.Name = "textBoxAmountSpent";
-            this.textBoxAmountSpent.Size = new System.Drawing.Size(453, 29);
+            this.textBoxAmountSpent.Size = new System.Drawing.Size(413, 29);
             this.textBoxAmountSpent.TabIndex = 2;
             // 
             // panel16
             // 
             this.panel16.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel16.Location = new System.Drawing.Point(571, 0);
+            this.panel16.Location = new System.Drawing.Point(531, 0);
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(70, 45);
             this.panel16.TabIndex = 2;
@@ -353,9 +315,9 @@
             this.panel42.Controls.Add(this.panel44);
             this.panel42.Controls.Add(this.panel43);
             this.panel42.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel42.Location = new System.Drawing.Point(0, 266);
+            this.panel42.Location = new System.Drawing.Point(20, 285);
             this.panel42.Name = "panel42";
-            this.panel42.Size = new System.Drawing.Size(641, 62);
+            this.panel42.Size = new System.Drawing.Size(601, 62);
             this.panel42.TabIndex = 17;
             // 
             // panel48
@@ -363,7 +325,7 @@
             this.panel48.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel48.Location = new System.Drawing.Point(552, 0);
             this.panel48.Name = "panel48";
-            this.panel48.Size = new System.Drawing.Size(89, 62);
+            this.panel48.Size = new System.Drawing.Size(49, 62);
             this.panel48.TabIndex = 4;
             // 
             // panel47
@@ -436,9 +398,9 @@
             this.panel18.Controls.Add(this.panel21);
             this.panel18.Controls.Add(this.panel22);
             this.panel18.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel18.Location = new System.Drawing.Point(0, 221);
+            this.panel18.Location = new System.Drawing.Point(20, 240);
             this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(641, 45);
+            this.panel18.Size = new System.Drawing.Size(601, 45);
             this.panel18.TabIndex = 19;
             // 
             // panel20
@@ -447,7 +409,7 @@
             this.panel20.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel20.Location = new System.Drawing.Point(94, 0);
             this.panel20.Name = "panel20";
-            this.panel20.Size = new System.Drawing.Size(477, 45);
+            this.panel20.Size = new System.Drawing.Size(437, 45);
             this.panel20.TabIndex = 3;
             // 
             // comboBoxPersonnel
@@ -456,13 +418,13 @@
             this.comboBoxPersonnel.FormattingEnabled = true;
             this.comboBoxPersonnel.Location = new System.Drawing.Point(0, 16);
             this.comboBoxPersonnel.Name = "comboBoxPersonnel";
-            this.comboBoxPersonnel.Size = new System.Drawing.Size(477, 29);
+            this.comboBoxPersonnel.Size = new System.Drawing.Size(437, 29);
             this.comboBoxPersonnel.TabIndex = 0;
             // 
             // panel21
             // 
             this.panel21.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel21.Location = new System.Drawing.Point(571, 0);
+            this.panel21.Location = new System.Drawing.Point(531, 0);
             this.panel21.Name = "panel21";
             this.panel21.Size = new System.Drawing.Size(70, 45);
             this.panel21.TabIndex = 2;
@@ -489,9 +451,9 @@
             // panel19
             // 
             this.panel19.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel19.Location = new System.Drawing.Point(0, 328);
+            this.panel19.Location = new System.Drawing.Point(20, 347);
             this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(641, 30);
+            this.panel19.Size = new System.Drawing.Size(601, 0);
             this.panel19.TabIndex = 20;
             // 
             // ExpensesLog
@@ -506,15 +468,10 @@
             this.Controls.Add(this.panel9);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "ExpensesLog";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ExpensesLog";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.Text = "Log Expenses";
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
@@ -546,9 +503,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label lblRegisterPatient;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.DateTimePicker dateDateOfExpense;
@@ -581,7 +535,6 @@
         private System.Windows.Forms.Panel panel44;
         private System.Windows.Forms.Button buttonCancelExpense;
         private System.Windows.Forms.Panel panel43;
-        private System.Windows.Forms.Label closeExpensesLogForm;
         private System.Windows.Forms.Panel panel18;
         private System.Windows.Forms.Panel panel20;
         private System.Windows.Forms.ComboBox comboBoxPersonnel;
