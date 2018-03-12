@@ -28,12 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.textboxUniqueId = new System.Windows.Forms.TextBox();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.labelUniqueId = new System.Windows.Forms.Label();
+            this.components = new System.ComponentModel.Container();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.textBoxFirstName = new System.Windows.Forms.TextBox();
@@ -94,7 +89,6 @@
             this.panel44 = new System.Windows.Forms.Panel();
             this.panel45 = new System.Windows.Forms.Panel();
             this.labelNationalId = new System.Windows.Forms.Label();
-            this.panel46 = new System.Windows.Forms.Panel();
             this.panel47 = new System.Windows.Forms.Panel();
             this.panel48 = new System.Windows.Forms.Panel();
             this.panel49 = new System.Windows.Forms.Panel();
@@ -104,9 +98,15 @@
             this.buttonCancel = new System.Windows.Forms.Button();
             this.panel52 = new System.Windows.Forms.Panel();
             this.panel53 = new System.Windows.Forms.Panel();
-            this.panel5.SuspendLayout();
-            this.panel6.SuspendLayout();
-            this.panel8.SuspendLayout();
+            this.patientsBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.patientsTableAdapter = new StockManagerSystem.StkManagementSystemDataSetTableAdapters.patientsTableAdapter();
+            this.stkManagementSystemDataSet = new StockManagerSystem.StkManagementSystemDataSet();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel54 = new System.Windows.Forms.Panel();
+            this.comboBoxBiller = new System.Windows.Forms.ComboBox();
+            this.panel55 = new System.Windows.Forms.Panel();
+            this.panel56 = new System.Windows.Forms.Panel();
+            this.LabelBiller = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel9.SuspendLayout();
@@ -140,62 +140,13 @@
             this.panel47.SuspendLayout();
             this.panel49.SuspendLayout();
             this.panel51.SuspendLayout();
+            this.panel53.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.patientsBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stkManagementSystemDataSet)).BeginInit();
+            this.panel1.SuspendLayout();
+            this.panel54.SuspendLayout();
+            this.panel56.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // panel5
-            // 
-            this.panel5.Controls.Add(this.panel6);
-            this.panel5.Controls.Add(this.panel7);
-            this.panel5.Controls.Add(this.panel8);
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel5.Location = new System.Drawing.Point(20, 60);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(601, 45);
-            this.panel5.TabIndex = 9;
-            // 
-            // panel6
-            // 
-            this.panel6.Controls.Add(this.textboxUniqueId);
-            this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel6.Location = new System.Drawing.Point(87, 0);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(450, 45);
-            this.panel6.TabIndex = 3;
-            // 
-            // textboxUniqueId
-            // 
-            this.textboxUniqueId.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.textboxUniqueId.Location = new System.Drawing.Point(0, 16);
-            this.textboxUniqueId.Name = "textboxUniqueId";
-            this.textboxUniqueId.Size = new System.Drawing.Size(450, 29);
-            this.textboxUniqueId.TabIndex = 2;
-            // 
-            // panel7
-            // 
-            this.panel7.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel7.Location = new System.Drawing.Point(537, 0);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(64, 45);
-            this.panel7.TabIndex = 2;
-            // 
-            // panel8
-            // 
-            this.panel8.Controls.Add(this.labelUniqueId);
-            this.panel8.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel8.Location = new System.Drawing.Point(0, 0);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(87, 45);
-            this.panel8.TabIndex = 1;
-            // 
-            // labelUniqueId
-            // 
-            this.labelUniqueId.AutoSize = true;
-            this.labelUniqueId.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.labelUniqueId.Location = new System.Drawing.Point(0, 24);
-            this.labelUniqueId.Name = "labelUniqueId";
-            this.labelUniqueId.Size = new System.Drawing.Size(86, 21);
-            this.labelUniqueId.TabIndex = 0;
-            this.labelUniqueId.Text = "Unique ID :";
             // 
             // panel2
             // 
@@ -203,7 +154,7 @@
             this.panel2.Controls.Add(this.panel4);
             this.panel2.Controls.Add(this.panel9);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(20, 105);
+            this.panel2.Location = new System.Drawing.Point(20, 60);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(601, 45);
             this.panel2.TabIndex = 10;
@@ -223,7 +174,7 @@
             this.textBoxFirstName.Location = new System.Drawing.Point(0, 16);
             this.textBoxFirstName.Name = "textBoxFirstName";
             this.textBoxFirstName.Size = new System.Drawing.Size(444, 29);
-            this.textBoxFirstName.TabIndex = 2;
+            this.textBoxFirstName.TabIndex = 3;
             // 
             // panel4
             // 
@@ -258,7 +209,7 @@
             this.panel10.Controls.Add(this.panel12);
             this.panel10.Controls.Add(this.panel13);
             this.panel10.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel10.Location = new System.Drawing.Point(20, 150);
+            this.panel10.Location = new System.Drawing.Point(20, 105);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(601, 45);
             this.panel10.TabIndex = 11;
@@ -313,7 +264,7 @@
             this.panel14.Controls.Add(this.panel16);
             this.panel14.Controls.Add(this.panel17);
             this.panel14.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel14.Location = new System.Drawing.Point(20, 195);
+            this.panel14.Location = new System.Drawing.Point(20, 150);
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(601, 45);
             this.panel14.TabIndex = 12;
@@ -368,7 +319,7 @@
             this.panel18.Controls.Add(this.panel20);
             this.panel18.Controls.Add(this.panel21);
             this.panel18.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel18.Location = new System.Drawing.Point(20, 240);
+            this.panel18.Location = new System.Drawing.Point(20, 195);
             this.panel18.Name = "panel18";
             this.panel18.Size = new System.Drawing.Size(601, 45);
             this.panel18.TabIndex = 13;
@@ -386,6 +337,9 @@
             // 
             this.comboBoxGender.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.comboBoxGender.FormattingEnabled = true;
+            this.comboBoxGender.Items.AddRange(new object[] {
+            "Male",
+            "Female"});
             this.comboBoxGender.Location = new System.Drawing.Point(0, 16);
             this.comboBoxGender.Name = "comboBoxGender";
             this.comboBoxGender.Size = new System.Drawing.Size(467, 29);
@@ -424,7 +378,7 @@
             this.panel22.Controls.Add(this.panel24);
             this.panel22.Controls.Add(this.panel25);
             this.panel22.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel22.Location = new System.Drawing.Point(20, 285);
+            this.panel22.Location = new System.Drawing.Point(20, 240);
             this.panel22.Name = "panel22";
             this.panel22.Size = new System.Drawing.Size(601, 45);
             this.panel22.TabIndex = 14;
@@ -441,6 +395,7 @@
             // dateDateOfBirth
             // 
             this.dateDateOfBirth.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.dateDateOfBirth.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateDateOfBirth.Location = new System.Drawing.Point(0, 16);
             this.dateDateOfBirth.Name = "dateDateOfBirth";
             this.dateDateOfBirth.Size = new System.Drawing.Size(426, 29);
@@ -479,7 +434,7 @@
             this.panel26.Controls.Add(this.panel28);
             this.panel26.Controls.Add(this.panel29);
             this.panel26.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel26.Location = new System.Drawing.Point(20, 330);
+            this.panel26.Location = new System.Drawing.Point(20, 285);
             this.panel26.Name = "panel26";
             this.panel26.Size = new System.Drawing.Size(601, 45);
             this.panel26.TabIndex = 15;
@@ -534,7 +489,7 @@
             this.panel30.Controls.Add(this.panel32);
             this.panel30.Controls.Add(this.panel33);
             this.panel30.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel30.Location = new System.Drawing.Point(20, 375);
+            this.panel30.Location = new System.Drawing.Point(20, 330);
             this.panel30.Name = "panel30";
             this.panel30.Size = new System.Drawing.Size(601, 45);
             this.panel30.TabIndex = 16;
@@ -589,7 +544,7 @@
             this.panel34.Controls.Add(this.panel36);
             this.panel34.Controls.Add(this.panel37);
             this.panel34.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel34.Location = new System.Drawing.Point(20, 420);
+            this.panel34.Location = new System.Drawing.Point(20, 375);
             this.panel34.Name = "panel34";
             this.panel34.Size = new System.Drawing.Size(601, 45);
             this.panel34.TabIndex = 17;
@@ -644,7 +599,7 @@
             this.panel38.Controls.Add(this.panel40);
             this.panel38.Controls.Add(this.panel41);
             this.panel38.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel38.Location = new System.Drawing.Point(20, 465);
+            this.panel38.Location = new System.Drawing.Point(20, 420);
             this.panel38.Name = "panel38";
             this.panel38.Size = new System.Drawing.Size(601, 45);
             this.panel38.TabIndex = 18;
@@ -699,7 +654,7 @@
             this.panel42.Controls.Add(this.panel44);
             this.panel42.Controls.Add(this.panel45);
             this.panel42.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel42.Location = new System.Drawing.Point(20, 510);
+            this.panel42.Location = new System.Drawing.Point(20, 465);
             this.panel42.Name = "panel42";
             this.panel42.Size = new System.Drawing.Size(601, 45);
             this.panel42.TabIndex = 19;
@@ -748,14 +703,6 @@
             this.labelNationalId.TabIndex = 0;
             this.labelNationalId.Text = "National ID :";
             // 
-            // panel46
-            // 
-            this.panel46.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel46.Location = new System.Drawing.Point(20, 555);
-            this.panel46.Name = "panel46";
-            this.panel46.Size = new System.Drawing.Size(601, 17);
-            this.panel46.TabIndex = 20;
-            // 
             // panel47
             // 
             this.panel47.Controls.Add(this.panel48);
@@ -763,8 +710,8 @@
             this.panel47.Controls.Add(this.panel50);
             this.panel47.Controls.Add(this.panel51);
             this.panel47.Controls.Add(this.panel52);
-            this.panel47.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel47.Location = new System.Drawing.Point(20, 572);
+            this.panel47.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel47.Location = new System.Drawing.Point(0, 1);
             this.panel47.Name = "panel47";
             this.panel47.Size = new System.Drawing.Size(601, 39);
             this.panel47.TabIndex = 21;
@@ -772,16 +719,16 @@
             // panel48
             // 
             this.panel48.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel48.Location = new System.Drawing.Point(552, 0);
+            this.panel48.Location = new System.Drawing.Point(531, 0);
             this.panel48.Name = "panel48";
-            this.panel48.Size = new System.Drawing.Size(49, 39);
+            this.panel48.Size = new System.Drawing.Size(70, 39);
             this.panel48.TabIndex = 4;
             // 
             // panel49
             // 
             this.panel49.Controls.Add(this.buttonSubmitPatient);
             this.panel49.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel49.Location = new System.Drawing.Point(390, 0);
+            this.panel49.Location = new System.Drawing.Point(369, 0);
             this.panel49.Name = "panel49";
             this.panel49.Size = new System.Drawing.Size(162, 39);
             this.panel49.TabIndex = 3;
@@ -791,6 +738,8 @@
             this.buttonSubmitPatient.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.buttonSubmitPatient.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.buttonSubmitPatient.FlatAppearance.BorderSize = 0;
+            this.buttonSubmitPatient.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.buttonSubmitPatient.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.buttonSubmitPatient.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonSubmitPatient.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonSubmitPatient.ForeColor = System.Drawing.Color.White;
@@ -800,20 +749,21 @@
             this.buttonSubmitPatient.TabIndex = 18;
             this.buttonSubmitPatient.Text = "Submit Patient";
             this.buttonSubmitPatient.UseVisualStyleBackColor = false;
+            this.buttonSubmitPatient.Click += new System.EventHandler(this.buttonSubmitPatient_Click);
             // 
             // panel50
             // 
             this.panel50.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel50.Location = new System.Drawing.Point(268, 0);
+            this.panel50.Location = new System.Drawing.Point(263, 0);
             this.panel50.Name = "panel50";
-            this.panel50.Size = new System.Drawing.Size(122, 39);
+            this.panel50.Size = new System.Drawing.Size(106, 39);
             this.panel50.TabIndex = 2;
             // 
             // panel51
             // 
             this.panel51.Controls.Add(this.buttonCancel);
             this.panel51.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel51.Location = new System.Drawing.Point(109, 0);
+            this.panel51.Location = new System.Drawing.Point(104, 0);
             this.panel51.Name = "panel51";
             this.panel51.Size = new System.Drawing.Size(159, 39);
             this.panel51.TabIndex = 1;
@@ -823,6 +773,8 @@
             this.buttonCancel.BackColor = System.Drawing.Color.Silver;
             this.buttonCancel.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.buttonCancel.FlatAppearance.BorderSize = 0;
+            this.buttonCancel.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.buttonCancel.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.buttonCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonCancel.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonCancel.ForeColor = System.Drawing.Color.White;
@@ -832,31 +784,105 @@
             this.buttonCancel.TabIndex = 16;
             this.buttonCancel.Text = "Cancel ";
             this.buttonCancel.UseVisualStyleBackColor = false;
+            this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
             // 
             // panel52
             // 
             this.panel52.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel52.Location = new System.Drawing.Point(0, 0);
             this.panel52.Name = "panel52";
-            this.panel52.Size = new System.Drawing.Size(109, 39);
+            this.panel52.Size = new System.Drawing.Size(104, 39);
             this.panel52.TabIndex = 0;
             // 
             // panel53
             // 
-            this.panel53.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel53.Location = new System.Drawing.Point(20, 611);
+            this.panel53.Controls.Add(this.panel47);
+            this.panel53.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel53.Location = new System.Drawing.Point(20, 566);
             this.panel53.Name = "panel53";
-            this.panel53.Size = new System.Drawing.Size(601, 0);
+            this.panel53.Size = new System.Drawing.Size(601, 40);
             this.panel53.TabIndex = 22;
+            // 
+            // patientsBindingSource
+            // 
+            this.patientsBindingSource.DataMember = "patients";
+            // 
+            // patientsTableAdapter
+            // 
+            this.patientsTableAdapter.ClearBeforeFill = true;
+            // 
+            // stkManagementSystemDataSet
+            // 
+            this.stkManagementSystemDataSet.DataSetName = "StkManagementSystemDataSet";
+            this.stkManagementSystemDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.panel54);
+            this.panel1.Controls.Add(this.panel55);
+            this.panel1.Controls.Add(this.panel56);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(20, 510);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(601, 45);
+            this.panel1.TabIndex = 23;
+            // 
+            // panel54
+            // 
+            this.panel54.Controls.Add(this.comboBoxBiller);
+            this.panel54.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel54.Location = new System.Drawing.Point(104, 0);
+            this.panel54.Name = "panel54";
+            this.panel54.Size = new System.Drawing.Size(433, 45);
+            this.panel54.TabIndex = 3;
+            // 
+            // comboBoxBiller
+            // 
+            this.comboBoxBiller.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.comboBoxBiller.FormattingEnabled = true;
+            this.comboBoxBiller.Items.AddRange(new object[] {
+            "Harriet Boss2",
+            "Juliet Boss1",
+            "Eric watyekele"});
+            this.comboBoxBiller.Location = new System.Drawing.Point(0, 16);
+            this.comboBoxBiller.Name = "comboBoxBiller";
+            this.comboBoxBiller.Size = new System.Drawing.Size(433, 29);
+            this.comboBoxBiller.TabIndex = 1;
+            // 
+            // panel55
+            // 
+            this.panel55.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel55.Location = new System.Drawing.Point(537, 0);
+            this.panel55.Name = "panel55";
+            this.panel55.Size = new System.Drawing.Size(64, 45);
+            this.panel55.TabIndex = 2;
+            // 
+            // panel56
+            // 
+            this.panel56.Controls.Add(this.LabelBiller);
+            this.panel56.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel56.Location = new System.Drawing.Point(0, 0);
+            this.panel56.Name = "panel56";
+            this.panel56.Size = new System.Drawing.Size(104, 45);
+            this.panel56.TabIndex = 1;
+            // 
+            // LabelBiller
+            // 
+            this.LabelBiller.AutoSize = true;
+            this.LabelBiller.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.LabelBiller.Location = new System.Drawing.Point(0, 24);
+            this.LabelBiller.Name = "LabelBiller";
+            this.LabelBiller.Size = new System.Drawing.Size(52, 21);
+            this.LabelBiller.TabIndex = 0;
+            this.LabelBiller.Text = "Biller :";
             // 
             // RegisterPatient
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(641, 621);
+            this.ClientSize = new System.Drawing.Size(641, 626);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel53);
-            this.Controls.Add(this.panel47);
-            this.Controls.Add(this.panel46);
             this.Controls.Add(this.panel42);
             this.Controls.Add(this.panel38);
             this.Controls.Add(this.panel34);
@@ -867,16 +893,11 @@
             this.Controls.Add(this.panel14);
             this.Controls.Add(this.panel10);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel5);
             this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "RegisterPatient";
             this.Text = "RegisterPatient";
-            this.panel5.ResumeLayout(false);
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
-            this.panel8.ResumeLayout(false);
-            this.panel8.PerformLayout();
+            this.Load += new System.EventHandler(this.RegisterPatient_Load);
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
@@ -928,20 +949,20 @@
             this.panel47.ResumeLayout(false);
             this.panel49.ResumeLayout(false);
             this.panel51.ResumeLayout(false);
+            this.panel53.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.patientsBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stkManagementSystemDataSet)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel54.ResumeLayout(false);
+            this.panel56.ResumeLayout(false);
+            this.panel56.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.TextBox textboxUniqueId;
-        private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Label labelUniqueId;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.TextBox textBoxFirstName;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Label labelFirstName;
@@ -999,7 +1020,6 @@
         private System.Windows.Forms.Panel panel44;
         private System.Windows.Forms.Panel panel45;
         private System.Windows.Forms.Label labelNationalId;
-        private System.Windows.Forms.Panel panel46;
         private System.Windows.Forms.Panel panel47;
         private System.Windows.Forms.Panel panel48;
         private System.Windows.Forms.Panel panel49;
@@ -1009,5 +1029,15 @@
         private System.Windows.Forms.Button buttonCancel;
         private System.Windows.Forms.Panel panel52;
         private System.Windows.Forms.Panel panel53;
+        private StkManagementSystemDataSetTableAdapters.patientsTableAdapter patientsTableAdapter;
+        private System.Windows.Forms.BindingSource patientsBindingSource;
+        private StkManagementSystemDataSet stkManagementSystemDataSet;
+        private System.Windows.Forms.TextBox textBoxFirstName;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel54;
+        private System.Windows.Forms.Panel panel55;
+        private System.Windows.Forms.Panel panel56;
+        private System.Windows.Forms.Label LabelBiller;
+        private System.Windows.Forms.ComboBox comboBoxBiller;
     }
 }

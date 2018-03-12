@@ -18,6 +18,8 @@ namespace StockManagerSystem
         public string Username { get; set; }
         public string Password { get; set; }
         public string Email { get; set; }
-        public System.DateTime createdDate { get; set; }
+        public Nullable<System.DateTime> createdDate { get; set; }
+    
+        public virtual userRight userRight { get; set; }
     }
 }

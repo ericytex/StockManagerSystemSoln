@@ -70,7 +70,8 @@
             this.metroTextUsername.CustomButton.UseVisualStyleBackColor = false;
             this.metroTextUsername.CustomButton.Visible = false;
             this.metroTextUsername.FontSize = MetroFramework.MetroTextBoxSize.Tall;
-            this.metroTextUsername.Lines = new string[0];
+            this.metroTextUsername.Lines = new string[] {
+        "admin"};
             this.metroTextUsername.Location = new System.Drawing.Point(77, 0);
             this.metroTextUsername.MaxLength = 32767;
             this.metroTextUsername.Name = "metroTextUsername";
@@ -84,6 +85,7 @@
             this.metroTextUsername.Size = new System.Drawing.Size(364, 33);
             this.metroTextUsername.Style = MetroFramework.MetroColorStyle.Silver;
             this.metroTextUsername.TabIndex = 0;
+            this.metroTextUsername.Text = "admin";
             this.metroTextUsername.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.metroTextUsername.UseCustomForeColor = true;
             this.metroTextUsername.UseSelectable = true;
@@ -106,6 +108,8 @@
             // 
             this.buttonLogin.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.buttonLogin.FlatAppearance.BorderSize = 0;
+            this.buttonLogin.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.buttonLogin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.buttonLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonLogin.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonLogin.ForeColor = System.Drawing.Color.White;
@@ -121,6 +125,8 @@
             // 
             this.buttonCancel.BackColor = System.Drawing.Color.Silver;
             this.buttonCancel.FlatAppearance.BorderSize = 0;
+            this.buttonCancel.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.buttonCancel.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.buttonCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonCancel.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonCancel.ForeColor = System.Drawing.Color.White;
@@ -130,6 +136,7 @@
             this.buttonCancel.TabIndex = 17;
             this.buttonCancel.Text = "Cancel ";
             this.buttonCancel.UseVisualStyleBackColor = false;
+            this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
             // 
             // panel2
             // 
@@ -192,7 +199,8 @@
             this.metroTextPassword.CustomButton.UseVisualStyleBackColor = false;
             this.metroTextPassword.CustomButton.Visible = false;
             this.metroTextPassword.FontSize = MetroFramework.MetroTextBoxSize.Tall;
-            this.metroTextPassword.Lines = new string[0];
+            this.metroTextPassword.Lines = new string[] {
+        "admin"};
             this.metroTextPassword.Location = new System.Drawing.Point(77, 11);
             this.metroTextPassword.MaxLength = 32767;
             this.metroTextPassword.Name = "metroTextPassword";
@@ -206,6 +214,7 @@
             this.metroTextPassword.Size = new System.Drawing.Size(364, 33);
             this.metroTextPassword.Style = MetroFramework.MetroColorStyle.Silver;
             this.metroTextPassword.TabIndex = 4;
+            this.metroTextPassword.Text = "admin";
             this.metroTextPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.metroTextPassword.UseCustomForeColor = true;
             this.metroTextPassword.UseSelectable = true;

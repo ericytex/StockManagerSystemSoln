@@ -44,7 +44,7 @@ namespace StockManagerSystem
 
             try
             {
-                using (StkManagementSystemEntities skme = new StkManagementSystemEntities())
+                using (StkManagementSystemEntitiesUsers skme = new StkManagementSystemEntitiesUsers())
                 {
                     var query = from u in skme.users where u.Username == metroTextUsername.Text && u.Password == metroTextPassword.Text
                                 select u;
@@ -70,6 +70,11 @@ namespace StockManagerSystem
         }
 
         private void LoginMain_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void buttonCancel_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }

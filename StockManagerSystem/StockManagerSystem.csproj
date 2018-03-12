@@ -56,6 +56,10 @@
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="MaterialSkin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialSkin.0.2.1\lib\MaterialSkin.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
       <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
       <Private>True</Private>
@@ -84,20 +88,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ADOModel.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ADOModel.Context.tt</DependentUpon>
+    <Compile Include="AdmissionTranfersandDischargeForm.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ADOModel.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ADOModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ADOModel.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ADOModel.edmx</DependentUpon>
+    <Compile Include="AdmissionTranfersandDischargeForm.Designer.cs">
+      <DependentUpon>AdmissionTranfersandDischargeForm.cs</DependentUpon>
     </Compile>
     <Compile Include="BankingLog.cs">
       <SubType>Form</SubType>
@@ -105,7 +100,19 @@
     <Compile Include="BankingLog.Designer.cs">
       <DependentUpon>BankingLog.cs</DependentUpon>
     </Compile>
+    <Compile Include="CashierManagementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CashierManagementForm.Designer.cs">
+      <DependentUpon>CashierManagementForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="ConnectionStringSettings.cs" />
+    <Compile Include="ConsultingAppointmentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultingAppointmentForm.Designer.cs">
+      <DependentUpon>ConsultingAppointmentForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="CreateInvoice.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -124,11 +131,38 @@
     <Compile Include="Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
-    <Compile Include="ExpensesLog.cs">
+    <Compile Include="diagnosi.cs">
+      <DependentUpon>ModelDiagnosis.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HelpDeskForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ExpensesLog.Designer.cs">
-      <DependentUpon>ExpensesLog.cs</DependentUpon>
+    <Compile Include="HelpDeskForm.Designer.cs">
+      <DependentUpon>HelpDeskForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IncidentReportsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IncidentReportsForm.Designer.cs">
+      <DependentUpon>IncidentReportsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="informationManagementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="informationManagementForm.Designer.cs">
+      <DependentUpon>informationManagementForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InpatientManagementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InpatientManagementForm.Designer.cs">
+      <DependentUpon>InpatientManagementForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LaboratoryManagementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LaboratoryManagementForm.Designer.cs">
+      <DependentUpon>LaboratoryManagementForm.cs</DependentUpon>
     </Compile>
     <Compile Include="LoginMain.cs">
       <SubType>Form</SubType>
@@ -136,23 +170,87 @@
     <Compile Include="LoginMain.Designer.cs">
       <DependentUpon>LoginMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="MaterialManagementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaterialManagementForm.Designer.cs">
+      <DependentUpon>MaterialManagementForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="metroGrid1.cs" />
+    <Compile Include="ModelDiagnosis.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelDiagnosis.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ModelDiagnosis.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelDiagnosis.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ModelDiagnosis.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelDiagnosis.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="NurseManagementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NurseManagementForm.Designer.cs">
+      <DependentUpon>NurseManagementForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OutPatientManagementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OutPatientManagementForm.Designer.cs">
+      <DependentUpon>OutPatientManagementForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="PatientBilling.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="PatientBilling.Designer.cs">
       <DependentUpon>PatientBilling.cs</DependentUpon>
     </Compile>
-    <Compile Include="PlaceOrder.cs">
+    <Compile Include="PatientCareManagementForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PlaceOrder.Designer.cs">
-      <DependentUpon>PlaceOrder.cs</DependentUpon>
+    <Compile Include="PatientCareManagementForm.Designer.cs">
+      <DependentUpon>PatientCareManagementForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Patient_Inquiries.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Patient_Inquiries.Designer.cs">
+      <DependentUpon>Patient_Inquiries.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PharmacyManagementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PharmacyManagementForm.Designer.cs">
+      <DependentUpon>PharmacyManagementForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QueueManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QueueManagement.Designer.cs">
+      <DependentUpon>QueueManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RadiologyManagementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RadiologyManagementForm.Designer.cs">
+      <DependentUpon>RadiologyManagementForm.cs</DependentUpon>
     </Compile>
     <Compile Include="RegisterPatient.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="RegisterPatient.Designer.cs">
       <DependentUpon>RegisterPatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceOrderProcessingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServiceOrderProcessingForm.Designer.cs">
+      <DependentUpon>ServiceOrderProcessingForm.cs</DependentUpon>
     </Compile>
     <Compile Include="SplashMain.cs">
       <SubType>Form</SubType>
@@ -162,14 +260,50 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StockLog.cs">
+    <Compile Include="StatisticsandReportingForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StockLog.Designer.cs">
-      <DependentUpon>StockLog.cs</DependentUpon>
+    <Compile Include="StatisticsandReportingForm.Designer.cs">
+      <DependentUpon>StatisticsandReportingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StkManagementPatientsModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StkManagementPatientsModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="StkManagementPatientsModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StkManagementPatientsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="StkManagementPatientsModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StkManagementPatientsModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="StkManagementSystemDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StkManagementSystemDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="user.cs">
-      <DependentUpon>ADOModel.tt</DependentUpon>
+      <DependentUpon>UsersModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="userRight.cs" />
+    <Compile Include="UsersModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UsersModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UsersModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UsersModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UsersModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UsersModel.edmx</DependentUpon>
     </Compile>
     <Compile Include="ViewPatients.cs">
       <SubType>Form</SubType>
@@ -180,6 +314,12 @@
     <EmbeddedResource Include="BankingLog.resx">
       <DependentUpon>BankingLog.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CashierManagementForm.resx">
+      <DependentUpon>CashierManagementForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultingAppointmentForm.resx">
+      <DependentUpon>ConsultingAppointmentForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CreateInvoice.resx">
       <DependentUpon>CreateInvoice.cs</DependentUpon>
     </EmbeddedResource>
@@ -189,20 +329,56 @@
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ExpensesLog.resx">
-      <DependentUpon>ExpensesLog.cs</DependentUpon>
+    <EmbeddedResource Include="HelpDeskForm.resx">
+      <DependentUpon>HelpDeskForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IncidentReportsForm.resx">
+      <DependentUpon>IncidentReportsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="informationManagementForm.resx">
+      <DependentUpon>informationManagementForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InpatientManagementForm.resx">
+      <DependentUpon>InpatientManagementForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LaboratoryManagementForm.resx">
+      <DependentUpon>LaboratoryManagementForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginMain.resx">
       <DependentUpon>LoginMain.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MaterialManagementForm.resx">
+      <DependentUpon>MaterialManagementForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NurseManagementForm.resx">
+      <DependentUpon>NurseManagementForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutPatientManagementForm.resx">
+      <DependentUpon>OutPatientManagementForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PatientBilling.resx">
       <DependentUpon>PatientBilling.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PlaceOrder.resx">
-      <DependentUpon>PlaceOrder.cs</DependentUpon>
+    <EmbeddedResource Include="PatientCareManagementForm.resx">
+      <DependentUpon>PatientCareManagementForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patient_Inquiries.resx">
+      <DependentUpon>Patient_Inquiries.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PharmacyManagementForm.resx">
+      <DependentUpon>PharmacyManagementForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QueueManagement.resx">
+      <DependentUpon>QueueManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RadiologyManagementForm.resx">
+      <DependentUpon>RadiologyManagementForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RegisterPatient.resx">
       <DependentUpon>RegisterPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServiceOrderProcessingForm.resx">
+      <DependentUpon>ServiceOrderProcessingForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SplashMain.resx">
       <DependentUpon>SplashMain.cs</DependentUpon>
@@ -217,20 +393,22 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="StockLog.resx">
-      <DependentUpon>StockLog.cs</DependentUpon>
+    <EmbeddedResource Include="StatisticsandReportingForm.resx">
+      <DependentUpon>StatisticsandReportingForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ViewPatients.resx">
       <DependentUpon>ViewPatients.cs</DependentUpon>
     </EmbeddedResource>
-    <EntityDeploy Include="ADOModel.edmx">
+    <EntityDeploy Include="ModelDiagnosis.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>ADOModel.Designer.cs</LastGenOutput>
+      <LastGenOutput>ModelDiagnosis.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="ADOModel.edmx.diagram">
-      <DependentUpon>ADOModel.edmx</DependentUpon>
+    <None Include="ModelDiagnosis.edmx.diagram">
+      <DependentUpon>ModelDiagnosis.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\diagnosi.datasource" />
+    <None Include="Properties\DataSources\patient.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -240,6 +418,31 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <EntityDeploy Include="StkManagementPatientsModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>StkManagementPatientsModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="StkManagementPatientsModel.edmx.diagram">
+      <DependentUpon>StkManagementPatientsModel.edmx</DependentUpon>
+    </None>
+    <None Include="StkManagementSystemDataSet.xsc">
+      <DependentUpon>StkManagementSystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="StkManagementSystemDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>StkManagementSystemDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="StkManagementSystemDataSet.xss">
+      <DependentUpon>StkManagementSystemDataSet.xsd</DependentUpon>
+    </None>
+    <EntityDeploy Include="UsersModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>UsersModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="UsersModel.edmx.diagram">
+      <DependentUpon>UsersModel.edmx</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -272,15 +475,66 @@
     <None Include="Resources\okrobot.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ADOModel.Context.tt">
+    <Content Include="ModelDiagnosis.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>ADOModel.Context.cs</LastGenOutput>
-      <DependentUpon>ADOModel.edmx</DependentUpon>
+      <DependentUpon>ModelDiagnosis.edmx</DependentUpon>
+      <LastGenOutput>ModelDiagnosis.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="ADOModel.tt">
+    <Content Include="ModelDiagnosis.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>ADOModel.edmx</DependentUpon>
-      <LastGenOutput>ADOModel.cs</LastGenOutput>
+      <DependentUpon>ModelDiagnosis.edmx</DependentUpon>
+      <LastGenOutput>ModelDiagnosis.cs</LastGenOutput>
+    </Content>
+    <None Include="Resources\icons8_Left_1.ico" />
+    <None Include="Resources\icons8_Menu_2.ico" />
+    <None Include="Resources\patientinquiry_16.png" />
+    <None Include="Resources\patientinquiry_32.png" />
+    <None Include="Resources\information_32.png" />
+    <None Include="Resources\information_32.png_32.png" />
+    <None Include="Resources\outpatient.png_32.png" />
+    <None Include="Resources\inpatient.ico" />
+    <None Include="Resources\inpatient_32.png" />
+    <None Include="Resources\outpatient.png_32.png_32.png" />
+    <None Include="Resources\information_32.png_32.png_32.png" />
+    <None Include="Resources\information.png_32.png" />
+    <None Include="Resources\outpatient.png.png_32.png" />
+    <None Include="Resources\inpatient.png_32.png" />
+    <None Include="Resources\pharmacy_32.png" />
+    <None Include="Resources\nurse.png_32.png" />
+    <None Include="Resources\inpatient.png_321.png" />
+    <None Include="Resources\ipatient.png_32.png" />
+    <None Include="Resources\patientcare.png_32.png" />
+    <None Include="Resources\admissions.png" />
+    <None Include="Resources\admissions.png_32.png" />
+    <None Include="Resources\helpdesk.png_32.png" />
+    <None Include="Resources\Queue.png_32.png" />
+    <None Include="Resources\appointment.png_32.png" />
+    <None Include="Resources\serviceorder.png_32.png" />
+    <None Include="Resources\laboratory.png_32.png" />
+    <None Include="Resources\MaterialMngt.pn_32.png" />
+    <None Include="Resources\radiology.png_32.png" />
+    <None Include="Resources\statistics.png_32.png" />
+    <None Include="Resources\cashier.png_32.png" />
+    <None Include="Resources\incident.png_32.png" />
+    <Content Include="StkManagementPatientsModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>StkManagementPatientsModel.edmx</DependentUpon>
+      <LastGenOutput>StkManagementPatientsModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="StkManagementPatientsModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>StkManagementPatientsModel.edmx</DependentUpon>
+      <LastGenOutput>StkManagementPatientsModel.cs</LastGenOutput>
+    </Content>
+    <Content Include="UsersModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>UsersModel.edmx</DependentUpon>
+      <LastGenOutput>UsersModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="UsersModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>UsersModel.edmx</DependentUpon>
+      <LastGenOutput>UsersModel.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <ItemGroup>

@@ -10,5 +10,8 @@
 &lt;/SerializableConnectionString&gt;</DesignTimeValue>
       <Value Profile="(Default)">Data Source=DESKTOP-JBPJ74V\SQLSERVERJAN2018;Initial Catalog=StkManagementSystem;Integrated Security=True</Value>
     </Setting>
+    <Setting Name="b" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
   </Settings>
 </SettingsFile>
