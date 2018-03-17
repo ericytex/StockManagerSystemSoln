@@ -55,59 +55,45 @@
             this.sidePanel = new System.Windows.Forms.Panel();
             this.patientMngtLable = new System.Windows.Forms.Label();
             this.panel19 = new System.Windows.Forms.Panel();
-            this.CashierManagementPopup = new System.Windows.Forms.Label();
             this.labelCashier = new System.Windows.Forms.Label();
             this.pictureBoxCashier = new System.Windows.Forms.PictureBox();
             this.panel15 = new System.Windows.Forms.Panel();
-            this.StatisticsandReportingPopup = new System.Windows.Forms.Label();
             this.labelStatistics = new System.Windows.Forms.Label();
             this.pictureBoxStatistics = new System.Windows.Forms.PictureBox();
             this.panel16 = new System.Windows.Forms.Panel();
-            this.RadiologyManagementPopup = new System.Windows.Forms.Label();
             this.labelRadiology = new System.Windows.Forms.Label();
             this.pictureBoxRadiology = new System.Windows.Forms.PictureBox();
             this.panel17 = new System.Windows.Forms.Panel();
-            this.MaterialManagementPopup = new System.Windows.Forms.Label();
             this.labelMaterial = new System.Windows.Forms.Label();
             this.pictureBoxMaterial = new System.Windows.Forms.PictureBox();
             this.panel18 = new System.Windows.Forms.Panel();
-            this.LaboratoryManagementPopup = new System.Windows.Forms.Label();
             this.labelLaboratory = new System.Windows.Forms.Label();
             this.pictureBoxLaboratory = new System.Windows.Forms.PictureBox();
             this.panel14 = new System.Windows.Forms.Panel();
-            this.ServiceOrderProcessingPopup = new System.Windows.Forms.Label();
             this.labelServiceOrderProcessing = new System.Windows.Forms.Label();
             this.pictureBoxServiceOrderProcessing = new System.Windows.Forms.PictureBox();
             this.panel12 = new System.Windows.Forms.Panel();
-            this.ConsultingAppointmentPopup = new System.Windows.Forms.Label();
             this.labelConsultingAppointment = new System.Windows.Forms.Label();
             this.pictureBoxConsultAppointment = new System.Windows.Forms.PictureBox();
             this.panel13 = new System.Windows.Forms.Panel();
-            this.QueueManagementPopup = new System.Windows.Forms.Label();
             this.labelQueueManagement = new System.Windows.Forms.Label();
             this.pictureBoxQueueManagement = new System.Windows.Forms.PictureBox();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.HelpDeskPopup = new System.Windows.Forms.Label();
             this.labelHelpDesk = new System.Windows.Forms.Label();
             this.pictureBoxHelpDesk = new System.Windows.Forms.PictureBox();
             this.panel11 = new System.Windows.Forms.Panel();
-            this.IncidentReportsPopup = new System.Windows.Forms.Label();
             this.labelIncidentReports = new System.Windows.Forms.Label();
             this.pictureBoxIncidentReports = new System.Windows.Forms.PictureBox();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.PatientCarePopup = new System.Windows.Forms.Label();
             this.labelPatientcare = new System.Windows.Forms.Label();
             this.pictureBoxPatientCare = new System.Windows.Forms.PictureBox();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.AdmissionTransfersandDischargesPopup = new System.Windows.Forms.Label();
             this.labelAdminission = new System.Windows.Forms.Label();
             this.pictureBoxAdmissions = new System.Windows.Forms.PictureBox();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.NursingManagementPopup = new System.Windows.Forms.Label();
             this.labelNursemanagement = new System.Windows.Forms.Label();
             this.pictureBoxNursemanagement = new System.Windows.Forms.PictureBox();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.PharmacyManagementPopup = new System.Windows.Forms.Label();
             this.labelPharmacyManagement = new System.Windows.Forms.Label();
             this.pictureBoxpharmacy = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
@@ -124,6 +110,20 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBoxBackButton = new System.Windows.Forms.PictureBox();
             this.pictureBoxMenubutton = new System.Windows.Forms.PictureBox();
+            this.CashierManagementPopup = new System.Windows.Forms.Label();
+            this.StatisticsandReportingPopup = new System.Windows.Forms.Label();
+            this.RadiologyManagementPopup = new System.Windows.Forms.Label();
+            this.MaterialManagementPopup = new System.Windows.Forms.Label();
+            this.LaboratoryManagementPopup = new System.Windows.Forms.Label();
+            this.ServiceOrderProcessingPopup = new System.Windows.Forms.Label();
+            this.ConsultingAppointmentPopup = new System.Windows.Forms.Label();
+            this.QueueManagementPopup = new System.Windows.Forms.Label();
+            this.HelpDeskPopup = new System.Windows.Forms.Label();
+            this.IncidentReportsPopup = new System.Windows.Forms.Label();
+            this.PatientCarePopup = new System.Windows.Forms.Label();
+            this.AdmissionTransfersandDischargesPopup = new System.Windows.Forms.Label();
+            this.NursingManagementPopup = new System.Windows.Forms.Label();
+            this.PharmacyManagementPopup = new System.Windows.Forms.Label();
             this.InpatientManagementPopup = new System.Windows.Forms.Label();
             this.OutpatientManagementPopup = new System.Windows.Forms.Label();
             this.inquiry = new System.Windows.Forms.Label();
@@ -406,20 +406,6 @@
             this.panel19.Size = new System.Drawing.Size(230, 28);
             this.panel19.TabIndex = 21;
             // 
-            // CashierManagementPopup
-            // 
-            this.CashierManagementPopup.AutoSize = true;
-            this.CashierManagementPopup.BackColor = System.Drawing.Color.DarkGray;
-            this.CashierManagementPopup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CashierManagementPopup.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CashierManagementPopup.ForeColor = System.Drawing.Color.White;
-            this.CashierManagementPopup.Location = new System.Drawing.Point(61, 751);
-            this.CashierManagementPopup.Name = "CashierManagementPopup";
-            this.CashierManagementPopup.Size = new System.Drawing.Size(125, 17);
-            this.CashierManagementPopup.TabIndex = 7;
-            this.CashierManagementPopup.Text = "Cashier Management";
-            this.CashierManagementPopup.Visible = false;
-            // 
             // labelCashier
             // 
             this.labelCashier.AutoSize = true;
@@ -454,20 +440,6 @@
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(230, 28);
             this.panel15.TabIndex = 20;
-            // 
-            // StatisticsandReportingPopup
-            // 
-            this.StatisticsandReportingPopup.AutoSize = true;
-            this.StatisticsandReportingPopup.BackColor = System.Drawing.Color.DarkGray;
-            this.StatisticsandReportingPopup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.StatisticsandReportingPopup.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.StatisticsandReportingPopup.ForeColor = System.Drawing.Color.White;
-            this.StatisticsandReportingPopup.Location = new System.Drawing.Point(62, 717);
-            this.StatisticsandReportingPopup.Name = "StatisticsandReportingPopup";
-            this.StatisticsandReportingPopup.Size = new System.Drawing.Size(116, 17);
-            this.StatisticsandReportingPopup.TabIndex = 7;
-            this.StatisticsandReportingPopup.Text = "Statistics & Reporting";
-            this.StatisticsandReportingPopup.Visible = false;
             // 
             // labelStatistics
             // 
@@ -504,20 +476,6 @@
             this.panel16.Size = new System.Drawing.Size(230, 28);
             this.panel16.TabIndex = 19;
             // 
-            // RadiologyManagementPopup
-            // 
-            this.RadiologyManagementPopup.AutoSize = true;
-            this.RadiologyManagementPopup.BackColor = System.Drawing.Color.DarkGray;
-            this.RadiologyManagementPopup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.RadiologyManagementPopup.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RadiologyManagementPopup.ForeColor = System.Drawing.Color.White;
-            this.RadiologyManagementPopup.Location = new System.Drawing.Point(62, 681);
-            this.RadiologyManagementPopup.Name = "RadiologyManagementPopup";
-            this.RadiologyManagementPopup.Size = new System.Drawing.Size(138, 17);
-            this.RadiologyManagementPopup.TabIndex = 7;
-            this.RadiologyManagementPopup.Text = "Radiology Management";
-            this.RadiologyManagementPopup.Visible = false;
-            // 
             // labelRadiology
             // 
             this.labelRadiology.AutoSize = true;
@@ -552,20 +510,6 @@
             this.panel17.Name = "panel17";
             this.panel17.Size = new System.Drawing.Size(230, 28);
             this.panel17.TabIndex = 18;
-            // 
-            // MaterialManagementPopup
-            // 
-            this.MaterialManagementPopup.AutoSize = true;
-            this.MaterialManagementPopup.BackColor = System.Drawing.Color.DarkGray;
-            this.MaterialManagementPopup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.MaterialManagementPopup.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MaterialManagementPopup.ForeColor = System.Drawing.Color.White;
-            this.MaterialManagementPopup.Location = new System.Drawing.Point(61, 648);
-            this.MaterialManagementPopup.Name = "MaterialManagementPopup";
-            this.MaterialManagementPopup.Size = new System.Drawing.Size(129, 17);
-            this.MaterialManagementPopup.TabIndex = 7;
-            this.MaterialManagementPopup.Text = "Material Management";
-            this.MaterialManagementPopup.Visible = false;
             // 
             // labelMaterial
             // 
@@ -602,20 +546,6 @@
             this.panel18.Size = new System.Drawing.Size(230, 28);
             this.panel18.TabIndex = 17;
             // 
-            // LaboratoryManagementPopup
-            // 
-            this.LaboratoryManagementPopup.AutoSize = true;
-            this.LaboratoryManagementPopup.BackColor = System.Drawing.Color.DarkGray;
-            this.LaboratoryManagementPopup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.LaboratoryManagementPopup.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LaboratoryManagementPopup.ForeColor = System.Drawing.Color.White;
-            this.LaboratoryManagementPopup.Location = new System.Drawing.Point(63, 612);
-            this.LaboratoryManagementPopup.Name = "LaboratoryManagementPopup";
-            this.LaboratoryManagementPopup.Size = new System.Drawing.Size(143, 17);
-            this.LaboratoryManagementPopup.TabIndex = 7;
-            this.LaboratoryManagementPopup.Text = "Laboratory Management";
-            this.LaboratoryManagementPopup.Visible = false;
-            // 
             // labelLaboratory
             // 
             this.labelLaboratory.AutoSize = true;
@@ -650,20 +580,6 @@
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(230, 28);
             this.panel14.TabIndex = 16;
-            // 
-            // ServiceOrderProcessingPopup
-            // 
-            this.ServiceOrderProcessingPopup.AutoSize = true;
-            this.ServiceOrderProcessingPopup.BackColor = System.Drawing.Color.DarkGray;
-            this.ServiceOrderProcessingPopup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ServiceOrderProcessingPopup.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ServiceOrderProcessingPopup.ForeColor = System.Drawing.Color.White;
-            this.ServiceOrderProcessingPopup.Location = new System.Drawing.Point(62, 581);
-            this.ServiceOrderProcessingPopup.Name = "ServiceOrderProcessingPopup";
-            this.ServiceOrderProcessingPopup.Size = new System.Drawing.Size(146, 17);
-            this.ServiceOrderProcessingPopup.TabIndex = 7;
-            this.ServiceOrderProcessingPopup.Text = "Service Order Processing";
-            this.ServiceOrderProcessingPopup.Visible = false;
             // 
             // labelServiceOrderProcessing
             // 
@@ -700,20 +616,6 @@
             this.panel12.Size = new System.Drawing.Size(230, 28);
             this.panel12.TabIndex = 15;
             // 
-            // ConsultingAppointmentPopup
-            // 
-            this.ConsultingAppointmentPopup.AutoSize = true;
-            this.ConsultingAppointmentPopup.BackColor = System.Drawing.Color.DarkGray;
-            this.ConsultingAppointmentPopup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ConsultingAppointmentPopup.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ConsultingAppointmentPopup.ForeColor = System.Drawing.Color.White;
-            this.ConsultingAppointmentPopup.Location = new System.Drawing.Point(62, 547);
-            this.ConsultingAppointmentPopup.Name = "ConsultingAppointmentPopup";
-            this.ConsultingAppointmentPopup.Size = new System.Drawing.Size(142, 17);
-            this.ConsultingAppointmentPopup.TabIndex = 7;
-            this.ConsultingAppointmentPopup.Text = "Consulting Appointment";
-            this.ConsultingAppointmentPopup.Visible = false;
-            // 
             // labelConsultingAppointment
             // 
             this.labelConsultingAppointment.AutoSize = true;
@@ -748,20 +650,6 @@
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(230, 28);
             this.panel13.TabIndex = 14;
-            // 
-            // QueueManagementPopup
-            // 
-            this.QueueManagementPopup.AutoSize = true;
-            this.QueueManagementPopup.BackColor = System.Drawing.Color.DarkGray;
-            this.QueueManagementPopup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.QueueManagementPopup.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.QueueManagementPopup.ForeColor = System.Drawing.Color.White;
-            this.QueueManagementPopup.Location = new System.Drawing.Point(62, 511);
-            this.QueueManagementPopup.Name = "QueueManagementPopup";
-            this.QueueManagementPopup.Size = new System.Drawing.Size(123, 17);
-            this.QueueManagementPopup.TabIndex = 7;
-            this.QueueManagementPopup.Text = "Queue Management";
-            this.QueueManagementPopup.Visible = false;
             // 
             // labelQueueManagement
             // 
@@ -798,20 +686,6 @@
             this.panel10.Size = new System.Drawing.Size(230, 28);
             this.panel10.TabIndex = 13;
             // 
-            // HelpDeskPopup
-            // 
-            this.HelpDeskPopup.AutoSize = true;
-            this.HelpDeskPopup.BackColor = System.Drawing.Color.DarkGray;
-            this.HelpDeskPopup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.HelpDeskPopup.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HelpDeskPopup.ForeColor = System.Drawing.Color.White;
-            this.HelpDeskPopup.Location = new System.Drawing.Point(63, 478);
-            this.HelpDeskPopup.Name = "HelpDeskPopup";
-            this.HelpDeskPopup.Size = new System.Drawing.Size(65, 17);
-            this.HelpDeskPopup.TabIndex = 7;
-            this.HelpDeskPopup.Text = "Help Desk";
-            this.HelpDeskPopup.Visible = false;
-            // 
             // labelHelpDesk
             // 
             this.labelHelpDesk.AutoSize = true;
@@ -846,20 +720,6 @@
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(230, 28);
             this.panel11.TabIndex = 12;
-            // 
-            // IncidentReportsPopup
-            // 
-            this.IncidentReportsPopup.AutoSize = true;
-            this.IncidentReportsPopup.BackColor = System.Drawing.Color.DarkGray;
-            this.IncidentReportsPopup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.IncidentReportsPopup.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.IncidentReportsPopup.ForeColor = System.Drawing.Color.White;
-            this.IncidentReportsPopup.Location = new System.Drawing.Point(63, 445);
-            this.IncidentReportsPopup.Name = "IncidentReportsPopup";
-            this.IncidentReportsPopup.Size = new System.Drawing.Size(98, 17);
-            this.IncidentReportsPopup.TabIndex = 7;
-            this.IncidentReportsPopup.Text = "Incident Reports";
-            this.IncidentReportsPopup.Visible = false;
             // 
             // labelIncidentReports
             // 
@@ -896,20 +756,6 @@
             this.panel6.Size = new System.Drawing.Size(230, 28);
             this.panel6.TabIndex = 11;
             // 
-            // PatientCarePopup
-            // 
-            this.PatientCarePopup.AutoSize = true;
-            this.PatientCarePopup.BackColor = System.Drawing.Color.DarkGray;
-            this.PatientCarePopup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.PatientCarePopup.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PatientCarePopup.ForeColor = System.Drawing.Color.White;
-            this.PatientCarePopup.Location = new System.Drawing.Point(63, 413);
-            this.PatientCarePopup.Name = "PatientCarePopup";
-            this.PatientCarePopup.Size = new System.Drawing.Size(151, 17);
-            this.PatientCarePopup.TabIndex = 7;
-            this.PatientCarePopup.Text = "Patient Care Management";
-            this.PatientCarePopup.Visible = false;
-            // 
             // labelPatientcare
             // 
             this.labelPatientcare.AutoSize = true;
@@ -944,20 +790,6 @@
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(230, 28);
             this.panel7.TabIndex = 10;
-            // 
-            // AdmissionTransfersandDischargesPopup
-            // 
-            this.AdmissionTransfersandDischargesPopup.AutoSize = true;
-            this.AdmissionTransfersandDischargesPopup.BackColor = System.Drawing.Color.DarkGray;
-            this.AdmissionTransfersandDischargesPopup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.AdmissionTransfersandDischargesPopup.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdmissionTransfersandDischargesPopup.ForeColor = System.Drawing.Color.White;
-            this.AdmissionTransfersandDischargesPopup.Location = new System.Drawing.Point(62, 378);
-            this.AdmissionTransfersandDischargesPopup.Name = "AdmissionTransfersandDischargesPopup";
-            this.AdmissionTransfersandDischargesPopup.Size = new System.Drawing.Size(185, 17);
-            this.AdmissionTransfersandDischargesPopup.TabIndex = 7;
-            this.AdmissionTransfersandDischargesPopup.Text = "Admissions, Tranfers & Discharges";
-            this.AdmissionTransfersandDischargesPopup.Visible = false;
             // 
             // labelAdminission
             // 
@@ -994,20 +826,6 @@
             this.panel8.Size = new System.Drawing.Size(230, 28);
             this.panel8.TabIndex = 9;
             // 
-            // NursingManagementPopup
-            // 
-            this.NursingManagementPopup.AutoSize = true;
-            this.NursingManagementPopup.BackColor = System.Drawing.Color.DarkGray;
-            this.NursingManagementPopup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.NursingManagementPopup.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NursingManagementPopup.ForeColor = System.Drawing.Color.White;
-            this.NursingManagementPopup.Location = new System.Drawing.Point(63, 343);
-            this.NursingManagementPopup.Name = "NursingManagementPopup";
-            this.NursingManagementPopup.Size = new System.Drawing.Size(127, 17);
-            this.NursingManagementPopup.TabIndex = 7;
-            this.NursingManagementPopup.Text = "Nursing Management";
-            this.NursingManagementPopup.Visible = false;
-            // 
             // labelNursemanagement
             // 
             this.labelNursemanagement.AutoSize = true;
@@ -1042,20 +860,6 @@
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(230, 28);
             this.panel9.TabIndex = 8;
-            // 
-            // PharmacyManagementPopup
-            // 
-            this.PharmacyManagementPopup.AutoSize = true;
-            this.PharmacyManagementPopup.BackColor = System.Drawing.Color.DarkGray;
-            this.PharmacyManagementPopup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.PharmacyManagementPopup.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PharmacyManagementPopup.ForeColor = System.Drawing.Color.White;
-            this.PharmacyManagementPopup.Location = new System.Drawing.Point(63, 309);
-            this.PharmacyManagementPopup.Name = "PharmacyManagementPopup";
-            this.PharmacyManagementPopup.Size = new System.Drawing.Size(138, 17);
-            this.PharmacyManagementPopup.TabIndex = 7;
-            this.PharmacyManagementPopup.Text = "Pharmacy Management";
-            this.PharmacyManagementPopup.Visible = false;
             // 
             // labelPharmacyManagement
             // 
@@ -1246,6 +1050,202 @@
             this.pictureBoxMenubutton.TabIndex = 3;
             this.pictureBoxMenubutton.TabStop = false;
             this.pictureBoxMenubutton.Click += new System.EventHandler(this.pictureBoxMenubutton_Click);
+            // 
+            // CashierManagementPopup
+            // 
+            this.CashierManagementPopup.AutoSize = true;
+            this.CashierManagementPopup.BackColor = System.Drawing.Color.DarkGray;
+            this.CashierManagementPopup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.CashierManagementPopup.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CashierManagementPopup.ForeColor = System.Drawing.Color.White;
+            this.CashierManagementPopup.Location = new System.Drawing.Point(61, 751);
+            this.CashierManagementPopup.Name = "CashierManagementPopup";
+            this.CashierManagementPopup.Size = new System.Drawing.Size(125, 17);
+            this.CashierManagementPopup.TabIndex = 7;
+            this.CashierManagementPopup.Text = "Cashier Management";
+            this.CashierManagementPopup.Visible = false;
+            // 
+            // StatisticsandReportingPopup
+            // 
+            this.StatisticsandReportingPopup.AutoSize = true;
+            this.StatisticsandReportingPopup.BackColor = System.Drawing.Color.DarkGray;
+            this.StatisticsandReportingPopup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.StatisticsandReportingPopup.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StatisticsandReportingPopup.ForeColor = System.Drawing.Color.White;
+            this.StatisticsandReportingPopup.Location = new System.Drawing.Point(62, 717);
+            this.StatisticsandReportingPopup.Name = "StatisticsandReportingPopup";
+            this.StatisticsandReportingPopup.Size = new System.Drawing.Size(116, 17);
+            this.StatisticsandReportingPopup.TabIndex = 7;
+            this.StatisticsandReportingPopup.Text = "Statistics & Reporting";
+            this.StatisticsandReportingPopup.Visible = false;
+            // 
+            // RadiologyManagementPopup
+            // 
+            this.RadiologyManagementPopup.AutoSize = true;
+            this.RadiologyManagementPopup.BackColor = System.Drawing.Color.DarkGray;
+            this.RadiologyManagementPopup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.RadiologyManagementPopup.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RadiologyManagementPopup.ForeColor = System.Drawing.Color.White;
+            this.RadiologyManagementPopup.Location = new System.Drawing.Point(62, 681);
+            this.RadiologyManagementPopup.Name = "RadiologyManagementPopup";
+            this.RadiologyManagementPopup.Size = new System.Drawing.Size(138, 17);
+            this.RadiologyManagementPopup.TabIndex = 7;
+            this.RadiologyManagementPopup.Text = "Radiology Management";
+            this.RadiologyManagementPopup.Visible = false;
+            // 
+            // MaterialManagementPopup
+            // 
+            this.MaterialManagementPopup.AutoSize = true;
+            this.MaterialManagementPopup.BackColor = System.Drawing.Color.DarkGray;
+            this.MaterialManagementPopup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.MaterialManagementPopup.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MaterialManagementPopup.ForeColor = System.Drawing.Color.White;
+            this.MaterialManagementPopup.Location = new System.Drawing.Point(61, 648);
+            this.MaterialManagementPopup.Name = "MaterialManagementPopup";
+            this.MaterialManagementPopup.Size = new System.Drawing.Size(129, 17);
+            this.MaterialManagementPopup.TabIndex = 7;
+            this.MaterialManagementPopup.Text = "Material Management";
+            this.MaterialManagementPopup.Visible = false;
+            // 
+            // LaboratoryManagementPopup
+            // 
+            this.LaboratoryManagementPopup.AutoSize = true;
+            this.LaboratoryManagementPopup.BackColor = System.Drawing.Color.DarkGray;
+            this.LaboratoryManagementPopup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.LaboratoryManagementPopup.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LaboratoryManagementPopup.ForeColor = System.Drawing.Color.White;
+            this.LaboratoryManagementPopup.Location = new System.Drawing.Point(63, 612);
+            this.LaboratoryManagementPopup.Name = "LaboratoryManagementPopup";
+            this.LaboratoryManagementPopup.Size = new System.Drawing.Size(143, 17);
+            this.LaboratoryManagementPopup.TabIndex = 7;
+            this.LaboratoryManagementPopup.Text = "Laboratory Management";
+            this.LaboratoryManagementPopup.Visible = false;
+            // 
+            // ServiceOrderProcessingPopup
+            // 
+            this.ServiceOrderProcessingPopup.AutoSize = true;
+            this.ServiceOrderProcessingPopup.BackColor = System.Drawing.Color.DarkGray;
+            this.ServiceOrderProcessingPopup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ServiceOrderProcessingPopup.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ServiceOrderProcessingPopup.ForeColor = System.Drawing.Color.White;
+            this.ServiceOrderProcessingPopup.Location = new System.Drawing.Point(62, 581);
+            this.ServiceOrderProcessingPopup.Name = "ServiceOrderProcessingPopup";
+            this.ServiceOrderProcessingPopup.Size = new System.Drawing.Size(146, 17);
+            this.ServiceOrderProcessingPopup.TabIndex = 7;
+            this.ServiceOrderProcessingPopup.Text = "Service Order Processing";
+            this.ServiceOrderProcessingPopup.Visible = false;
+            // 
+            // ConsultingAppointmentPopup
+            // 
+            this.ConsultingAppointmentPopup.AutoSize = true;
+            this.ConsultingAppointmentPopup.BackColor = System.Drawing.Color.DarkGray;
+            this.ConsultingAppointmentPopup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ConsultingAppointmentPopup.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ConsultingAppointmentPopup.ForeColor = System.Drawing.Color.White;
+            this.ConsultingAppointmentPopup.Location = new System.Drawing.Point(62, 547);
+            this.ConsultingAppointmentPopup.Name = "ConsultingAppointmentPopup";
+            this.ConsultingAppointmentPopup.Size = new System.Drawing.Size(142, 17);
+            this.ConsultingAppointmentPopup.TabIndex = 7;
+            this.ConsultingAppointmentPopup.Text = "Consulting Appointment";
+            this.ConsultingAppointmentPopup.Visible = false;
+            // 
+            // QueueManagementPopup
+            // 
+            this.QueueManagementPopup.AutoSize = true;
+            this.QueueManagementPopup.BackColor = System.Drawing.Color.DarkGray;
+            this.QueueManagementPopup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.QueueManagementPopup.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.QueueManagementPopup.ForeColor = System.Drawing.Color.White;
+            this.QueueManagementPopup.Location = new System.Drawing.Point(62, 511);
+            this.QueueManagementPopup.Name = "QueueManagementPopup";
+            this.QueueManagementPopup.Size = new System.Drawing.Size(123, 17);
+            this.QueueManagementPopup.TabIndex = 7;
+            this.QueueManagementPopup.Text = "Queue Management";
+            this.QueueManagementPopup.Visible = false;
+            // 
+            // HelpDeskPopup
+            // 
+            this.HelpDeskPopup.AutoSize = true;
+            this.HelpDeskPopup.BackColor = System.Drawing.Color.DarkGray;
+            this.HelpDeskPopup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.HelpDeskPopup.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HelpDeskPopup.ForeColor = System.Drawing.Color.White;
+            this.HelpDeskPopup.Location = new System.Drawing.Point(63, 478);
+            this.HelpDeskPopup.Name = "HelpDeskPopup";
+            this.HelpDeskPopup.Size = new System.Drawing.Size(65, 17);
+            this.HelpDeskPopup.TabIndex = 7;
+            this.HelpDeskPopup.Text = "Help Desk";
+            this.HelpDeskPopup.Visible = false;
+            // 
+            // IncidentReportsPopup
+            // 
+            this.IncidentReportsPopup.AutoSize = true;
+            this.IncidentReportsPopup.BackColor = System.Drawing.Color.DarkGray;
+            this.IncidentReportsPopup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.IncidentReportsPopup.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IncidentReportsPopup.ForeColor = System.Drawing.Color.White;
+            this.IncidentReportsPopup.Location = new System.Drawing.Point(63, 445);
+            this.IncidentReportsPopup.Name = "IncidentReportsPopup";
+            this.IncidentReportsPopup.Size = new System.Drawing.Size(98, 17);
+            this.IncidentReportsPopup.TabIndex = 7;
+            this.IncidentReportsPopup.Text = "Incident Reports";
+            this.IncidentReportsPopup.Visible = false;
+            // 
+            // PatientCarePopup
+            // 
+            this.PatientCarePopup.AutoSize = true;
+            this.PatientCarePopup.BackColor = System.Drawing.Color.DarkGray;
+            this.PatientCarePopup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.PatientCarePopup.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PatientCarePopup.ForeColor = System.Drawing.Color.White;
+            this.PatientCarePopup.Location = new System.Drawing.Point(63, 413);
+            this.PatientCarePopup.Name = "PatientCarePopup";
+            this.PatientCarePopup.Size = new System.Drawing.Size(151, 17);
+            this.PatientCarePopup.TabIndex = 7;
+            this.PatientCarePopup.Text = "Patient Care Management";
+            this.PatientCarePopup.Visible = false;
+            // 
+            // AdmissionTransfersandDischargesPopup
+            // 
+            this.AdmissionTransfersandDischargesPopup.AutoSize = true;
+            this.AdmissionTransfersandDischargesPopup.BackColor = System.Drawing.Color.DarkGray;
+            this.AdmissionTransfersandDischargesPopup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AdmissionTransfersandDischargesPopup.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdmissionTransfersandDischargesPopup.ForeColor = System.Drawing.Color.White;
+            this.AdmissionTransfersandDischargesPopup.Location = new System.Drawing.Point(62, 378);
+            this.AdmissionTransfersandDischargesPopup.Name = "AdmissionTransfersandDischargesPopup";
+            this.AdmissionTransfersandDischargesPopup.Size = new System.Drawing.Size(205, 17);
+            this.AdmissionTransfersandDischargesPopup.TabIndex = 7;
+            this.AdmissionTransfersandDischargesPopup.Text = "Admissions, Tranfers and Discharges";
+            this.AdmissionTransfersandDischargesPopup.Visible = false;
+            // 
+            // NursingManagementPopup
+            // 
+            this.NursingManagementPopup.AutoSize = true;
+            this.NursingManagementPopup.BackColor = System.Drawing.Color.DarkGray;
+            this.NursingManagementPopup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.NursingManagementPopup.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NursingManagementPopup.ForeColor = System.Drawing.Color.White;
+            this.NursingManagementPopup.Location = new System.Drawing.Point(63, 343);
+            this.NursingManagementPopup.Name = "NursingManagementPopup";
+            this.NursingManagementPopup.Size = new System.Drawing.Size(127, 17);
+            this.NursingManagementPopup.TabIndex = 7;
+            this.NursingManagementPopup.Text = "Nursing Management";
+            this.NursingManagementPopup.Visible = false;
+            // 
+            // PharmacyManagementPopup
+            // 
+            this.PharmacyManagementPopup.AutoSize = true;
+            this.PharmacyManagementPopup.BackColor = System.Drawing.Color.DarkGray;
+            this.PharmacyManagementPopup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.PharmacyManagementPopup.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PharmacyManagementPopup.ForeColor = System.Drawing.Color.White;
+            this.PharmacyManagementPopup.Location = new System.Drawing.Point(63, 309);
+            this.PharmacyManagementPopup.Name = "PharmacyManagementPopup";
+            this.PharmacyManagementPopup.Size = new System.Drawing.Size(138, 17);
+            this.PharmacyManagementPopup.TabIndex = 7;
+            this.PharmacyManagementPopup.Text = "Pharmacy Management";
+            this.PharmacyManagementPopup.Visible = false;
             // 
             // InpatientManagementPopup
             // 
