@@ -164,6 +164,25 @@
     <Compile Include="LaboratoryManagementForm.Designer.cs">
       <DependentUpon>LaboratoryManagementForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="metroPanelOutPatientManagementDashboard.cs" />
+    <Compile Include="NewLoginMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewLoginMain.Designer.cs">
+      <DependentUpon>NewLoginMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewSplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewSplashScreen.Designer.cs">
+      <DependentUpon>NewSplashScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PatientInquiriesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PatientInquiriesForm.Designer.cs">
+      <DependentUpon>PatientInquiriesForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -344,6 +363,15 @@
     <EmbeddedResource Include="LaboratoryManagementForm.resx">
       <DependentUpon>LaboratoryManagementForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="NewLoginMain.resx">
+      <DependentUpon>NewLoginMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewSplashScreen.resx">
+      <DependentUpon>NewSplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientInquiriesForm.resx">
+      <DependentUpon>PatientInquiriesForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginMain.resx">
       <DependentUpon>LoginMain.cs</DependentUpon>
     </EmbeddedResource>
@@ -516,6 +544,7 @@
     <None Include="Resources\statistics.png_32.png" />
     <None Include="Resources\cashier.png_32.png" />
     <None Include="Resources\incident.png_32.png" />
+    <None Include="Resources\patient.png" />
     <Content Include="StkManagementPatientsModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>StkManagementPatientsModel.edmx</DependentUpon>

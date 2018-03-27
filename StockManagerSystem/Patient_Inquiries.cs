@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace StockManagerSystem
 {
-    public partial class Patient_Inquiries : Form
+    public partial class Patient_Inquiries : MetroFramework.Forms.MetroForm
     {
         public Patient_Inquiries()
         {

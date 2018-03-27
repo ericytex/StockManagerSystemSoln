@@ -51,7 +51,6 @@
             this.createNewUserToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.logout = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.LoginStatus = new MetroFramework.Controls.MetroLabel();
             this.sidePanel = new System.Windows.Forms.Panel();
             this.patientMngtLable = new System.Windows.Forms.Label();
             this.panel19 = new System.Windows.Forms.Panel();
@@ -128,6 +127,7 @@
             this.OutpatientManagementPopup = new System.Windows.Forms.Label();
             this.inquiry = new System.Windows.Forms.Label();
             this.informationManagementPopup = new System.Windows.Forms.Label();
+            this.LoginStatus = new MetroFramework.Controls.MetroLabel();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.sidePanel.SuspendLayout();
@@ -338,7 +338,6 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.panel1.Controls.Add(this.LoginStatus);
             this.panel1.Controls.Add(this.logout);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(20, 85);
@@ -346,19 +345,9 @@
             this.panel1.Size = new System.Drawing.Size(590, 20);
             this.panel1.TabIndex = 7;
             // 
-            // LoginStatus
-            // 
-            this.LoginStatus.AutoSize = true;
-            this.LoginStatus.FontSize = MetroFramework.MetroLabelSize.Small;
-            this.LoginStatus.Location = new System.Drawing.Point(4, 0);
-            this.LoginStatus.Name = "LoginStatus";
-            this.LoginStatus.Size = new System.Drawing.Size(74, 15);
-            this.LoginStatus.TabIndex = 7;
-            this.LoginStatus.Text = "Logged in as:";
-            // 
             // sidePanel
             // 
-            this.sidePanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
+            this.sidePanel.BackColor = System.Drawing.Color.DarkSlateGray;
             this.sidePanel.Controls.Add(this.patientMngtLable);
             this.sidePanel.Controls.Add(this.panel19);
             this.sidePanel.Controls.Add(this.panel15);
@@ -1303,11 +1292,22 @@
             this.informationManagementPopup.Text = "Information Management";
             this.informationManagementPopup.Visible = false;
             // 
+            // LoginStatus
+            // 
+            this.LoginStatus.AutoSize = true;
+            this.LoginStatus.FontSize = MetroFramework.MetroLabelSize.Small;
+            this.LoginStatus.Location = new System.Drawing.Point(20, 772);
+            this.LoginStatus.Name = "LoginStatus";
+            this.LoginStatus.Size = new System.Drawing.Size(74, 15);
+            this.LoginStatus.TabIndex = 11;
+            this.LoginStatus.Text = "Logged in as:";
+            // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(630, 788);
+            this.Controls.Add(this.LoginStatus);
             this.Controls.Add(this.CashierManagementPopup);
             this.Controls.Add(this.StatisticsandReportingPopup);
             this.Controls.Add(this.RadiologyManagementPopup);
@@ -1424,7 +1424,6 @@
         private System.Windows.Forms.ToolStripMenuItem createNewUserToolStripMenuItem;
         private System.Windows.Forms.Label logout;
         private System.Windows.Forms.Panel panel1;
-        private MetroFramework.Controls.MetroLabel LoginStatus;
         private System.Windows.Forms.Panel sidePanel;
         private System.Windows.Forms.PictureBox pictureBoxBackButton;
         private System.Windows.Forms.PictureBox pictureBoxMenubutton;
@@ -1501,6 +1500,7 @@
         private System.Windows.Forms.Label InpatientManagementPopup;
         private System.Windows.Forms.Label OutpatientManagementPopup;
         private System.Windows.Forms.Label informationManagementPopup;
+        private MetroFramework.Controls.MetroLabel LoginStatus;
     }
 }
 

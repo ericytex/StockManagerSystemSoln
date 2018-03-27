@@ -10,20 +10,13 @@ using System.Windows.Forms;
 
 namespace StockManagerSystem
 {
-    public partial class SplashMain : MetroFramework.Forms.MetroForm
+    public partial class PatientInquiriesForm : MetroFramework.Forms.MetroForm
     {
-
-        public SplashMain()
+        public PatientInquiriesForm()
         {
             InitializeComponent();
         }
 
-        private void stkpatientMngtlabel_Click(object sender, EventArgs e)
-        {
-            LoginMain lgmain = new LoginMain();
-            lgmain.Show();
-            this.Hide();
-        }
 
     }
 }

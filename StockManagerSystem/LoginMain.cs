@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace StockManagerSystem
 {
-    public partial class LoginMain : MetroFramework.Forms.MetroForm
+    public partial class LoginMain :MetroFramework.Forms.MetroForm
     {
         static LoginMain _instance;
         public static LoginMain Instance
@@ -25,6 +25,8 @@ namespace StockManagerSystem
         public LoginMain()
         {
             InitializeComponent();
+            LoginMain me = new LoginMain();
+            me.BackColor = Color.DodgerBlue;
         }
 
         private void LoginMain_Load(object sender, EventArgs e)

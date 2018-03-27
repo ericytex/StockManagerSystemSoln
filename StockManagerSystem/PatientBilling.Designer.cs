@@ -60,7 +60,6 @@
             this.panel14 = new System.Windows.Forms.Panel();
             this.textBoxFirstName = new System.Windows.Forms.TextBox();
             this.panel13 = new System.Windows.Forms.Panel();
-            this.diagnosiBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel50 = new System.Windows.Forms.Panel();
             this.panel53 = new System.Windows.Forms.Panel();
@@ -111,6 +110,7 @@
             this.comboBoxPrescription = new System.Windows.Forms.ComboBox();
             this.panel24 = new System.Windows.Forms.Panel();
             this.metroTextBoxPatientFileNumber = new MetroFramework.Controls.MetroTextBox();
+            this.diagnosiBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.panel4.SuspendLayout();
             this.panel9.SuspendLayout();
             this.panel7.SuspendLayout();
@@ -124,7 +124,6 @@
             this.panel16.SuspendLayout();
             this.panel12.SuspendLayout();
             this.panel14.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.diagnosiBindingSource)).BeginInit();
             this.panel5.SuspendLayout();
             this.panel50.SuspendLayout();
             this.panel6.SuspendLayout();
@@ -149,6 +148,7 @@
             this.panel10.SuspendLayout();
             this.panel43.SuspendLayout();
             this.panel11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.diagnosiBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // labelDiagnosis
@@ -441,10 +441,6 @@
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(10, 57);
             this.panel13.TabIndex = 20;
-            // 
-            // diagnosiBindingSource
-            // 
-            this.diagnosiBindingSource.DataSource = typeof(StockManagerSystem.diagnosi);
             // 
             // panel5
             // 
@@ -951,6 +947,10 @@
             this.metroTextBoxPatientFileNumber.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             this.metroTextBoxPatientFileNumber.KeyDown += new System.Windows.Forms.KeyEventHandler(this.metroTextBoxPatientFileNumber_KeyDown);
             // 
+            // diagnosiBindingSource
+            // 
+            this.diagnosiBindingSource.DataSource = typeof(StockManagerSystem.diagnosi);
+            // 
             // PatientBilling
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
@@ -964,6 +964,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "PatientBilling";
             this.Text = "PatientBilling";
+            this.TransparencyKey = System.Drawing.Color.Silver;
             this.Load += new System.EventHandler(this.PatientBilling_Load);
             this.panel4.ResumeLayout(false);
             this.panel9.ResumeLayout(false);
@@ -988,7 +989,6 @@
             this.panel12.PerformLayout();
             this.panel14.ResumeLayout(false);
             this.panel14.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.diagnosiBindingSource)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel50.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
@@ -1024,6 +1024,7 @@
             this.panel43.ResumeLayout(false);
             this.panel43.PerformLayout();
             this.panel11.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.diagnosiBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }

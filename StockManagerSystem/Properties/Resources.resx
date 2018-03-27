@@ -139,8 +139,8 @@
   <data name="information_32.png_32.png_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\information_32.png_32.png_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="patientinquiry_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\patientinquiry_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="nurse.png_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nurse.png_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="patientinquiry_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\patientinquiry_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,8 +172,14 @@
   <data name="radiology.png_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\radiology.png_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="admissions.png_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\admissions.png_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icons8_Menu_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8_Menu_2.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="incident.png_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\incident.png_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="admissions" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\admissions.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -183,9 +189,6 @@
   </data>
   <data name="patientcare.png_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\patientcare.png_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="search" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cashier.png_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cashier.png_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -199,8 +202,8 @@
   <data name="statistics.png_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\statistics.png_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="nurse.png_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\nurse.png_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="search" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="helpdesk.png_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\helpdesk.png_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -211,8 +214,8 @@
   <data name="outpatient.png_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\outpatient.png_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="admissions.png_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\admissions.png_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="patientinquiry_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\patientinquiry_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pharmacy_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pharmacy_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -220,7 +223,7 @@
   <data name="inpatient.png_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\inpatient.png_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="incident.png_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\incident.png_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="patient" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\patient.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

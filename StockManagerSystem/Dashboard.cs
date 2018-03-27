@@ -23,7 +23,7 @@ namespace StockManagerSystem
         public Dashboard(string loginstate)
         {
             InitializeComponent();
-            LoginStatus.Text = loginstate;
+            //LoginStatus.Text = loginstate;
             
 
         }
@@ -227,7 +227,7 @@ namespace StockManagerSystem
             {
                 sidePanel.Width = 230;
                 pictureBoxMenubutton.Hide();
-                sidePanel.BackColor = Color.DeepSkyBlue;
+                sidePanel.BackColor = Color.DarkSlateGray;
                 pictureBoxBackButton.Show();
                 
                 ///Enabling Autoscroll vertical
